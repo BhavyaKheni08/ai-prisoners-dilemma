@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Mutual C continues. Thanks.",
+    "B": "Let's aim for mutual C from here on.",
+    "C": "Mutual C continues. Thanks.",
+    "D": "Mutual C continues. Thanks.",
+    "F": "Your record elsewhere is mostly D. I'll defect until you show consistent C.",
+    "G": "Mutual C again. Thanks.",
+    "H": "Staying with C. Thanks for understanding."
+  },
+  "reasoning": "Cooperate with consistent cooperators to keep stable mutual gains under noise; keep defecting against F, who defects with most others; try C with B to restore cooperation."
+}

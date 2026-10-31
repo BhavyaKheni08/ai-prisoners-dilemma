@@ -1,0 +1,3 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"D","E":"D","G":"C","H":"C"},
+"messages":{"A":"You defected on my C. Back to mirroring.","B":"My D was a noise flip (intended C). Continuing C.","C":"Continuing mutual C.","D":"Words aren't moves. Still D from you.","E":"You defected on my C again. Mirroring; play C and I'll return.","G":"Continuing mutual C.","H":"Continuing mutual C."},
+"reasoning":"Cooperate with reliable cooperators, forgive noise, mirror defectors and low-reputation players."}

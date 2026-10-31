@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"C","C":"C","D":"D","E":"C","G":"C","H":"C"},
+"messages":{"A":"Continuing C.","B":"Continuing C.","C":"Continuing C.","D":"Your record is still mostly D. Staying D until you show sustained C.","E":"You played C; I'm back to C. Let's keep mutual C.","G":"Continuing C.","H":"Continuing C."},
+"reasoning":"Keep cooperating with consistent cooperators, return to C with E after it cooperated, and stay D against the low-reputation defector D."}

@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "D", "D": "C", "E": "C", "F": "D", "H": "C"},
+  "messages": {"A": "Mutual C continues.", "B": "My round-1 defection was accidental. I am cooperating and hope for mutual C.", "C": "You defected both rounds and have 8% cooperation elsewhere. I defect until you cooperate.", "D": "Mutual C continues.", "E": "My round-1 defection was accidental. I am cooperating now.", "F": "You defected in round 1 and have 0% cooperation elsewhere. I defect until you cooperate.", "H": "Mutual C continues."},
+  "reasoning": "Cooperating with A, D and H keeps 3-point rounds going, and B and E get forgiveness for my accidental round-1 defection. Defecting against C and F, who defected and have very low cooperation records, avoids exploitation."
+}

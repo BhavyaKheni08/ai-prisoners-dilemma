@@ -1,0 +1,1 @@
+{"moves":{"A":"C","B":"C","C":"C","D":"C","E":"D","F":"D","G":"C"},"messages":{"A":"","B":"","C":"","D":"","E":"","F":"","G":""},"reasoning":"F is an unconditional defector and E is mostly defecting, so defect on both; cooperate with the rest."}

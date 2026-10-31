@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "D": "C", "E": "C", "F": "C", "G": "C", "H": "D"},
+  "messages": {
+    "A": "Treating your round-2 D as noise. Still cooperating; repeated defections will change that.",
+    "B": "Glad we're back on track. Continuing to cooperate.",
+    "D": "Two for two. Continuing to cooperate.",
+    "E": "Going well. Continuing to cooperate.",
+    "F": "Cooperation working well between us. Let's keep it going.",
+    "G": "Cooperation working well between us. Let's keep it going.",
+    "H": "Two D's in a row and 0% C elsewhere. Show me a C and I'll reciprocate."
+  },
+  "reasoning": "Generous tit-for-tat under noise: forgive A's single defection given its good reputation, keep cooperating with cooperators, and defect against H, who has never cooperated with anyone."
+}

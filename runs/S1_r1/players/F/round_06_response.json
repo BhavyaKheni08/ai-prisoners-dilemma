@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"C","C":"C","D":"D","E":"D","G":"C","H":"C"},
+"messages":{"A":"Continuing C.","B":"Continuing C.","C":"Sorry, both my D's were noise flips; I intended C. Thanks for staying cooperative. Continuing C.","D":"Your record is still mostly D. Staying D until you show sustained C.","E":"Three D's on my C's. Matching D now; play C consistently and I'll return to C.","G":"Continuing C.","H":"Treating your round-5 D as noise. Continuing C."},
+"reasoning":"Cooperate with established cooperators and forgive isolated likely-noise defections; defect against D (low reputation) and E (repeated unprovoked D)."}

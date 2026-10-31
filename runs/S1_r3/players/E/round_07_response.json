@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "F": "C", "G": "C", "H": "D"},
+  "messages": {"A": "Continuing mutual cooperation.", "B": "Continuing mutual cooperation.", "C": "Staying mutual C. One defection will not end our cooperation.", "D": "Continuing mutual C.", "F": "Cooperating. Let's keep mutual C.", "G": "Cooperating. I treat your defection as noise.", "H": "Your 0% record stands. I will defect until you actually cooperate."},
+  "reasoning": "Keep cooperating with players whose reputations are moderate or high, forgiving isolated defections as possible noise. Defect against H, which has defected every round and has a 11% reputation."
+}

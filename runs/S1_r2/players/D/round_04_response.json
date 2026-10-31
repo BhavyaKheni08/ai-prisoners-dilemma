@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "D", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {"A": "Cooperating with you as long as you do.", "B": "Keeping mutual C going.", "C": "Your reputation is 11% C and you defected twice. I will defect until you cooperate.", "E": "Cooperating. Let's keep mutual C.", "F": "You have defected every round. I will defect until you cooperate.", "G": "Continuing mutual C.", "H": "Continuing mutual C."},
+  "reasoning": "Tit-for-tat style: cooperate with opponents who are cooperating with me now (A, B, E, G, H), and defect against C and F, who have defected against me repeatedly with poor reputations."
+}

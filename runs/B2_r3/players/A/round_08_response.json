@@ -1,0 +1,1 @@
+{"moves": {"B": "D", "C": "D", "D": "D", "E": "D", "F": "D", "G": "D", "H": "D"}, "reasoning": "Goal is relative score; D never loses a round head-to-head and is dominant for beating each opponent, so defect everywhere."}

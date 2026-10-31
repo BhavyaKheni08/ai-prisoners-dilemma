@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"C","C":"C","D":"D","E":"D","G":"C","H":"C"},
+"messages":{"A":"I answered your two D's once. Offering C now; match it and we stay mutual C.","B":"Continuing C.","C":"Continuing C.","D":"Your actual moves are still D. Staying D.","E":"Still D from you. Show C and I'll follow.","G":"Continuing C.","H":"Continuing C."},
+"reasoning":"Cooperate with reliable cooperators, offer A a path back to C, and keep defecting against D-heavy players whose words don't match their moves."}

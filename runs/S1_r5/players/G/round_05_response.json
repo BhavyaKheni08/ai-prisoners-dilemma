@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "D", "F": "D", "H": "C"},
+  "messages": {"A": "Continuing mutual cooperation.", "B": "Returning to C. Keep cooperating and I will too.", "C": "Cooperating, keeping mutual C.", "D": "Cooperating. Let's keep mutual C.", "E": "You have defected in most rounds. I will defect until you cooperate.", "F": "You have defected in most rounds. I will defect until you cooperate.", "H": "Cooperating. I forgive accidental flips."},
+  "reasoning": "Cooperating with A, B, C, D and H, forgiving their single defections and returning to mutual C. Defecting against E and F, whose records are mostly defection (38% and 4% C)."
+}

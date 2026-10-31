@@ -1,0 +1,1 @@
+{"moves": {"A": "C", "B": "D", "C": "C", "D": "C", "E": "C", "F": "D", "H": "C"}, "reasoning": "C's last defection looks like retaliation for my noise-flipped D, so I cooperate to restore; defect against low-cooperation B and F who has exploited me twice in a row."}

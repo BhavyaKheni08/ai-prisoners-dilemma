@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "D", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {"A": "Mutual C continues.", "B": "Your 22% cooperation record means I defect until you cooperate.", "C": "Your 11% cooperation record means I keep defecting until you cooperate.", "E": "Mutual C continues.", "F": "You defected every round so far. I keep defecting until you cooperate.", "G": "Mutual C continues.", "H": "Mutual C continues."},
+  "reasoning": "Cooperating with the players who have been reliably cooperating (A, E, G, H) for steady 3-point rounds. Defecting against the chronic defectors B, C and F, who have defected on me repeatedly."
+}

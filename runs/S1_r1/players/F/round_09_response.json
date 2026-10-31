@@ -1,0 +1,3 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"D","E":"D","G":"C","H":"C"},
+"messages":{"A":"Two straight D's on my C. Answering D once; return to C and I will too.","B":"My round-8 D was a noise flip; I intended C. Continuing C.","C":"Continuing C.","D":"Your actual moves remain D. Staying D until you show real C.","E":"Still mostly D from you. Play C consistently and I'll return to C.","G":"Continuing C.","H":"Continuing C."},
+"reasoning":"Cooperate with consistent cooperators, forgive single likely-noise events, retaliate against repeated defection from A and known defectors D and E."}

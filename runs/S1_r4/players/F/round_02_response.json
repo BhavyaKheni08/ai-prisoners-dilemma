@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "D": "C", "E": "C", "G": "C", "H": "C"},
+  "messages": {"A": "You defected despite promising to cooperate. I'll cooperate again once you do.", "B": "Great, let's keep cooperating.", "C": "Great, let's keep cooperating.", "D": "Great, let's keep cooperating.", "E": "Great, let's keep cooperating.", "G": "My D last round was a noise flip. Let's cooperate.", "H": "Great, let's keep cooperating."},
+  "reasoning": "A has 0% cooperation and defected on me despite claiming otherwise, so I defect on A. Everyone else cooperated or has a reasonable explanation, so I cooperate; G's round-1 D was a noise flip on my side."
+}

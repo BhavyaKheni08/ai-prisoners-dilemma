@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "D", "B": "C", "D": "D", "E": "C", "F": "C", "G": "D", "H": "C"},
+  "reasoning": "D has a near-zero reputation and A and G defected on me in their most recent rounds, so I defect against them. B, E, F and H have cooperated with me, so I keep cooperating."
+}

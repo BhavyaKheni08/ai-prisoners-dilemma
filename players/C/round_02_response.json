@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "D": "C", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Great start. Continuing mutual C.",
+    "B": "Thanks for cooperating. Let's keep mutual C going.",
+    "D": "Sorry, my round-1 D was a noise flip; I intended C. Cooperating from here on.",
+    "E": "Agreed. Mutual C, forgiving noise.",
+    "F": "You said you always cooperate but played D. I'll return to C once you play C.",
+    "G": "Agreed, continuing mutual cooperation.",
+    "H": "Agreed. Mutual C, forgiving noise."
+  },
+  "reasoning": "Cooperate with everyone who cooperated; apologize to D for my noise-flipped defection. Retaliate against F, whose defection and 17% reputation suggest exploitation, but offer to return to cooperation."
+}

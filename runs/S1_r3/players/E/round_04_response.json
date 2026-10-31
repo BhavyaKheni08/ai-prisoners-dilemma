@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "F": "C", "G": "C", "H": "D"},
+  "messages": {"A": "Continuing mutual cooperation.", "B": "Keeping mutual C.", "C": "Cooperating. I will forgive a single flip.", "D": "Cooperating with you. I will forgive single flips.", "F": "Thanks for returning to C. I will keep cooperating.", "G": "Cooperating. I treat your defection as noise.", "H": "Your 0% record stands. I will defect until you actually cooperate."},
+  "reasoning": "Cooperate with the cooperative opponents and with F, who returned to C last round. Defect against H, whose reputation is 6% C and who has defected against me every round."
+}

@@ -1,0 +1,1 @@
+{"moves": {"A": "C", "C": "C", "D": "C", "E": "C", "F": "C", "G": "C", "H": "D"}, "messages": {"A": "Continuing C.", "C": "Continuing C.", "D": "Continuing C.", "E": "Continuing C.", "F": "Continuing C.", "G": "Continuing C.", "H": "Show consistent C and I will follow."}, "reasoning": "Cooperate with mostly cooperative players; H defected all rounds, so defect."}

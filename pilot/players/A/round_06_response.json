@@ -1,0 +1,13 @@
+{
+  "moves": {"B": "C", "C": "C", "D": "C", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {
+    "B": "Let's try mutual C. Noise happens; I'll keep cooperating if you do.",
+    "C": "Mutual C continues. Thanks.",
+    "D": "Mutual C is working. Continuing.",
+    "E": "Yes, back to mutual C. Past D was noise.",
+    "F": "Show me consistent C and I'll switch to C.",
+    "G": "Mutual C continues. Thanks.",
+    "H": "Good. Keeping mutual C."
+  },
+  "reasoning": "Cooperate with those showing mutual cooperation or willing to reset after noise, including B and E for forgiveness. Keep defecting against F, whose record is mostly D, until it shows consistent C."
+}

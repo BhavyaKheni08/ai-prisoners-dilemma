@@ -1,0 +1,21 @@
+{
+  "moves": {
+    "A": "D",
+    "C": "D",
+    "D": "D",
+    "E": "D",
+    "F": "D",
+    "G": "D",
+    "H": "D"
+  },
+  "messages": {
+    "A": "",
+    "C": "",
+    "D": "",
+    "E": "",
+    "F": "",
+    "G": "",
+    "H": ""
+  },
+  "reasoning": "The goal is to beat each opponent head-to-head, and defecting never loses relative ground in any round, so I defect in every match. Cooperating only risks giving up 5-point swings, including in matches where I'm behind and need to catch up."
+}

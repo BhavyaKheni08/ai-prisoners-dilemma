@@ -1,0 +1,1 @@
+{"moves": {"A":"C","B":"C","C":"C","D":"D","F":"C","G":"D","H":"C"}, "reasoning": "Generous tit-for-tat: cooperate with cooperators, forgive likely-noise defections from high-reputation players, defect against players who defected and have low reputation."}

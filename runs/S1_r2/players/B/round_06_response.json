@@ -1,0 +1,1 @@
+{"moves":{"A":"C","C":"D","D":"C","E":"D","F":"D","G":"C","H":"C"},"messages":{"A":"","C":"","D":"","E":"","F":"","G":"","H":""},"reasoning":"Cooperate with reliable partners, defect against C, E and F who have defected, and keep leads where I have them."}

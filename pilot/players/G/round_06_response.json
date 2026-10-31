@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "C", "F": "D", "H": "C"},
+  "messages": {"A": "Mutual C continues. Let's keep cooperating.", "B": "Thanks for returning to C. I'll keep cooperating while you do.", "C": "Mutual C continues. Thanks.", "D": "Continuing mutual cooperation. Thanks for staying at C.", "E": "Thanks for returning to C after round 4. Let's keep it mutual.", "F": "Your record is still mostly D, so I'm defecting. Play C consistently and I will reciprocate.", "H": "Mutual C continues. Let's keep cooperating."},
+  "reasoning": "Cooperating with the opponents who have been reliably cooperating or who returned to C after a defection, and defecting against F, whose reputation is 10% C and who has defected every round I have seen from my side. Responding to actual behaviour in each match keeps mutual cooperation going where it is available."
+}

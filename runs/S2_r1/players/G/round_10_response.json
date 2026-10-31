@@ -1,0 +1,1 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"D","E":"D","F":"C","H":"C"},"messages":{"A":"","B":"Mutual C.","C":"Cooperating.","D":"","E":"","F":"Mutual C.","H":"Mutual C."},"reasoning":"Keep cooperating with steady cooperators; defect against consistent defectors and erratic E."}

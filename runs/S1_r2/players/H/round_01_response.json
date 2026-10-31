@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "C", "F": "C", "G": "C"},
+  "messages": {
+    "A": "Let's cooperate for mutual benefit. I'll forgive occasional slips from noise.",
+    "B": "Let's cooperate for mutual benefit. I'll forgive occasional slips from noise.",
+    "C": "Let's cooperate for mutual benefit. I'll forgive occasional slips from noise.",
+    "D": "Let's cooperate for mutual benefit. I'll forgive occasional slips from noise.",
+    "E": "Let's cooperate for mutual benefit. I'll forgive occasional slips from noise.",
+    "F": "Let's cooperate for mutual benefit. I'll forgive occasional slips from noise.",
+    "G": "Let's cooperate for mutual benefit. I'll forgive occasional slips from noise."
+  },
+  "reasoning": "No information yet, so open with cooperation against everyone and signal willingness to forgive noise-induced defections."
+}

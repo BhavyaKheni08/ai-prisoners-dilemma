@@ -1,0 +1,1 @@
+{"moves":{"A":"C","B":"C","C":"D","D":"C","E":"C","F":"C","G":"C"},"messages":{"A":"","B":"","C":"","D":"","E":"","F":"","G":""},"reasoning":"C is a persistent defector; cooperate with the rest who are cooperating."}

@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "D", "D": "C", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Mutual C continues. Thanks.",
+    "B": "You defected twice after my C. I'm defecting now; play C and I'll return to C right after.",
+    "D": "Mutual C continues. Thanks.",
+    "E": "Mutual C continues. Thanks.",
+    "F": "Still all D from you. Play an actual C and I'll reciprocate next round.",
+    "G": "Mutual C continues. Thanks.",
+    "H": "Mutual C continues. Thanks."
+  },
+  "reasoning": "Keep cooperating with the reliable cooperators (A, D, E, G, H), whose occasional defections look like noise. Defect against F, who has defected every round, and against B, who defected twice in a row after my cooperation, while offering both a clear way back to C."
+}

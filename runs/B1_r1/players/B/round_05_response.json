@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "D", "C": "C", "D": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "reasoning": "A has defected every round and has a 0% reputation, so I defect against it. D has a very low reputation, so I defect there too. I cooperate with the high-reputation opponents who are cooperating, and with E, whose last move was C, to keep mutual cooperation going."
+}

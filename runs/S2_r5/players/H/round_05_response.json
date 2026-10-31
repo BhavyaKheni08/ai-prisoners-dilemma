@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "D", "D": "C", "E": "C", "F": "D", "G": "C"},
+  "messages": {"A": "I forgive last round's defection, possibly noise. Let's return to mutual C.", "B": "You cooperated last round. I'm returning it; let's keep mutual C.", "C": "Your record is 8% cooperation. Cooperate and I will match you.", "D": "Mutual C continues. Thank you.", "E": "Let's keep mutual C going.", "F": "Your record is low. Cooperate and I will match you.", "G": "Cooperating again. Let's restore mutual C."},
+  "reasoning": "Cooperate with players who cooperated last round or have a cooperative record, forgiving single defections that may be noise. Defect against the low-reputation defectors C and F, who have mostly defected."
+}

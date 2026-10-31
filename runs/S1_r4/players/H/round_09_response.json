@@ -1,0 +1,1 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"C","E":"C","F":"C","G":"C"},"messages":{"A":"Show real C first.","B":"Continuing C.","C":"Continuing C.","D":"Continuing C.","E":"Continuing C.","F":"Continuing C.","G":"Let us both play C."},"reasoning":"Keep cooperating with steady partners; A has 15% C reputation so defect; try C with G since it cooperated."}

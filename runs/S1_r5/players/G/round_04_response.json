@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "C", "D": "C", "E": "D", "F": "D", "H": "C"},
+  "messages": {"A": "Continuing mutual cooperation.", "B": "I will play C again if you return to C.", "C": "Cooperating, keeping mutual C.", "D": "Cooperating. Let's keep mutual C.", "E": "You defected last round, so I am defecting. Return to C and I will too.", "F": "You have defected every round. I will defect until you cooperate.", "H": "Cooperating. I forgive accidental flips."},
+  "reasoning": "Mirror the last move from each opponent with forgiveness for noise. Cooperate with A, C, D, and H, who are cooperating. Defect against B and E, who defected last round, and against F, whose reputation is 0% C."
+}

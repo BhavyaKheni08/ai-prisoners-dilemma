@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "D": "C", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Mutual C continues. Thanks.",
+    "B": "We're even now. Back to C as promised; let's keep mutual cooperation.",
+    "D": "Mutual C continues. Thanks.",
+    "E": "Mutual C continues. Thanks.",
+    "F": "You've defected every round despite your words. Actually play C and I'll reciprocate next round.",
+    "G": "Mutual C continues. Thanks.",
+    "H": "Thanks for returning to C. Let's keep it going."
+  },
+  "reasoning": "Forgiving tit-for-tat with noise tolerance: cooperate with all cooperating partners, return to C with B after the even exchange, and keep defecting against F, whose actions contradict its messages."
+}

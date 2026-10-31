@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "D", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {
+    "A": "You cooperated in round 1, so I'm cooperating. Let's keep mutual C.",
+    "B": "You defected in round 1, so I'm defecting. Cooperate and I will return to C.",
+    "C": "You defected in round 1, so I'm defecting. Cooperate and I will return to C.",
+    "E": "My round-1 defection was an accident. I'm cooperating now.",
+    "F": "You defected in round 1, so I'm defecting. Cooperate and I will return to C.",
+    "G": "Agreed on mutual cooperation. I'll keep playing C while you do.",
+    "H": "Agreed on mutual cooperation. I'll keep playing C while you do."
+  },
+  "reasoning": "I'm mirroring each opponent's round-1 move and their reputation: cooperating with those who cooperated and defecting against those who defected first. I'm returning to C with E because my round-1 defection was accidental noise."
+}

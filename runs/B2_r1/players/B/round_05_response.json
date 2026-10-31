@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "D", "C": "C", "D": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "reasoning": "A has a 0% reputation and has defected every round, so I defect against it. D's last move was a defection after my cooperation, so I retaliate. I cooperate with the other opponents, who have solid reputations and cooperative recent moves."
+}

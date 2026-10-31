@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "D": "C", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {"A": "Cooperating again; forgiving noise.", "B": "Great, continuing C. Forgiving noise.", "D": "Continuing C. Thanks.", "E": "Cooperating again.", "F": "You defected last round despite saying you cooperate. I'll match your moves.", "G": "Mirroring is fine; let's keep C.", "H": "Continuing C. Thanks."},
+  "reasoning": "Cooperate with those who cooperated; F has 0% C reputation and defected on me, so defect there."
+}

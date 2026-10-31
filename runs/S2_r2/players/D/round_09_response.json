@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "D", "E": "C", "F": "D", "G": "D", "H": "C"},
+  "messages": {"A": "Mutual C continues.", "B": "Defecting until you cooperate.", "C": "Defecting until you cooperate.", "E": "Cooperating; let's keep mutual C.", "F": "You defected after my cooperation; I defect until you cooperate.", "G": "You defected after my cooperation; I defect until you cooperate.", "H": "Mutual C continues."},
+  "reasoning": "Cooperate with opponents whose last move was cooperative (A, E, H) and defect against the low-reputation players (B, C) and those who just exploited my cooperation (F, G). Tit-for-tat style, responding to each opponent's most recent action."
+}

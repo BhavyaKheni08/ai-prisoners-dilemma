@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Hi, I'm E. I'll cooperate as long as you do. With 10% noise, I'll forgive an occasional stray D. Let's both earn 3s.",
+    "B": "Hi, I'm E. I'll cooperate as long as you do. With 10% noise, I'll forgive an occasional stray D. Let's both earn 3s.",
+    "C": "Hi, I'm E. I'll cooperate as long as you do. With 10% noise, I'll forgive an occasional stray D. Let's both earn 3s.",
+    "D": "Hi, I'm E. I'll cooperate as long as you do. With 10% noise, I'll forgive an occasional stray D. Let's both earn 3s.",
+    "F": "Hi, I'm E. I'll cooperate as long as you do. With 10% noise, I'll forgive an occasional stray D. Let's both earn 3s.",
+    "G": "Hi, I'm E. I'll cooperate as long as you do. With 10% noise, I'll forgive an occasional stray D. Let's both earn 3s.",
+    "H": "Hi, I'm E. I'll cooperate as long as you do. With 10% noise, I'll forgive an occasional stray D. Let's both earn 3s."
+  },
+  "reasoning": "Open with cooperation everywhere to establish mutual cooperation and a good reputation; plan a forgiving tit-for-tat style given 10% noise, punishing only persistent defection."
+}

@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"C","C":"C","E":"D","F":"D","G":"C","H":"D"},
+"messages":{"A":"Continuing C.","B":"Continuing C.","C":"Continuing C.","E":"Still D from you. Play C and I'll return to C.","F":"Your actual moves are still D. Sustain C and I'll follow.","G":"Continuing mutual C.","H":"Two D's on my C in three rounds. Answering D once; play C and I return to C."},
+"reasoning":"Maintain cooperation with reliable partners, defect against low-reputation defectors E and F, and signal to H that repeated defections are punished."}

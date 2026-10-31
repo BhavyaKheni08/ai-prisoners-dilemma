@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "D", "C": "C", "D": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "reasoning": "A has 0% cooperation with others, so I defect against it. I keep cooperating with the reliable cooperators C, F, G and H, and I stay open with E, whose mixed record I read as noise rather than intent. I keep D at defection because it is almost never cooperative."
+}

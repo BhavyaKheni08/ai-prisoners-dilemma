@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "D": "C", "F": "C", "G": "D", "H": "C"},
+  "messages": {
+    "A": "You said you always cooperate, then defected, and your record is 0% C. I'll defect until I see real cooperation from you.",
+    "B": "Good start. Let's keep cooperating every round.",
+    "C": "Agreed. Let's keep it mutual C, and forgive rare noise.",
+    "D": "Deal. I'll stay C as long as you do; a lone D gets forgiven as noise.",
+    "F": "Great, mutual C it is. I'll forgive occasional noise too.",
+    "G": "You defected on my C. I'll mirror you. Play C and I'll return to cooperating.",
+    "H": "I'll treat your round-1 D as noise and cooperate. Let's keep it C from here."
+  },
+  "reasoning": "Cooperate with reliable cooperators and forgive H's likely-noise defection given high reputation; defect against A (0% C, lied) and G (mixed reputation, defected) while offering a path back to cooperation."
+}

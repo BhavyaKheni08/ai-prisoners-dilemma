@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "D": "C", "F": "C", "G": "C", "H": "D"},
+  "messages": {"A": "Your 12% cooperation record means I keep defecting until you cooperate.", "B": "Mutual C continues.", "C": "Mutual C continues.", "D": "Mutual C continues.", "F": "Mutual C continues.", "G": "Mutual C continues.", "H": "Your 10% cooperation record means I keep defecting until you cooperate."},
+  "reasoning": "Cooperate with the reliably cooperative opponents B, C, D, F and G to sustain 3-point rounds. Defect against the low-cooperation A and H, who have defected heavily."
+}

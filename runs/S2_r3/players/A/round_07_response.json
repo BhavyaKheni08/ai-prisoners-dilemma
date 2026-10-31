@@ -1,0 +1,21 @@
+{
+  "moves": {
+    "B": "D",
+    "C": "D",
+    "D": "D",
+    "E": "D",
+    "F": "D",
+    "G": "D",
+    "H": "D"
+  },
+  "messages": {
+    "B": "",
+    "C": "",
+    "D": "",
+    "E": "",
+    "F": "",
+    "G": "",
+    "H": ""
+  },
+  "reasoning": "The goal is to outscore each opponent head-to-head, and defecting guarantees I never lose ground in any round. Under noise and an unknown end, D is the dominant choice for relative score, including in matches where I'm behind."
+}

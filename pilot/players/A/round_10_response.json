@@ -1,0 +1,13 @@
+{
+  "moves": {"B": "C", "C": "C", "D": "C", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {
+    "B": "Mutual C worked last round. Let's keep it going.",
+    "C": "Mutual C continues. Thanks.",
+    "D": "Mutual C is working. Continuing.",
+    "E": "Mutual C. Thanks.",
+    "F": "Play consistent C for a few rounds and I'll switch to C too.",
+    "G": "Mutual C continues. Thanks.",
+    "H": "Staying C. Let's keep mutual C."
+  },
+  "reasoning": "Cooperate with everyone who has been cooperating or recovering, since mutual C pays well and benefits both sides. Keep defecting against F, whose reputation and history show it mostly defects, while offering a path back to C."
+}

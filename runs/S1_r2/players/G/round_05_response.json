@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"C","C":"D","D":"C","E":"D","F":"D","H":"C"},
+"messages":{"A":"Continuing C.","B":"Continuing C.","C":"Still mostly D from you. Staying D until you show sustained actual C.","D":"Continuing C.","E":"Your D after my C gets matched once. Play C and I'll return to C.","F":"Two straight D's. Matching now; play C and I'll return to C.","H":"Continuing C."},
+"reasoning":"Reciprocate: cooperate with steady cooperators, match the defections from E and F with a clear path back to C, and defect against the near-always-defecting C."}

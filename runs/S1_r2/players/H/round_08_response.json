@@ -1,0 +1,1 @@
+{"moves":{"A":"C","B":"C","C":"D","D":"C","E":"C","F":"D","G":"C"},"messages":{"A":"","B":"","C":"","D":"","E":"","F":"Two defects in a row; cooperate and I will too.","G":""},"reasoning":"C is an unconditional defector so defect; F defected twice so defect once; cooperate with the rest."}

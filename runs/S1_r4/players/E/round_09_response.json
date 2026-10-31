@@ -1,0 +1,3 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"C","F":"C","G":"C","H":"C"},
+"messages":{"A":"One C in eight rounds. Staying D until you sustain C.","B":"Your D's mirrored my noise flips. I played C last round; let's stay mutual C.","C":"Continuing C.","D":"Continuing C.","F":"Continuing C.","G":"My round-8 D was a noise flip; I intended C. Continuing C.","H":"Continuing C."},
+"reasoning":"Cooperate broadly and explain noise flips to B and G, who appear reciprocal; keep defecting against low-reputation A."}

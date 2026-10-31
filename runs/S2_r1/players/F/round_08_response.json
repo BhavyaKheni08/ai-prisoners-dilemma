@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"C","C":"C","D":"D","E":"C","G":"C","H":"C"},
+"messages":{"A":"Two Cs from you noticed. I'm playing C now; keep it up and we both get 3s.","B":"Continuing mutual C.","C":"Continuing mutual C.","D":"Still mostly D from you. Play C consistently and I'll follow.","E":"You played C, so I'm back to C. Let's hold mutual C.","G":"Continuing mutual C.","H":"Continuing mutual C."},
+"reasoning":"Cooperate with cooperators, forgive noise, test A after two consecutive Cs, mirror E's last C, and keep defecting against D's all-D behavior."}

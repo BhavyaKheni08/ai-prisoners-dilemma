@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "B": "C", "D": "D", "E": "C", "F": "D", "G": "D", "H": "C"},
+  "messages": {"A": "Your 12% cooperation record means I keep defecting until you cooperate.", "B": "Cooperating. Let's restore mutual C.", "D": "Your 0% cooperation record means I keep defecting until you cooperate.", "E": "Mutual C continues.", "F": "You defected after my cooperation; I defect now and will cooperate once you do.", "G": "You defected last round; I defect now and will cooperate once you cooperate.", "H": "Mutual C continues."},
+  "reasoning": "Cooperate with B, E and H, who have cooperated consistently. Defect against A and D, who keep defecting, and retaliate against F and G, who defected on my last cooperation, while staying open to returning to mutual cooperation."
+}

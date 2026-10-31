@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "D", "D": "C", "E": "C", "F": "C", "G": "C"},
+  "messages": {
+    "A": "Continuing mutual C. Let's keep it going.",
+    "B": "You cooperated last round. I'm cooperating now; let's build mutual C.",
+    "C": "You defected again. I'll cooperate once you do; mutual C is best for both of us.",
+    "D": "Mutual C is working well for us.",
+    "E": "Let's keep mutual C going.",
+    "F": "Cooperating again. Let's keep mutual C.",
+    "G": "Cooperating. Thanks for the mutual C."
+  },
+  "reasoning": "Reciprocating cooperation from opponents who cooperated last round, including B, who cooperated after my defection. Defecting against C, which has defected in every round against me and has an 11% cooperation record."
+}

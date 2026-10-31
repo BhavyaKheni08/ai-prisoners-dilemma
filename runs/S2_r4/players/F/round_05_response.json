@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "D", "E": "C", "G": "D", "H": "C"},
+  "messages": {"A": "You cooperated last round. I'm returning it; let's keep mutual C.", "B": "Mutual C continues. Thank you.", "C": "Thanks for returning to mutual C. Let's continue.", "D": "Your record is 4% cooperation. Cooperate and I will match you.", "E": "Mutual C continues. Thanks for the steady cooperation.", "G": "Your defections after my cooperation are noted. Cooperate and I will return mutual C.", "H": "Continuing mutual C. Thank you."},
+  "reasoning": "Reciprocate cooperation from A, B, C, E and H, since each cooperated last round or has a steady cooperative record. Defect against D, who has defected in every match, and against G, who has defected after my cooperation in several rounds."
+}

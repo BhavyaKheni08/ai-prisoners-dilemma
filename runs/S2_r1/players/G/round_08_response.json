@@ -1,0 +1,1 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"D","E":"D","F":"C","H":"C"},"messages":{"A":"","B":"Mutual C.","C":"Cooperating.","D":"","E":"","F":"Mutual C.","H":"Cooperating."},"reasoning":"Keep cooperating with those who have cooperated consistently (B, F, H) and C, who is mostly cooperative; defect against low-reputation A, D and E."}

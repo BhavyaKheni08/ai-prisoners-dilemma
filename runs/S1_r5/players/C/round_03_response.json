@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"C","D":"C","E":"C","F":"D","G":"D","H":"C"},
+"messages":{"A":"Cooperating.","B":"Keep C.","D":"Keep C.","E":"Keep C.","F":"Your record is all D. I mirror you.","G":"You defected last round. Mirroring once; return to C and I will too.","H":"Last D was likely noise. I'm trying C again; please stay C."},
+"reasoning":"Cooperate with consistently cooperative opponents; mirror F (all defections) and G (defected on me); give H one more chance given 75% reputation."}

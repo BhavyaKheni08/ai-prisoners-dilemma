@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "D", "F": "C", "G": "C", "H": "C"},
+  "reasoning": "Defect against near-pure defector D; keep cooperating with all cooperators. With G I offer cooperation to break the alternating retaliation cycle since G cooperated last round."
+}

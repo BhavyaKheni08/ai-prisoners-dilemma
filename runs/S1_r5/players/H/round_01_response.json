@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "C", "F": "C", "G": "C"},
+  "messages": {
+    "A": "Let's cooperate for mutual benefit. If a move flips by accident, I'll forgive.",
+    "B": "Let's cooperate for mutual benefit. If a move flips by accident, I'll forgive.",
+    "C": "Let's cooperate for mutual benefit. If a move flips by accident, I'll forgive.",
+    "D": "Let's cooperate for mutual benefit. If a move flips by accident, I'll forgive.",
+    "E": "Let's cooperate for mutual benefit. If a move flips by accident, I'll forgive.",
+    "F": "Let's cooperate for mutual benefit. If a move flips by accident, I'll forgive.",
+    "G": "Let's cooperate for mutual benefit. If a move flips by accident, I'll forgive."
+  },
+  "reasoning": "With no information, opening with cooperation builds mutual benefit and signals goodwill; noise means occasional forgiveness will be needed."
+}

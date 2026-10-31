@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"C","D":"C","E":"C","F":"D","G":"C","H":"D"},
+"messages":{"A":"Continuing C.","B":"Continuing C.","D":"Continuing C.","E":"We've had mutual C all five rounds. Continuing C.","F":"Two straight D's after I returned to C. Matching once; play C and I'll return to C.","G":"Continuing C.","H":"Still all D from you. Play actual C and I'll reciprocate."},
+"reasoning":"Keep cooperating with consistent cooperators; match F's repeated defection once and stay D against H's near-total defection."}

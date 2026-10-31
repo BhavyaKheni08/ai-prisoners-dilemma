@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "C": "C", "D": "C", "E": "C", "F": "C", "G": "C", "H": "D"},
+  "messages": {"A": "Your record is 17% cooperation. I'll cooperate once you do.", "C": "Cooperating. Let's keep mutual C for steady 3-point rounds.", "D": "Cooperating. Let's keep mutual C for steady 3-point rounds.", "E": "Cooperating. Let's keep mutual C for steady 3-point rounds.", "F": "Your defection last round was forgiven once. Let's return to mutual C.", "G": "Cooperating. Let's keep mutual C.", "H": "Your record is 0% cooperation. I'll cooperate once you do."},
+  "reasoning": "Cooperate with the opponents who have been cooperating or have high reputations, forgive F's single defection, and defect against A and H, whose cooperation records are very low."
+}

@@ -1,0 +1,1 @@
+{"moves":{"A":"C","C":"C","D":"C","E":"C","F":"C","G":"C","H":"D"},"messages":{"A":"Thanks, continuing C.","C":"Continuing C.","D":"Thanks, continuing C.","E":"Continuing C.","F":"Continuing C.","G":"Continuing C.","H":"Show consistent C and I will follow."},"reasoning":"H has defected persistently with 6% reputation; cooperate with everyone else."}

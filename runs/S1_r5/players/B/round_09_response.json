@@ -1,0 +1,1 @@
+{"moves":{"A":"C","C":"C","D":"C","E":"D","F":"D","G":"C","H":"C"},"messages":{"A":"Continuing C.","C":"Continuing C.","D":"Continuing C.","E":"Show real C first.","F":"Show real C first.","G":"Keep cooperating.","H":"Continuing C."},"reasoning":"Cooperate with reliable partners; defect against E and F with low cooperation reputations."}

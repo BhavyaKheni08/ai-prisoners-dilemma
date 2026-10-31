@@ -1,0 +1,1 @@
+{"moves":{"A":"D","B":"C","D":"C","E":"C","F":"D","G":"C","H":"D"},"reasoning":"Cooperate with stable cooperators; defect against defectors A and H and against F, which keeps defecting on my cooperation."}

@@ -1,0 +1,5 @@
+{
+  "moves": {"B": "C", "C": "C", "D": "D", "E": "D", "F": "C", "G": "C", "H": "C"},
+  "messages": {"B": "Great, continuing to cooperate.", "C": "Cooperating again, let's keep it going.", "D": "You said you always cooperate but defected. I'll defect until you cooperate.", "E": "You defected on me. I'll mirror you; cooperate and I will too.", "F": "Thanks, continuing to cooperate.", "G": "Cooperating again, thanks.", "H": "Cooperating again, thanks."},
+  "reasoning": "Cooperate with those who cooperated in round 1 and have good reputations; retaliate against D and E, who defected on me, with D having a 0% reputation."
+}

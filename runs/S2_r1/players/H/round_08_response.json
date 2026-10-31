@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "D": "D", "E": "D", "F": "C", "G": "C"},
+  "messages": {"A": "Your record is poor; I will cooperate only once you return to mutual C.", "B": "Mutual C continues; thank you.", "C": "Mutual C continues; thank you.", "D": "Your claims do not match your record; I will cooperate once your play does.", "E": "You defected twice; I will return to mutual C once you do.", "F": "Continuing mutual C.", "G": "One defection noted; let's keep mutual C."},
+  "reasoning": "Cooperate with opponents whose recent play is mostly cooperative and who reciprocate, defect against consistent defectors, and answer recent defection with a measured response while leaving room to restore mutual cooperation."
+}

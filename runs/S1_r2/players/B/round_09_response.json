@@ -1,0 +1,1 @@
+{"moves": {"A": "D", "C": "D", "D": "D", "E": "D", "F": "D", "G": "D", "H": "D"}, "messages": {"A": "", "C": "", "D": "", "E": "", "F": "", "G": "", "H": ""}, "reasoning": "Defection never loses relative score in a single round, so I defect to win each match."}

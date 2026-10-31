@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "E": "D", "F": "D", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Still cooperating. Thanks for the steady partnership.",
+    "B": "Your round-2 D I'll treat as noise once. Cooperating now; repeated D gets matched.",
+    "C": "Cooperating as always. Thanks.",
+    "E": "You've defected twice. Play C once and I'll immediately return to cooperation.",
+    "F": "Your actions say D. Show me a C and I'll reciprocate.",
+    "G": "Glad we're back on track. Cooperating.",
+    "H": "Cooperating again. Let's keep it going."
+  },
+  "reasoning": "Cooperate with cooperators, forgive B's single defection as possible noise, and keep defecting against E and F who have only defected, while offering a path back."
+}

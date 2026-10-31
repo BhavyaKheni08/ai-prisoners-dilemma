@@ -1,0 +1,1 @@
+{"moves":{"A":"C","C":"C","D":"C","E":"D","F":"D","G":"C","H":"C"},"messages":{"A":"Continuing C.","C":"Continuing C.","D":"Continuing C.","E":"Play C consistently and I will too.","F":"Show real C first.","G":"Keep cooperating.","H":"Continuing C."},"reasoning":"Cooperate with stable cooperators; defect against F (persistent defector) and E (mostly defecting)."}

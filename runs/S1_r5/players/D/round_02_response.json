@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "E": "D", "F": "D", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Great start. Let's keep cooperating every round; I'll forgive occasional noise.",
+    "B": "Agreed, mutual cooperation it is. I'll forgive noise flips too.",
+    "C": "Agreed. Cooperating every round; noise forgiven both ways.",
+    "E": "You defected round 1. I'm matching. Play C and I'll return to C right away.",
+    "F": "You claimed to always cooperate but defected, and your record is 0% C. I'll cooperate only once you actually play C.",
+    "G": "My round-1 D was a noise flip; I intended C. I'm cooperating now - please don't keep mirroring the accident.",
+    "H": "Agreed. Cooperating every round; I'll forgive accidental flips."
+  },
+  "reasoning": "Cooperate with reciprocators, forgive G since my D was noise, and retaliate against E's defection and F's consistent defection while offering a path back."
+}

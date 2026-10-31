@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "D", "D": "C", "E": "C", "F": "D", "G": "C"},
+  "messages": {"A": "Cooperating; let's keep mutual C.", "B": "Your record is very low; cooperate and I will return mutual C.", "C": "Your record is very low; cooperate and I will match you.", "D": "Mutual C continues; thank you.", "E": "Thanks for returning to mutual C; let's keep it going.", "F": "Your record is low; cooperate and I will match you.", "G": "Cooperating; let's keep mutual C."},
+  "reasoning": "I keep cooperating with opponents with a generally cooperative record or who are forgiven after one defection, and defect against those whose record shows they mostly exploit others. Their words do not change my choice; only their observed play does."
+}

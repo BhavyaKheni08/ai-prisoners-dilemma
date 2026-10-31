@@ -1,0 +1,1 @@
+{"moves": {"A": "C", "B": "D", "C": "D", "D": "C", "E": "C", "F": "C", "H": "C"}, "reasoning": "Cooperate with high-reputation reciprocators and offer F a return to cooperation; defect against persistent defector B and against C, which kept defecting even after I resumed cooperating."}

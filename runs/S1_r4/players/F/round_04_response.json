@@ -1,0 +1,1 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"C","E":"C","G":"D","H":"C"},"messages":{"A":"Show consistent C and I will follow.","B":"Continuing C.","C":"Continuing C.","D":"Continuing C.","E":"Continuing C.","G":"Play C and I will return to C.","H":"Continuing C."},"reasoning":"A is a persistent defector and G defected twice in a row; cooperate with the rest."}

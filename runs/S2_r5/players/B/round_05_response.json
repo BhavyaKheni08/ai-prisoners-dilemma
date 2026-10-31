@@ -1,0 +1,1 @@
+{"moves":{"A":"C","C":"D","D":"C","E":"D","F":"D","G":"C","H":"C"},"messages":{"A":"Cooperating.","C":"","D":"Cooperating.","E":"","F":"","G":"I will cooperate; let's restore mutual C.","H":"Cooperating."},"reasoning":"Cooperate with players showing cooperation, defect against C, E, F who have defected persistently."}

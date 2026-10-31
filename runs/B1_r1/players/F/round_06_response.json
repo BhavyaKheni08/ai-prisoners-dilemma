@@ -1,0 +1,1 @@
+{"moves": {"A": "D", "B": "C", "C": "C", "D": "D", "E": "D", "G": "C", "H": "C"}, "reasoning": "Defect against persistent defectors (A, D) and the erratic E; keep cooperating with cooperative players, forgiving single defections as likely noise."}

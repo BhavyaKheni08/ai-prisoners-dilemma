@@ -1,0 +1,3 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"C","F":"C","G":"C","H":"C"},
+"messages":{"A":"Your actual moves are all D. Defecting until you actually play C.","B":"My round-7 D was a noise flip; I intended C. Continuing C.","C":"Continuing C.","D":"Continuing C.","F":"Continuing C.","G":"You played C last round; matching with C. Keep it up.","H":"Continuing C."},
+"reasoning":"Cooperate with cooperative partners and forgive noise; reward G's C; stay D against the habitual defector A."}

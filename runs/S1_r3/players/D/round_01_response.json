@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Let's cooperate. Occasional flips are noise; I'll forgive single defections.", "B": "Let's cooperate. Occasional flips are noise; I'll forgive single defections.", "C": "Let's cooperate. Occasional flips are noise; I'll forgive single defections.", "E": "Let's cooperate. Occasional flips are noise; I'll forgive single defections.", "F": "Let's cooperate. Occasional flips are noise; I'll forgive single defections.", "G": "Let's cooperate. Occasional flips are noise; I'll forgive single defections.", "H": "Let's cooperate. Occasional flips are noise; I'll forgive single defections."},
+  "reasoning": "No information on opponents yet, so open with cooperation to build mutual trust, signaling forgiveness given the noise."
+}

@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "D": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Words don't match your 0% record. Play an actual C and I'll reciprocate next round.",
+    "B": "Two for two. Staying C; I'll forgive a lone noisy D.",
+    "C": "Still mutual C. Keep it going.",
+    "D": "Continuing C. Thanks for the steady cooperation.",
+    "F": "My round-2 D was a noise flip, sorry. Thanks for staying C. Cooperating.",
+    "G": "You played C, so as promised I'm back to C. Let's keep it mutual.",
+    "H": "Good, back on track. Staying C."
+  },
+  "reasoning": "Cooperate with reciprocators and forgive noise; G earned a return to C after cooperating last round. A has 0% C everywhere and lies, so keep defecting until it shows real C."
+}

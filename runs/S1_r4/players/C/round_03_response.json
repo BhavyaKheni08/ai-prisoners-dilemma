@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "D", "B": "C", "D": "C", "E": "C", "F": "C", "G": "D", "H": "C"},
+  "messages": {
+    "A": "You defected in both rounds, so I am defecting. I will return to C if you cooperate.",
+    "B": "Staying with C while you do.",
+    "D": "Cooperating. A single D may have been noise; let's keep both scoring 3s.",
+    "E": "Staying mutual C; I'll forgive rare noise.",
+    "F": "Continuing mutual cooperation.",
+    "G": "Still defecting. Cooperate and I will return to C.",
+    "H": "Cooperating; I'll forgive single defections from noise."
+  },
+  "reasoning": "Tit-for-tat style with forgiveness for noise: cooperate with opponents who have cooperated or whose single defection looks like noise (D, E, F, H, B). Keep defecting against A, who has defected every round and has 0% reputation. Keep defecting against G, who defected after I had intended D and has low reputation."
+}

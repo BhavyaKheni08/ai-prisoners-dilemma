@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "D", "D": "C", "E": "D", "F": "C", "H": "C"},
+  "reasoning": "F and H and A have strong cooperation records, so I cooperate with them. B, C and E have mixed or poor records and have defected against me, so I defect against them. D has a moderate reputation and has cooperated recently, so I cooperate with it."
+}

@@ -1,0 +1,1 @@
+{"moves": {"A": "C", "B": "C", "C": "D", "E": "D", "F": "D", "G": "C", "H": "C"}, "reasoning": "A's defection looks like tit-for-tat retaliation for my accidental defection, so I cooperate to restore mutual cooperation; I keep cooperating with B, G, H and defect against low-reputation defectors C, E, F."}

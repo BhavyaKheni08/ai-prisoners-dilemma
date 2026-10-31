@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "D", "C": "C", "D": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "reasoning": "A has never cooperated with me and has 0% reputation, so I defect against it. D is also a low-reputation defector and has defected on me after my cooperation, so I defect. The rest have cooperated with me or have high reputations, so I keep cooperating."
+}

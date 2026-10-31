@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"C","C":"C","E":"C","F":"D","G":"C","H":"C"},
+"messages":{"A":"Your round-5 D answered my noise flip; fair. We're even, continuing C.","B":"Continuing C.","C":"Continuing C.","E":"You played C; I'm back to C as promised. Let's keep mutual C.","F":"Your record is still mostly D. Sustain C and I'll follow.","G":"Continuing C.","H":"Continuing C."},
+"reasoning":"Cooperate broadly, forgive A's retaliation for my noise flip, honor my promise to E, and stay D against F's low-cooperation record."}

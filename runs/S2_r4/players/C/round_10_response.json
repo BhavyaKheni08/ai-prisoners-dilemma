@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "B": "C", "D": "D", "E": "C", "F": "C", "G": "D", "H": "C"},
+  "messages": {"A": "Defecting until you cooperate.", "B": "Mutual C continues.", "D": "Defecting until you cooperate.", "E": "Mutual C continues.", "F": "Cooperating; let's restore mutual C.", "G": "You defected after my cooperation; I defect until you cooperate.", "H": "Mutual C continues."},
+  "reasoning": "A and D almost never cooperate, so I defect against them. B, E and H have been cooperating, so I keep mutual cooperation. F has recently returned to cooperation, so I cooperate. G has defected after my cooperation, so I defect until they cooperate."
+}

@@ -1,0 +1,1 @@
+{"moves": {"B":"D","C":"D","D":"C","E":"C","F":"C","G":"D","H":"C"}, "reasoning": "Tit-for-tat style: reciprocate cooperation, retaliate against round-1 defectors."}

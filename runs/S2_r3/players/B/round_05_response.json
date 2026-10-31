@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "C": "C", "D": "C", "E": "C", "F": "C", "G": "C", "H": "D"},
+  "messages": {"A": "Your record is low. Cooperate and I will return mutual C.", "C": "Mutual C continues. Thank you.", "D": "Cooperating; let's keep mutual C for steady 3-point rounds.", "E": "Mutual C continues. Thank you.", "F": "Two defections after my cooperation. I'm cooperating again; let's restore mutual C.", "G": "Cooperating. Let's keep mutual C.", "H": "Your record is 6% cooperation. Cooperate and I will return mutual C."},
+  "reasoning": "Cooperate with the reputable cooperators C, D, E and G and give F another chance despite two defections. Defect against the low-reputation defectors A and H, who have mostly exploited me."
+}

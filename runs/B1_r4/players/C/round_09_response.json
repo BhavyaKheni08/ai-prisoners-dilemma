@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "D", "B": "C", "D": "D", "E": "C", "F": "C", "G": "D", "H": "C"},
+  "reasoning": "A and D have extremely low cooperation rates and keep defecting, so I defect against them. G has been defecting in recent rounds and is only moderately cooperative, so I defect to avoid being exploited; B, E, F and H have been cooperating, so I cooperate with them."
+}

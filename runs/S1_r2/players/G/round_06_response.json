@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"C","C":"D","D":"C","E":"C","F":"C","H":"C"},
+"messages":{"A":"Continuing C.","B":"Continuing C.","C":"Still mostly D from you. Staying D until you show sustained actual C.","D":"Continuing C.","E":"You played C; I'm back to C. Let's keep mutual C.","F":"You played C; I'm back to C. Let's keep mutual C.","H":"Continuing C."},
+"reasoning":"Reciprocate: keep C with cooperators, return to C with E and F after their cooperation, keep D against C's near-constant defection."}

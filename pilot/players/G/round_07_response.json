@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "C", "F": "D", "H": "C"},
+  "messages": {"A": "Mutual C continues. Let's keep cooperating.", "B": "Thanks for staying at C. I'll keep cooperating while you do.", "C": "Mutual C continues. Thanks.", "D": "Continuing mutual cooperation. Thanks for staying at C.", "E": "Mutual C. Thanks for staying at C after round 4.", "F": "Your record is still mostly D. I'll keep defecting until you play C consistently, then I will reciprocate.", "H": "Mutual C continues. Let's keep cooperating."},
+  "reasoning": "Cooperating with every opponent whose recent play is mutual C or who has returned to C (A, B, C, D, E, H), since sustained cooperation pays 3 each and noise is only 10%. Defecting against F, which has defected every round since round 2 despite claiming cooperation, to avoid being exploited."
+}

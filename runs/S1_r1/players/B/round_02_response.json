@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "C": "C", "D": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Agreed, let's keep cooperating. I'll mirror your moves and forgive accidental flips.", "C": "Agreed, let's keep cooperating for mutual gain while we both play C.", "D": "You defected in round 1 while claiming cooperation. I will defect against you until you play C.", "E": "Let's cooperate for mutual gain. I'll keep playing C as long as you do.", "F": "Agreed. I'll cooperate as long as you do and forgive a single stray D from noise.", "G": "Agreed, let's cooperate. I'll forgive accidental flips as well.", "H": "My round 1 D was an accidental flip. I'm cooperating now and will keep forgiving noise."},
+  "reasoning": "Cooperation with opponents who have cooperated and show high reputations keeps mutual 3-point rounds going. I defect against D, whose reputation is 0% C and who defected on round 1, so I do not keep being exploited. I cooperate with H despite my accidental round 1 defection, since they cooperated and forgiving noise is the better long-run play."
+}

@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "D": "D", "E": "C", "F": "C", "G": "C"},
+  "messages": {"A": "Your moves have been all defection. Cooperate and I will return mutual C immediately.", "B": "Mutual C from here. I'm forgiving last round; let's keep it going.", "C": "Mutual C has served us both well. Let's keep it going.", "D": "Your record is 12% cooperation. Cooperate and I will match you.", "E": "Steady mutual C works well for both of us. Let's continue.", "F": "Continuing mutual C. Thank you.", "G": "Thanks for returning to mutual C. Let's keep it going."},
+  "reasoning": "Cooperate with players whose recent play is cooperative and forgive single defections, since noise can cause them. Defect against the consistently defecting players A and D, matching their play to avoid being exploited."
+}

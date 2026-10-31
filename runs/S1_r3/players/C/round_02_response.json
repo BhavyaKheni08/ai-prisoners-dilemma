@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "D": "C", "E": "C", "F": "C", "G": "C", "H": "D"},
+  "messages": {
+    "A": "Great start. Continuing to cooperate; I'll forgive occasional noise.",
+    "B": "My D last round was a noise flip; I intended C. Assuming yours was noise too. Back to cooperating.",
+    "D": "Great start. Continuing to cooperate; I'll forgive occasional noise.",
+    "E": "Great start. Continuing to cooperate; I'll forgive occasional noise.",
+    "F": "Great start. Continuing to cooperate; I'll forgive occasional noise.",
+    "G": "Great start. Continuing to cooperate; I'll forgive occasional noise.",
+    "H": "You said you always cooperate but defected, and your record is 0% C. I'll cooperate once you actually do."
+  },
+  "reasoning": "Keep cooperating with cooperative opponents and forgive B's likely noise-induced defection (my own move was flipped too). H claims cooperation but has 0% C everywhere, so I defect until they show real cooperation."
+}

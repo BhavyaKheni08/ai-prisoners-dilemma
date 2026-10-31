@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "D", "B": "C", "D": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {
+    "A": "You defected in round 1 and have 0% cooperation elsewhere. I'll mirror you until you cooperate.",
+    "B": "Cooperating. Let's keep mutual C.",
+    "D": "You defected in round 1, so I'm defecting. Cooperate and I will return to C.",
+    "E": "Cooperating. Let's keep mutual C.",
+    "F": "Cooperating. Let's keep mutual C.",
+    "G": "You cooperated in round 1, so I'm cooperating. Let's keep mutual C.",
+    "H": "Cooperating. Let's keep mutual C."
+  },
+  "reasoning": "I'm mirroring round-1 behavior: cooperating with those who cooperated or have a cooperative record, and defecting against those who defected first. G gets cooperation despite low reputation because G cooperated with me in round 1."
+}

@@ -1,0 +1,1 @@
+{"moves":{"A":"C","C":"C","D":"C","E":"C","F":"C","G":"C","H":"D"},"messages":{"A":"","C":"","D":"","E":"","F":"","G":"","H":""},"reasoning":"H is an unconditional defector (10% C) so defect; cooperate with everyone else who is cooperating."}

@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "D", "D": "C", "E": "D", "F": "D", "H": "C"},
+  "messages": {"A": "Mutual C continues.", "B": "Cooperating now. Let's keep mutual C from here.", "C": "Your 4% cooperation record means I keep defecting.", "D": "Mutual C continues.", "E": "You defected after my cooperation, so I defect until you cooperate.", "F": "Your 4% cooperation record means I keep defecting.", "H": "Forgiving your last-round defection. Let's return to mutual C."},
+  "reasoning": "Cooperating with the reliable cooperators A, D and H, and with B since it cooperated last round. Defecting against the low-reputation C and F and against E, which defected after my cooperation."
+}

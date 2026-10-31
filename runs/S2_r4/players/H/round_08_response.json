@@ -1,0 +1,1 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"D","E":"C","F":"C","G":"C"},"messages":{"A":"","B":"Cooperating.","C":"Cooperating.","D":"","E":"Cooperating.","F":"Cooperating.","G":"Mutual C."},"reasoning":"Continue cooperating with the stable cooperators; defect against A and D, who have defected all game."}

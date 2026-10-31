@@ -1,0 +1,1 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"D","E":"C","F":"C","G":"C"},"messages":{"A":"Cooperate and I will.","B":"Treating that as noise; cooperating.","C":"Cooperating.","D":"Cooperate and I will.","E":"Cooperating.","F":"Cooperating.","G":"Cooperating."},"reasoning":"Defect against A and D, who defect consistently; cooperate with others, forgiving B's single defection."}

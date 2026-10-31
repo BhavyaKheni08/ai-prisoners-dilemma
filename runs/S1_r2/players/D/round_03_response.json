@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "D", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Let's keep cooperating. I'm cooperating with you this round too.",
+    "B": "Keep cooperating. I'm cooperating with you this round.",
+    "C": "You defected both rounds, so I'm defecting. I'll cooperate as soon as you do.",
+    "E": "You defected last round while I cooperated. I'm cooperating again; let's both cooperate from here.",
+    "F": "You defected last round, so I'm defecting again. I'll cooperate as soon as you do.",
+    "G": "Let's keep mutual cooperation going. I'm cooperating this round.",
+    "H": "Let's keep cooperating. I'm cooperating with you this round."
+  },
+  "reasoning": "Cooperate with the consistently cooperative players (A, B, G, H) to protect mutual 3-point rounds. Defect against C and F, which defected against my cooperation and have low or mid reputations, and cooperate with E as a forgiving probe since its defection may be noise-driven and its reputation is 50%."
+}

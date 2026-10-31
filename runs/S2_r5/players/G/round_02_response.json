@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "D", "D": "C", "E": "D", "F": "D", "H": "C"},
+  "messages": {
+    "A": "Cooperating. Let's keep mutual C.",
+    "B": "Cooperating. Let's keep mutual C.",
+    "C": "You defected in round 1, so I'm defecting. Cooperate and I will return to C.",
+    "D": "My round-1 defection was an accident. I'm cooperating now. Let's restore mutual C.",
+    "E": "You defected in round 1, so I'm defecting. Cooperate and I will return to C.",
+    "F": "You defected in round 1, so I'm defecting. Cooperate and I will return to C.",
+    "H": "Cooperating. Let's keep mutual C."
+  },
+  "reasoning": "I'm cooperating with A, B and H, who cooperated with me, and defecting against C, E and F, who defected first. I'm returning to C with D because it defected in response to my accidental round-1 defection and has a 100% cooperation record."
+}

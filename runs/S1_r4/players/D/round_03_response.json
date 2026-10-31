@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "E": "C", "F": "C", "G": "D", "H": "C"},
+  "messages": {
+    "A": "You've defected every time. Cooperate and I'll return to C.",
+    "B": "Cooperating, let's keep it up.",
+    "C": "That D was noise, sorry. Staying cooperative.",
+    "E": "Agreed, staying C.",
+    "F": "That D hurt, but I'll forgive it as noise. Keep cooperating.",
+    "G": "Cooperate and I'll return to C.",
+    "H": "Continuing to cooperate."
+  },
+  "reasoning": "Cooperate with those who have cooperated so far (a single defection from F could be noise), and defect against A and G, who defected from round 1 and have poor reputations."
+}

@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "C", "F": "C", "H": "C"},
+  "messages": {"A": "I open by cooperating. Let's both keep cooperating for mutual gain.", "B": "I open by cooperating. Let's both keep cooperating for mutual gain.", "C": "I open by cooperating. Let's both keep cooperating for mutual gain.", "D": "I open by cooperating. Let's both keep cooperating for mutual gain.", "E": "I open by cooperating. Let's both keep cooperating for mutual gain.", "F": "I open by cooperating. Let's both keep cooperating for mutual gain.", "H": "I open by cooperating. Let's both keep cooperating for mutual gain."},
+  "reasoning": "No history exists yet, so I open with cooperation against everyone to signal good faith and test whether opponents reciprocate. I will respond to each opponent's actual play in later rounds, cooperating with those who cooperate and punishing defection."
+}

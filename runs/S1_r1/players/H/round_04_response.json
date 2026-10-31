@@ -1,0 +1,1 @@
+{"moves":{"A":"C","B":"C","C":"C","D":"D","E":"C","F":"C","G":"C"},"messages":{"A":"Thanks, keep cooperating.","B":"Thanks, continuing C.","C":"Let us keep C.","D":"Play C consistently and I will follow.","E":"Good, staying C.","F":"Great, continuing C.","G":"Thanks, keep going."},"reasoning":"Cooperate with those cooperating; D has defected consistently so defect."}

@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "D", "C": "C", "D": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "reasoning": "A and D almost never cooperate, so I defect against them. C, F, G and H mostly cooperate, so I keep cooperating to build mutual 3-point rounds. E is mixed, so I cooperate and watch for retaliation."
+}

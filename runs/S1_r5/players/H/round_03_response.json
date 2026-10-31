@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "C", "F": "D", "G": "C"},
+  "messages": {
+    "A": "Thanks for cooperating. Let's keep playing C.",
+    "B": "Thanks, cooperating again.",
+    "C": "Cooperating. Thanks.",
+    "D": "Great, let's keep cooperating.",
+    "E": "You cooperated last round, so I'm returning to C. Let's both stay on C.",
+    "F": "I'll switch to C as soon as you play C consistently. Show me C and I'll follow.",
+    "G": "Thanks for cooperating. Let's keep playing C."
+  },
+  "reasoning": "Cooperate with everyone who has recently cooperated, since mutual C is the best sustainable outcome. Keep defecting on F, whose 0% cooperation reputation and defection against me suggest an unconditional defector. Try C with E again after they cooperated."
+}

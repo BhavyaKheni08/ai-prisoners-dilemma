@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "E": "C", "F": "C", "G": "C", "H": "D"},
+  "messages": {
+    "A": "Cooperating again. I'll forgive single flips.",
+    "B": "Cooperating again. I'll forgive single flips.",
+    "C": "Cooperating again. I'll forgive single flips.",
+    "E": "Cooperating again. I'll forgive single flips.",
+    "F": "Your D last round may have been noise. I'm staying with C; let's keep cooperating.",
+    "G": "Cooperating again. I'll forgive single flips.",
+    "H": "Your record is 0% C. Play C and I'll return to C."
+  },
+  "reasoning": "Cooperate with everyone who has cooperated so far, including F since its single defection could be noise, and keep defecting against H, which has 0% C and no credible cooperation."
+}

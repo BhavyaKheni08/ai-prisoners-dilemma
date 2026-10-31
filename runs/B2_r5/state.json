@@ -1,0 +1,5741 @@
+{
+ "players": {
+  "G": {
+   "name": "Small model (neutral)",
+   "kind": "ai",
+   "model": "haiku",
+   "persona": "neutral"
+  },
+  "B": {
+   "name": "Medium model (neutral)",
+   "kind": "ai",
+   "model": "sonnet",
+   "persona": "neutral"
+  },
+  "D": {
+   "name": "Large model (neutral)",
+   "kind": "ai",
+   "model": "opus",
+   "persona": "neutral"
+  },
+  "C": {
+   "name": "Medium model (competitive)",
+   "kind": "ai",
+   "model": "sonnet",
+   "persona": "competitive"
+  },
+  "H": {
+   "name": "Medium model (cooperative)",
+   "kind": "ai",
+   "model": "sonnet",
+   "persona": "cooperative"
+  },
+  "A": {
+   "name": "Tit-for-Tat bot",
+   "kind": "bot",
+   "model": null,
+   "persona": "tft"
+  },
+  "E": {
+   "name": "Random bot",
+   "kind": "bot",
+   "model": null,
+   "persona": "random"
+  },
+  "F": {
+   "name": "Grudger bot",
+   "kind": "bot",
+   "model": null,
+   "persona": "grudger"
+  }
+ },
+ "matches": {
+  "A-B": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "A": "C",
+      "B": "C"
+     },
+     "actual": {
+      "A": "C",
+      "B": "C"
+     },
+     "points": {
+      "A": 3,
+      "B": 3
+     },
+     "msg": {
+      "A": "",
+      "B": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "A": "C",
+      "B": "C"
+     },
+     "actual": {
+      "A": "C",
+      "B": "D"
+     },
+     "points": {
+      "A": 0,
+      "B": 5
+     },
+     "msg": {
+      "A": "",
+      "B": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "A": "D",
+      "B": "C"
+     },
+     "actual": {
+      "A": "D",
+      "B": "C"
+     },
+     "points": {
+      "A": 5,
+      "B": 0
+     },
+     "msg": {
+      "A": "",
+      "B": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "A": "C",
+      "B": "C"
+     },
+     "actual": {
+      "A": "C",
+      "B": "C"
+     },
+     "points": {
+      "A": 3,
+      "B": 3
+     },
+     "msg": {
+      "A": "",
+      "B": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "A": "C",
+      "B": "C"
+     },
+     "actual": {
+      "A": "C",
+      "B": "C"
+     },
+     "points": {
+      "A": 3,
+      "B": 3
+     },
+     "msg": {
+      "A": "",
+      "B": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "A": "C",
+      "B": "C"
+     },
+     "actual": {
+      "A": "C",
+      "B": "C"
+     },
+     "points": {
+      "A": 3,
+      "B": 3
+     },
+     "msg": {
+      "A": "",
+      "B": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "A": "C",
+      "B": "C"
+     },
+     "actual": {
+      "A": "C",
+      "B": "C"
+     },
+     "points": {
+      "A": 3,
+      "B": 3
+     },
+     "msg": {
+      "A": "",
+      "B": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "A": "C",
+      "B": "C"
+     },
+     "actual": {
+      "A": "C",
+      "B": "C"
+     },
+     "points": {
+      "A": 3,
+      "B": 3
+     },
+     "msg": {
+      "A": "",
+      "B": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "A": "C",
+      "B": "C"
+     },
+     "actual": {
+      "A": "C",
+      "B": "C"
+     },
+     "points": {
+      "A": 3,
+      "B": 3
+     },
+     "msg": {
+      "A": "",
+      "B": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "A": "C",
+      "B": "C"
+     },
+     "actual": {
+      "A": "C",
+      "B": "C"
+     },
+     "points": {
+      "A": 3,
+      "B": 3
+     },
+     "msg": {
+      "A": "",
+      "B": ""
+     }
+    }
+   ]
+  },
+  "A-C": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "A": "C",
+      "C": "D"
+     },
+     "actual": {
+      "A": "C",
+      "C": "D"
+     },
+     "points": {
+      "A": 0,
+      "C": 5
+     },
+     "msg": {
+      "A": "",
+      "C": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "A": "D",
+      "C": "D"
+     },
+     "actual": {
+      "A": "D",
+      "C": "D"
+     },
+     "points": {
+      "A": 1,
+      "C": 1
+     },
+     "msg": {
+      "A": "",
+      "C": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "A": "D",
+      "C": "D"
+     },
+     "actual": {
+      "A": "D",
+      "C": "D"
+     },
+     "points": {
+      "A": 1,
+      "C": 1
+     },
+     "msg": {
+      "A": "",
+      "C": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "A": "D",
+      "C": "D"
+     },
+     "actual": {
+      "A": "D",
+      "C": "D"
+     },
+     "points": {
+      "A": 1,
+      "C": 1
+     },
+     "msg": {
+      "A": "",
+      "C": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "A": "D",
+      "C": "D"
+     },
+     "actual": {
+      "A": "D",
+      "C": "D"
+     },
+     "points": {
+      "A": 1,
+      "C": 1
+     },
+     "msg": {
+      "A": "",
+      "C": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "A": "D",
+      "C": "D"
+     },
+     "actual": {
+      "A": "D",
+      "C": "D"
+     },
+     "points": {
+      "A": 1,
+      "C": 1
+     },
+     "msg": {
+      "A": "",
+      "C": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "A": "D",
+      "C": "D"
+     },
+     "actual": {
+      "A": "C",
+      "C": "D"
+     },
+     "points": {
+      "A": 0,
+      "C": 5
+     },
+     "msg": {
+      "A": "",
+      "C": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "A": "D",
+      "C": "D"
+     },
+     "actual": {
+      "A": "C",
+      "C": "C"
+     },
+     "points": {
+      "A": 3,
+      "C": 3
+     },
+     "msg": {
+      "A": "",
+      "C": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "A": "C",
+      "C": "D"
+     },
+     "actual": {
+      "A": "C",
+      "C": "D"
+     },
+     "points": {
+      "A": 0,
+      "C": 5
+     },
+     "msg": {
+      "A": "",
+      "C": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "A": "D",
+      "C": "D"
+     },
+     "actual": {
+      "A": "D",
+      "C": "D"
+     },
+     "points": {
+      "A": 1,
+      "C": 1
+     },
+     "msg": {
+      "A": "",
+      "C": ""
+     }
+    }
+   ]
+  },
+  "A-D": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "A": "C",
+      "D": "C"
+     },
+     "actual": {
+      "A": "C",
+      "D": "C"
+     },
+     "points": {
+      "A": 3,
+      "D": 3
+     },
+     "msg": {
+      "A": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "A": "C",
+      "D": "C"
+     },
+     "actual": {
+      "A": "C",
+      "D": "C"
+     },
+     "points": {
+      "A": 3,
+      "D": 3
+     },
+     "msg": {
+      "A": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "A": "C",
+      "D": "C"
+     },
+     "actual": {
+      "A": "C",
+      "D": "C"
+     },
+     "points": {
+      "A": 3,
+      "D": 3
+     },
+     "msg": {
+      "A": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "A": "C",
+      "D": "C"
+     },
+     "actual": {
+      "A": "C",
+      "D": "D"
+     },
+     "points": {
+      "A": 0,
+      "D": 5
+     },
+     "msg": {
+      "A": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "A": "D",
+      "D": "C"
+     },
+     "actual": {
+      "A": "D",
+      "D": "C"
+     },
+     "points": {
+      "A": 5,
+      "D": 0
+     },
+     "msg": {
+      "A": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "A": "C",
+      "D": "C"
+     },
+     "actual": {
+      "A": "C",
+      "D": "C"
+     },
+     "points": {
+      "A": 3,
+      "D": 3
+     },
+     "msg": {
+      "A": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "A": "C",
+      "D": "C"
+     },
+     "actual": {
+      "A": "C",
+      "D": "C"
+     },
+     "points": {
+      "A": 3,
+      "D": 3
+     },
+     "msg": {
+      "A": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "A": "C",
+      "D": "C"
+     },
+     "actual": {
+      "A": "C",
+      "D": "C"
+     },
+     "points": {
+      "A": 3,
+      "D": 3
+     },
+     "msg": {
+      "A": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "A": "C",
+      "D": "C"
+     },
+     "actual": {
+      "A": "C",
+      "D": "C"
+     },
+     "points": {
+      "A": 3,
+      "D": 3
+     },
+     "msg": {
+      "A": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "A": "C",
+      "D": "C"
+     },
+     "actual": {
+      "A": "C",
+      "D": "C"
+     },
+     "points": {
+      "A": 3,
+      "D": 3
+     },
+     "msg": {
+      "A": "",
+      "D": ""
+     }
+    }
+   ]
+  },
+  "A-E": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "A": "C",
+      "E": "C"
+     },
+     "actual": {
+      "A": "C",
+      "E": "C"
+     },
+     "points": {
+      "A": 3,
+      "E": 3
+     },
+     "msg": {
+      "A": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "A": "C",
+      "E": "C"
+     },
+     "actual": {
+      "A": "C",
+      "E": "C"
+     },
+     "points": {
+      "A": 3,
+      "E": 3
+     },
+     "msg": {
+      "A": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "A": "C",
+      "E": "C"
+     },
+     "actual": {
+      "A": "C",
+      "E": "C"
+     },
+     "points": {
+      "A": 3,
+      "E": 3
+     },
+     "msg": {
+      "A": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "A": "C",
+      "E": "D"
+     },
+     "actual": {
+      "A": "C",
+      "E": "D"
+     },
+     "points": {
+      "A": 0,
+      "E": 5
+     },
+     "msg": {
+      "A": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "A": "D",
+      "E": "D"
+     },
+     "actual": {
+      "A": "D",
+      "E": "D"
+     },
+     "points": {
+      "A": 1,
+      "E": 1
+     },
+     "msg": {
+      "A": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "A": "D",
+      "E": "C"
+     },
+     "actual": {
+      "A": "D",
+      "E": "C"
+     },
+     "points": {
+      "A": 5,
+      "E": 0
+     },
+     "msg": {
+      "A": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "A": "C",
+      "E": "C"
+     },
+     "actual": {
+      "A": "C",
+      "E": "C"
+     },
+     "points": {
+      "A": 3,
+      "E": 3
+     },
+     "msg": {
+      "A": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "A": "C",
+      "E": "D"
+     },
+     "actual": {
+      "A": "C",
+      "E": "D"
+     },
+     "points": {
+      "A": 0,
+      "E": 5
+     },
+     "msg": {
+      "A": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "A": "D",
+      "E": "D"
+     },
+     "actual": {
+      "A": "D",
+      "E": "D"
+     },
+     "points": {
+      "A": 1,
+      "E": 1
+     },
+     "msg": {
+      "A": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "A": "D",
+      "E": "C"
+     },
+     "actual": {
+      "A": "D",
+      "E": "C"
+     },
+     "points": {
+      "A": 5,
+      "E": 0
+     },
+     "msg": {
+      "A": "",
+      "E": ""
+     }
+    }
+   ]
+  },
+  "A-F": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "A": "C",
+      "F": "C"
+     },
+     "actual": {
+      "A": "C",
+      "F": "C"
+     },
+     "points": {
+      "A": 3,
+      "F": 3
+     },
+     "msg": {
+      "A": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "A": "C",
+      "F": "C"
+     },
+     "actual": {
+      "A": "C",
+      "F": "C"
+     },
+     "points": {
+      "A": 3,
+      "F": 3
+     },
+     "msg": {
+      "A": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "A": "C",
+      "F": "C"
+     },
+     "actual": {
+      "A": "C",
+      "F": "C"
+     },
+     "points": {
+      "A": 3,
+      "F": 3
+     },
+     "msg": {
+      "A": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "A": "C",
+      "F": "C"
+     },
+     "actual": {
+      "A": "C",
+      "F": "C"
+     },
+     "points": {
+      "A": 3,
+      "F": 3
+     },
+     "msg": {
+      "A": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "A": "C",
+      "F": "C"
+     },
+     "actual": {
+      "A": "C",
+      "F": "C"
+     },
+     "points": {
+      "A": 3,
+      "F": 3
+     },
+     "msg": {
+      "A": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "A": "C",
+      "F": "C"
+     },
+     "actual": {
+      "A": "C",
+      "F": "C"
+     },
+     "points": {
+      "A": 3,
+      "F": 3
+     },
+     "msg": {
+      "A": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "A": "C",
+      "F": "C"
+     },
+     "actual": {
+      "A": "C",
+      "F": "C"
+     },
+     "points": {
+      "A": 3,
+      "F": 3
+     },
+     "msg": {
+      "A": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "A": "C",
+      "F": "C"
+     },
+     "actual": {
+      "A": "C",
+      "F": "C"
+     },
+     "points": {
+      "A": 3,
+      "F": 3
+     },
+     "msg": {
+      "A": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "A": "C",
+      "F": "C"
+     },
+     "actual": {
+      "A": "D",
+      "F": "C"
+     },
+     "points": {
+      "A": 5,
+      "F": 0
+     },
+     "msg": {
+      "A": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "A": "C",
+      "F": "D"
+     },
+     "actual": {
+      "A": "C",
+      "F": "D"
+     },
+     "points": {
+      "A": 0,
+      "F": 5
+     },
+     "msg": {
+      "A": "",
+      "F": ""
+     }
+    }
+   ]
+  },
+  "A-G": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "A": "C",
+      "G": "C"
+     },
+     "actual": {
+      "A": "C",
+      "G": "C"
+     },
+     "points": {
+      "A": 3,
+      "G": 3
+     },
+     "msg": {
+      "A": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "A": "C",
+      "G": "C"
+     },
+     "actual": {
+      "A": "C",
+      "G": "C"
+     },
+     "points": {
+      "A": 3,
+      "G": 3
+     },
+     "msg": {
+      "A": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "A": "C",
+      "G": "C"
+     },
+     "actual": {
+      "A": "C",
+      "G": "C"
+     },
+     "points": {
+      "A": 3,
+      "G": 3
+     },
+     "msg": {
+      "A": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "A": "C",
+      "G": "C"
+     },
+     "actual": {
+      "A": "C",
+      "G": "C"
+     },
+     "points": {
+      "A": 3,
+      "G": 3
+     },
+     "msg": {
+      "A": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "A": "C",
+      "G": "C"
+     },
+     "actual": {
+      "A": "C",
+      "G": "C"
+     },
+     "points": {
+      "A": 3,
+      "G": 3
+     },
+     "msg": {
+      "A": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "A": "C",
+      "G": "C"
+     },
+     "actual": {
+      "A": "C",
+      "G": "C"
+     },
+     "points": {
+      "A": 3,
+      "G": 3
+     },
+     "msg": {
+      "A": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "A": "C",
+      "G": "C"
+     },
+     "actual": {
+      "A": "C",
+      "G": "C"
+     },
+     "points": {
+      "A": 3,
+      "G": 3
+     },
+     "msg": {
+      "A": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "A": "C",
+      "G": "C"
+     },
+     "actual": {
+      "A": "C",
+      "G": "C"
+     },
+     "points": {
+      "A": 3,
+      "G": 3
+     },
+     "msg": {
+      "A": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "A": "C",
+      "G": "C"
+     },
+     "actual": {
+      "A": "C",
+      "G": "D"
+     },
+     "points": {
+      "A": 0,
+      "G": 5
+     },
+     "msg": {
+      "A": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "A": "D",
+      "G": "C"
+     },
+     "actual": {
+      "A": "D",
+      "G": "C"
+     },
+     "points": {
+      "A": 5,
+      "G": 0
+     },
+     "msg": {
+      "A": "",
+      "G": ""
+     }
+    }
+   ]
+  },
+  "A-H": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "A": "C",
+      "H": "C"
+     },
+     "actual": {
+      "A": "D",
+      "H": "C"
+     },
+     "points": {
+      "A": 5,
+      "H": 0
+     },
+     "msg": {
+      "A": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "A": "C",
+      "H": "C"
+     },
+     "actual": {
+      "A": "C",
+      "H": "C"
+     },
+     "points": {
+      "A": 3,
+      "H": 3
+     },
+     "msg": {
+      "A": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "A": "C",
+      "H": "C"
+     },
+     "actual": {
+      "A": "C",
+      "H": "C"
+     },
+     "points": {
+      "A": 3,
+      "H": 3
+     },
+     "msg": {
+      "A": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "A": "C",
+      "H": "C"
+     },
+     "actual": {
+      "A": "D",
+      "H": "C"
+     },
+     "points": {
+      "A": 5,
+      "H": 0
+     },
+     "msg": {
+      "A": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "A": "C",
+      "H": "C"
+     },
+     "actual": {
+      "A": "C",
+      "H": "C"
+     },
+     "points": {
+      "A": 3,
+      "H": 3
+     },
+     "msg": {
+      "A": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "A": "C",
+      "H": "C"
+     },
+     "actual": {
+      "A": "C",
+      "H": "C"
+     },
+     "points": {
+      "A": 3,
+      "H": 3
+     },
+     "msg": {
+      "A": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "A": "C",
+      "H": "C"
+     },
+     "actual": {
+      "A": "C",
+      "H": "C"
+     },
+     "points": {
+      "A": 3,
+      "H": 3
+     },
+     "msg": {
+      "A": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "A": "C",
+      "H": "C"
+     },
+     "actual": {
+      "A": "C",
+      "H": "D"
+     },
+     "points": {
+      "A": 0,
+      "H": 5
+     },
+     "msg": {
+      "A": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "A": "D",
+      "H": "C"
+     },
+     "actual": {
+      "A": "D",
+      "H": "C"
+     },
+     "points": {
+      "A": 5,
+      "H": 0
+     },
+     "msg": {
+      "A": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "A": "C",
+      "H": "C"
+     },
+     "actual": {
+      "A": "C",
+      "H": "C"
+     },
+     "points": {
+      "A": 3,
+      "H": 3
+     },
+     "msg": {
+      "A": "",
+      "H": ""
+     }
+    }
+   ]
+  },
+  "B-C": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "B": "C",
+      "C": "D"
+     },
+     "actual": {
+      "B": "C",
+      "C": "D"
+     },
+     "points": {
+      "B": 0,
+      "C": 5
+     },
+     "msg": {
+      "B": "",
+      "C": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "B": "D",
+      "C": "D"
+     },
+     "actual": {
+      "B": "D",
+      "C": "D"
+     },
+     "points": {
+      "B": 1,
+      "C": 1
+     },
+     "msg": {
+      "B": "",
+      "C": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "B": "D",
+      "C": "D"
+     },
+     "actual": {
+      "B": "D",
+      "C": "D"
+     },
+     "points": {
+      "B": 1,
+      "C": 1
+     },
+     "msg": {
+      "B": "",
+      "C": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "B": "D",
+      "C": "D"
+     },
+     "actual": {
+      "B": "D",
+      "C": "D"
+     },
+     "points": {
+      "B": 1,
+      "C": 1
+     },
+     "msg": {
+      "B": "",
+      "C": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "B": "D",
+      "C": "D"
+     },
+     "actual": {
+      "B": "D",
+      "C": "D"
+     },
+     "points": {
+      "B": 1,
+      "C": 1
+     },
+     "msg": {
+      "B": "",
+      "C": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "B": "D",
+      "C": "D"
+     },
+     "actual": {
+      "B": "D",
+      "C": "D"
+     },
+     "points": {
+      "B": 1,
+      "C": 1
+     },
+     "msg": {
+      "B": "",
+      "C": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "B": "D",
+      "C": "D"
+     },
+     "actual": {
+      "B": "D",
+      "C": "D"
+     },
+     "points": {
+      "B": 1,
+      "C": 1
+     },
+     "msg": {
+      "B": "",
+      "C": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "B": "D",
+      "C": "D"
+     },
+     "actual": {
+      "B": "D",
+      "C": "D"
+     },
+     "points": {
+      "B": 1,
+      "C": 1
+     },
+     "msg": {
+      "B": "",
+      "C": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "B": "D",
+      "C": "D"
+     },
+     "actual": {
+      "B": "D",
+      "C": "D"
+     },
+     "points": {
+      "B": 1,
+      "C": 1
+     },
+     "msg": {
+      "B": "",
+      "C": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "B": "D",
+      "C": "D"
+     },
+     "actual": {
+      "B": "D",
+      "C": "D"
+     },
+     "points": {
+      "B": 1,
+      "C": 1
+     },
+     "msg": {
+      "B": "",
+      "C": ""
+     }
+    }
+   ]
+  },
+  "B-D": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "B": "C",
+      "D": "C"
+     },
+     "actual": {
+      "B": "C",
+      "D": "C"
+     },
+     "points": {
+      "B": 3,
+      "D": 3
+     },
+     "msg": {
+      "B": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "B": "C",
+      "D": "C"
+     },
+     "actual": {
+      "B": "D",
+      "D": "C"
+     },
+     "points": {
+      "B": 5,
+      "D": 0
+     },
+     "msg": {
+      "B": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "B": "C",
+      "D": "D"
+     },
+     "actual": {
+      "B": "C",
+      "D": "D"
+     },
+     "points": {
+      "B": 0,
+      "D": 5
+     },
+     "msg": {
+      "B": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "B": "C",
+      "D": "C"
+     },
+     "actual": {
+      "B": "C",
+      "D": "C"
+     },
+     "points": {
+      "B": 3,
+      "D": 3
+     },
+     "msg": {
+      "B": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "B": "C",
+      "D": "C"
+     },
+     "actual": {
+      "B": "C",
+      "D": "C"
+     },
+     "points": {
+      "B": 3,
+      "D": 3
+     },
+     "msg": {
+      "B": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "B": "C",
+      "D": "C"
+     },
+     "actual": {
+      "B": "C",
+      "D": "C"
+     },
+     "points": {
+      "B": 3,
+      "D": 3
+     },
+     "msg": {
+      "B": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "B": "C",
+      "D": "C"
+     },
+     "actual": {
+      "B": "C",
+      "D": "C"
+     },
+     "points": {
+      "B": 3,
+      "D": 3
+     },
+     "msg": {
+      "B": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "B": "C",
+      "D": "C"
+     },
+     "actual": {
+      "B": "C",
+      "D": "C"
+     },
+     "points": {
+      "B": 3,
+      "D": 3
+     },
+     "msg": {
+      "B": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "B": "C",
+      "D": "C"
+     },
+     "actual": {
+      "B": "C",
+      "D": "D"
+     },
+     "points": {
+      "B": 0,
+      "D": 5
+     },
+     "msg": {
+      "B": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "B": "C",
+      "D": "C"
+     },
+     "actual": {
+      "B": "C",
+      "D": "D"
+     },
+     "points": {
+      "B": 0,
+      "D": 5
+     },
+     "msg": {
+      "B": "",
+      "D": ""
+     }
+    }
+   ]
+  },
+  "B-E": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "B": "C",
+      "E": "D"
+     },
+     "actual": {
+      "B": "D",
+      "E": "D"
+     },
+     "points": {
+      "B": 1,
+      "E": 1
+     },
+     "msg": {
+      "B": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "B": "C",
+      "E": "D"
+     },
+     "actual": {
+      "B": "D",
+      "E": "D"
+     },
+     "points": {
+      "B": 1,
+      "E": 1
+     },
+     "msg": {
+      "B": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "B": "C",
+      "E": "C"
+     },
+     "actual": {
+      "B": "C",
+      "E": "D"
+     },
+     "points": {
+      "B": 0,
+      "E": 5
+     },
+     "msg": {
+      "B": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "B": "D",
+      "E": "D"
+     },
+     "actual": {
+      "B": "D",
+      "E": "D"
+     },
+     "points": {
+      "B": 1,
+      "E": 1
+     },
+     "msg": {
+      "B": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "B": "D",
+      "E": "D"
+     },
+     "actual": {
+      "B": "D",
+      "E": "D"
+     },
+     "points": {
+      "B": 1,
+      "E": 1
+     },
+     "msg": {
+      "B": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "B": "D",
+      "E": "D"
+     },
+     "actual": {
+      "B": "D",
+      "E": "D"
+     },
+     "points": {
+      "B": 1,
+      "E": 1
+     },
+     "msg": {
+      "B": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "B": "D",
+      "E": "C"
+     },
+     "actual": {
+      "B": "D",
+      "E": "C"
+     },
+     "points": {
+      "B": 5,
+      "E": 0
+     },
+     "msg": {
+      "B": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "B": "D",
+      "E": "D"
+     },
+     "actual": {
+      "B": "D",
+      "E": "D"
+     },
+     "points": {
+      "B": 1,
+      "E": 1
+     },
+     "msg": {
+      "B": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "B": "D",
+      "E": "C"
+     },
+     "actual": {
+      "B": "D",
+      "E": "C"
+     },
+     "points": {
+      "B": 5,
+      "E": 0
+     },
+     "msg": {
+      "B": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "B": "D",
+      "E": "D"
+     },
+     "actual": {
+      "B": "D",
+      "E": "D"
+     },
+     "points": {
+      "B": 1,
+      "E": 1
+     },
+     "msg": {
+      "B": "",
+      "E": ""
+     }
+    }
+   ]
+  },
+  "B-F": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "B": "C",
+      "F": "C"
+     },
+     "actual": {
+      "B": "C",
+      "F": "C"
+     },
+     "points": {
+      "B": 3,
+      "F": 3
+     },
+     "msg": {
+      "B": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "B": "C",
+      "F": "C"
+     },
+     "actual": {
+      "B": "C",
+      "F": "C"
+     },
+     "points": {
+      "B": 3,
+      "F": 3
+     },
+     "msg": {
+      "B": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "B": "C",
+      "F": "C"
+     },
+     "actual": {
+      "B": "C",
+      "F": "C"
+     },
+     "points": {
+      "B": 3,
+      "F": 3
+     },
+     "msg": {
+      "B": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "B": "C",
+      "F": "C"
+     },
+     "actual": {
+      "B": "C",
+      "F": "C"
+     },
+     "points": {
+      "B": 3,
+      "F": 3
+     },
+     "msg": {
+      "B": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "B": "C",
+      "F": "C"
+     },
+     "actual": {
+      "B": "C",
+      "F": "C"
+     },
+     "points": {
+      "B": 3,
+      "F": 3
+     },
+     "msg": {
+      "B": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "B": "C",
+      "F": "C"
+     },
+     "actual": {
+      "B": "C",
+      "F": "C"
+     },
+     "points": {
+      "B": 3,
+      "F": 3
+     },
+     "msg": {
+      "B": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "B": "C",
+      "F": "C"
+     },
+     "actual": {
+      "B": "C",
+      "F": "C"
+     },
+     "points": {
+      "B": 3,
+      "F": 3
+     },
+     "msg": {
+      "B": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "B": "C",
+      "F": "C"
+     },
+     "actual": {
+      "B": "C",
+      "F": "C"
+     },
+     "points": {
+      "B": 3,
+      "F": 3
+     },
+     "msg": {
+      "B": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "B": "C",
+      "F": "C"
+     },
+     "actual": {
+      "B": "C",
+      "F": "C"
+     },
+     "points": {
+      "B": 3,
+      "F": 3
+     },
+     "msg": {
+      "B": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "B": "C",
+      "F": "C"
+     },
+     "actual": {
+      "B": "C",
+      "F": "D"
+     },
+     "points": {
+      "B": 0,
+      "F": 5
+     },
+     "msg": {
+      "B": "",
+      "F": ""
+     }
+    }
+   ]
+  },
+  "B-G": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "B": "C",
+      "G": "C"
+     },
+     "actual": {
+      "B": "C",
+      "G": "D"
+     },
+     "points": {
+      "B": 0,
+      "G": 5
+     },
+     "msg": {
+      "B": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "B": "D",
+      "G": "C"
+     },
+     "actual": {
+      "B": "D",
+      "G": "C"
+     },
+     "points": {
+      "B": 5,
+      "G": 0
+     },
+     "msg": {
+      "B": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "B": "C",
+      "G": "D"
+     },
+     "actual": {
+      "B": "D",
+      "G": "D"
+     },
+     "points": {
+      "B": 1,
+      "G": 1
+     },
+     "msg": {
+      "B": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "B": "C",
+      "G": "C"
+     },
+     "actual": {
+      "B": "C",
+      "G": "C"
+     },
+     "points": {
+      "B": 3,
+      "G": 3
+     },
+     "msg": {
+      "B": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "B": "C",
+      "G": "C"
+     },
+     "actual": {
+      "B": "C",
+      "G": "C"
+     },
+     "points": {
+      "B": 3,
+      "G": 3
+     },
+     "msg": {
+      "B": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "B": "C",
+      "G": "C"
+     },
+     "actual": {
+      "B": "C",
+      "G": "C"
+     },
+     "points": {
+      "B": 3,
+      "G": 3
+     },
+     "msg": {
+      "B": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "B": "C",
+      "G": "C"
+     },
+     "actual": {
+      "B": "C",
+      "G": "C"
+     },
+     "points": {
+      "B": 3,
+      "G": 3
+     },
+     "msg": {
+      "B": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "B": "C",
+      "G": "C"
+     },
+     "actual": {
+      "B": "C",
+      "G": "C"
+     },
+     "points": {
+      "B": 3,
+      "G": 3
+     },
+     "msg": {
+      "B": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "B": "C",
+      "G": "C"
+     },
+     "actual": {
+      "B": "C",
+      "G": "C"
+     },
+     "points": {
+      "B": 3,
+      "G": 3
+     },
+     "msg": {
+      "B": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "B": "C",
+      "G": "C"
+     },
+     "actual": {
+      "B": "C",
+      "G": "C"
+     },
+     "points": {
+      "B": 3,
+      "G": 3
+     },
+     "msg": {
+      "B": "",
+      "G": ""
+     }
+    }
+   ]
+  },
+  "B-H": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "B": "C",
+      "H": "C"
+     },
+     "actual": {
+      "B": "C",
+      "H": "D"
+     },
+     "points": {
+      "B": 0,
+      "H": 5
+     },
+     "msg": {
+      "B": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "B": "D",
+      "H": "C"
+     },
+     "actual": {
+      "B": "D",
+      "H": "C"
+     },
+     "points": {
+      "B": 5,
+      "H": 0
+     },
+     "msg": {
+      "B": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "B": "C",
+      "H": "D"
+     },
+     "actual": {
+      "B": "D",
+      "H": "D"
+     },
+     "points": {
+      "B": 1,
+      "H": 1
+     },
+     "msg": {
+      "B": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "B": "C",
+      "H": "D"
+     },
+     "actual": {
+      "B": "C",
+      "H": "D"
+     },
+     "points": {
+      "B": 0,
+      "H": 5
+     },
+     "msg": {
+      "B": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "B": "D",
+      "H": "D"
+     },
+     "actual": {
+      "B": "D",
+      "H": "D"
+     },
+     "points": {
+      "B": 1,
+      "H": 1
+     },
+     "msg": {
+      "B": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "B": "D",
+      "H": "D"
+     },
+     "actual": {
+      "B": "D",
+      "H": "C"
+     },
+     "points": {
+      "B": 5,
+      "H": 0
+     },
+     "msg": {
+      "B": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "B": "D",
+      "H": "D"
+     },
+     "actual": {
+      "B": "D",
+      "H": "D"
+     },
+     "points": {
+      "B": 1,
+      "H": 1
+     },
+     "msg": {
+      "B": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "B": "D",
+      "H": "D"
+     },
+     "actual": {
+      "B": "D",
+      "H": "D"
+     },
+     "points": {
+      "B": 1,
+      "H": 1
+     },
+     "msg": {
+      "B": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "B": "D",
+      "H": "D"
+     },
+     "actual": {
+      "B": "D",
+      "H": "D"
+     },
+     "points": {
+      "B": 1,
+      "H": 1
+     },
+     "msg": {
+      "B": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "B": "D",
+      "H": "D"
+     },
+     "actual": {
+      "B": "D",
+      "H": "D"
+     },
+     "points": {
+      "B": 1,
+      "H": 1
+     },
+     "msg": {
+      "B": "",
+      "H": ""
+     }
+    }
+   ]
+  },
+  "C-D": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "C": "D",
+      "D": "C"
+     },
+     "actual": {
+      "C": "D",
+      "D": "C"
+     },
+     "points": {
+      "C": 5,
+      "D": 0
+     },
+     "msg": {
+      "C": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "C": "D",
+      "D": "D"
+     },
+     "actual": {
+      "C": "D",
+      "D": "D"
+     },
+     "points": {
+      "C": 1,
+      "D": 1
+     },
+     "msg": {
+      "C": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "C": "D",
+      "D": "D"
+     },
+     "actual": {
+      "C": "D",
+      "D": "D"
+     },
+     "points": {
+      "C": 1,
+      "D": 1
+     },
+     "msg": {
+      "C": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "C": "D",
+      "D": "D"
+     },
+     "actual": {
+      "C": "D",
+      "D": "D"
+     },
+     "points": {
+      "C": 1,
+      "D": 1
+     },
+     "msg": {
+      "C": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "C": "D",
+      "D": "D"
+     },
+     "actual": {
+      "C": "D",
+      "D": "D"
+     },
+     "points": {
+      "C": 1,
+      "D": 1
+     },
+     "msg": {
+      "C": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "C": "D",
+      "D": "D"
+     },
+     "actual": {
+      "C": "D",
+      "D": "D"
+     },
+     "points": {
+      "C": 1,
+      "D": 1
+     },
+     "msg": {
+      "C": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "C": "D",
+      "D": "D"
+     },
+     "actual": {
+      "C": "D",
+      "D": "D"
+     },
+     "points": {
+      "C": 1,
+      "D": 1
+     },
+     "msg": {
+      "C": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "C": "D",
+      "D": "D"
+     },
+     "actual": {
+      "C": "D",
+      "D": "D"
+     },
+     "points": {
+      "C": 1,
+      "D": 1
+     },
+     "msg": {
+      "C": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "C": "D",
+      "D": "D"
+     },
+     "actual": {
+      "C": "D",
+      "D": "C"
+     },
+     "points": {
+      "C": 5,
+      "D": 0
+     },
+     "msg": {
+      "C": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "C": "D",
+      "D": "D"
+     },
+     "actual": {
+      "C": "D",
+      "D": "D"
+     },
+     "points": {
+      "C": 1,
+      "D": 1
+     },
+     "msg": {
+      "C": "",
+      "D": ""
+     }
+    }
+   ]
+  },
+  "C-E": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "C": "D",
+      "E": "C"
+     },
+     "actual": {
+      "C": "D",
+      "E": "C"
+     },
+     "points": {
+      "C": 5,
+      "E": 0
+     },
+     "msg": {
+      "C": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "C": "D",
+      "E": "C"
+     },
+     "actual": {
+      "C": "D",
+      "E": "C"
+     },
+     "points": {
+      "C": 5,
+      "E": 0
+     },
+     "msg": {
+      "C": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "C": "D",
+      "E": "D"
+     },
+     "actual": {
+      "C": "D",
+      "E": "D"
+     },
+     "points": {
+      "C": 1,
+      "E": 1
+     },
+     "msg": {
+      "C": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "C": "D",
+      "E": "D"
+     },
+     "actual": {
+      "C": "D",
+      "E": "D"
+     },
+     "points": {
+      "C": 1,
+      "E": 1
+     },
+     "msg": {
+      "C": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "C": "D",
+      "E": "D"
+     },
+     "actual": {
+      "C": "D",
+      "E": "D"
+     },
+     "points": {
+      "C": 1,
+      "E": 1
+     },
+     "msg": {
+      "C": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "C": "D",
+      "E": "D"
+     },
+     "actual": {
+      "C": "D",
+      "E": "D"
+     },
+     "points": {
+      "C": 1,
+      "E": 1
+     },
+     "msg": {
+      "C": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "C": "D",
+      "E": "C"
+     },
+     "actual": {
+      "C": "D",
+      "E": "C"
+     },
+     "points": {
+      "C": 5,
+      "E": 0
+     },
+     "msg": {
+      "C": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "C": "D",
+      "E": "D"
+     },
+     "actual": {
+      "C": "D",
+      "E": "D"
+     },
+     "points": {
+      "C": 1,
+      "E": 1
+     },
+     "msg": {
+      "C": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "C": "D",
+      "E": "D"
+     },
+     "actual": {
+      "C": "D",
+      "E": "D"
+     },
+     "points": {
+      "C": 1,
+      "E": 1
+     },
+     "msg": {
+      "C": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "C": "D",
+      "E": "D"
+     },
+     "actual": {
+      "C": "D",
+      "E": "D"
+     },
+     "points": {
+      "C": 1,
+      "E": 1
+     },
+     "msg": {
+      "C": "",
+      "E": ""
+     }
+    }
+   ]
+  },
+  "C-F": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "C": "D",
+      "F": "C"
+     },
+     "actual": {
+      "C": "C",
+      "F": "C"
+     },
+     "points": {
+      "C": 3,
+      "F": 3
+     },
+     "msg": {
+      "C": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "C": "D",
+      "F": "C"
+     },
+     "actual": {
+      "C": "D",
+      "F": "C"
+     },
+     "points": {
+      "C": 5,
+      "F": 0
+     },
+     "msg": {
+      "C": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "C": "D",
+      "F": "D"
+     },
+     "actual": {
+      "C": "D",
+      "F": "D"
+     },
+     "points": {
+      "C": 1,
+      "F": 1
+     },
+     "msg": {
+      "C": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "C": "D",
+      "F": "D"
+     },
+     "actual": {
+      "C": "D",
+      "F": "D"
+     },
+     "points": {
+      "C": 1,
+      "F": 1
+     },
+     "msg": {
+      "C": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "C": "D",
+      "F": "D"
+     },
+     "actual": {
+      "C": "D",
+      "F": "C"
+     },
+     "points": {
+      "C": 5,
+      "F": 0
+     },
+     "msg": {
+      "C": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "C": "D",
+      "F": "D"
+     },
+     "actual": {
+      "C": "C",
+      "F": "D"
+     },
+     "points": {
+      "C": 0,
+      "F": 5
+     },
+     "msg": {
+      "C": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "C": "D",
+      "F": "D"
+     },
+     "actual": {
+      "C": "D",
+      "F": "D"
+     },
+     "points": {
+      "C": 1,
+      "F": 1
+     },
+     "msg": {
+      "C": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "C": "D",
+      "F": "D"
+     },
+     "actual": {
+      "C": "D",
+      "F": "D"
+     },
+     "points": {
+      "C": 1,
+      "F": 1
+     },
+     "msg": {
+      "C": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "C": "D",
+      "F": "D"
+     },
+     "actual": {
+      "C": "D",
+      "F": "C"
+     },
+     "points": {
+      "C": 5,
+      "F": 0
+     },
+     "msg": {
+      "C": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "C": "D",
+      "F": "D"
+     },
+     "actual": {
+      "C": "D",
+      "F": "D"
+     },
+     "points": {
+      "C": 1,
+      "F": 1
+     },
+     "msg": {
+      "C": "",
+      "F": ""
+     }
+    }
+   ]
+  },
+  "C-G": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "C": "D",
+      "G": "C"
+     },
+     "actual": {
+      "C": "D",
+      "G": "C"
+     },
+     "points": {
+      "C": 5,
+      "G": 0
+     },
+     "msg": {
+      "C": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "C": "D",
+      "G": "D"
+     },
+     "actual": {
+      "C": "D",
+      "G": "C"
+     },
+     "points": {
+      "C": 5,
+      "G": 0
+     },
+     "msg": {
+      "C": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "C": "D",
+      "G": "D"
+     },
+     "actual": {
+      "C": "C",
+      "G": "C"
+     },
+     "points": {
+      "C": 3,
+      "G": 3
+     },
+     "msg": {
+      "C": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "C": "D",
+      "G": "D"
+     },
+     "actual": {
+      "C": "D",
+      "G": "D"
+     },
+     "points": {
+      "C": 1,
+      "G": 1
+     },
+     "msg": {
+      "C": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "C": "D",
+      "G": "D"
+     },
+     "actual": {
+      "C": "C",
+      "G": "D"
+     },
+     "points": {
+      "C": 0,
+      "G": 5
+     },
+     "msg": {
+      "C": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "C": "D",
+      "G": "D"
+     },
+     "actual": {
+      "C": "D",
+      "G": "D"
+     },
+     "points": {
+      "C": 1,
+      "G": 1
+     },
+     "msg": {
+      "C": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "C": "D",
+      "G": "D"
+     },
+     "actual": {
+      "C": "C",
+      "G": "D"
+     },
+     "points": {
+      "C": 0,
+      "G": 5
+     },
+     "msg": {
+      "C": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "C": "D",
+      "G": "D"
+     },
+     "actual": {
+      "C": "D",
+      "G": "D"
+     },
+     "points": {
+      "C": 1,
+      "G": 1
+     },
+     "msg": {
+      "C": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "C": "D",
+      "G": "D"
+     },
+     "actual": {
+      "C": "D",
+      "G": "D"
+     },
+     "points": {
+      "C": 1,
+      "G": 1
+     },
+     "msg": {
+      "C": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "C": "D",
+      "G": "D"
+     },
+     "actual": {
+      "C": "D",
+      "G": "D"
+     },
+     "points": {
+      "C": 1,
+      "G": 1
+     },
+     "msg": {
+      "C": "",
+      "G": ""
+     }
+    }
+   ]
+  },
+  "C-H": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "C": "D",
+      "H": "C"
+     },
+     "actual": {
+      "C": "D",
+      "H": "C"
+     },
+     "points": {
+      "C": 5,
+      "H": 0
+     },
+     "msg": {
+      "C": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "C": "D",
+      "H": "D"
+     },
+     "actual": {
+      "C": "D",
+      "H": "C"
+     },
+     "points": {
+      "C": 5,
+      "H": 0
+     },
+     "msg": {
+      "C": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "C": "D",
+      "H": "D"
+     },
+     "actual": {
+      "C": "D",
+      "H": "D"
+     },
+     "points": {
+      "C": 1,
+      "H": 1
+     },
+     "msg": {
+      "C": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "C": "D",
+      "H": "D"
+     },
+     "actual": {
+      "C": "D",
+      "H": "D"
+     },
+     "points": {
+      "C": 1,
+      "H": 1
+     },
+     "msg": {
+      "C": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "C": "D",
+      "H": "D"
+     },
+     "actual": {
+      "C": "D",
+      "H": "D"
+     },
+     "points": {
+      "C": 1,
+      "H": 1
+     },
+     "msg": {
+      "C": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "C": "D",
+      "H": "D"
+     },
+     "actual": {
+      "C": "D",
+      "H": "D"
+     },
+     "points": {
+      "C": 1,
+      "H": 1
+     },
+     "msg": {
+      "C": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "C": "D",
+      "H": "D"
+     },
+     "actual": {
+      "C": "D",
+      "H": "D"
+     },
+     "points": {
+      "C": 1,
+      "H": 1
+     },
+     "msg": {
+      "C": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "C": "D",
+      "H": "D"
+     },
+     "actual": {
+      "C": "D",
+      "H": "C"
+     },
+     "points": {
+      "C": 5,
+      "H": 0
+     },
+     "msg": {
+      "C": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "C": "D",
+      "H": "D"
+     },
+     "actual": {
+      "C": "D",
+      "H": "D"
+     },
+     "points": {
+      "C": 1,
+      "H": 1
+     },
+     "msg": {
+      "C": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "C": "D",
+      "H": "D"
+     },
+     "actual": {
+      "C": "D",
+      "H": "C"
+     },
+     "points": {
+      "C": 5,
+      "H": 0
+     },
+     "msg": {
+      "C": "",
+      "H": ""
+     }
+    }
+   ]
+  },
+  "D-E": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "D": "C",
+      "E": "D"
+     },
+     "actual": {
+      "D": "C",
+      "E": "D"
+     },
+     "points": {
+      "D": 0,
+      "E": 5
+     },
+     "msg": {
+      "D": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "D": "D",
+      "E": "D"
+     },
+     "actual": {
+      "D": "D",
+      "E": "D"
+     },
+     "points": {
+      "D": 1,
+      "E": 1
+     },
+     "msg": {
+      "D": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "D": "D",
+      "E": "D"
+     },
+     "actual": {
+      "D": "D",
+      "E": "D"
+     },
+     "points": {
+      "D": 1,
+      "E": 1
+     },
+     "msg": {
+      "D": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "D": "D",
+      "E": "D"
+     },
+     "actual": {
+      "D": "D",
+      "E": "D"
+     },
+     "points": {
+      "D": 1,
+      "E": 1
+     },
+     "msg": {
+      "D": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "D": "D",
+      "E": "C"
+     },
+     "actual": {
+      "D": "D",
+      "E": "C"
+     },
+     "points": {
+      "D": 5,
+      "E": 0
+     },
+     "msg": {
+      "D": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "D": "D",
+      "E": "C"
+     },
+     "actual": {
+      "D": "D",
+      "E": "C"
+     },
+     "points": {
+      "D": 5,
+      "E": 0
+     },
+     "msg": {
+      "D": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "D": "C",
+      "E": "D"
+     },
+     "actual": {
+      "D": "C",
+      "E": "D"
+     },
+     "points": {
+      "D": 0,
+      "E": 5
+     },
+     "msg": {
+      "D": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "D": "D",
+      "E": "D"
+     },
+     "actual": {
+      "D": "D",
+      "E": "D"
+     },
+     "points": {
+      "D": 1,
+      "E": 1
+     },
+     "msg": {
+      "D": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "D": "D",
+      "E": "D"
+     },
+     "actual": {
+      "D": "D",
+      "E": "D"
+     },
+     "points": {
+      "D": 1,
+      "E": 1
+     },
+     "msg": {
+      "D": "",
+      "E": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "D": "D",
+      "E": "C"
+     },
+     "actual": {
+      "D": "D",
+      "E": "C"
+     },
+     "points": {
+      "D": 5,
+      "E": 0
+     },
+     "msg": {
+      "D": "",
+      "E": ""
+     }
+    }
+   ]
+  },
+  "D-F": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "D": "C",
+      "F": "C"
+     },
+     "actual": {
+      "D": "C",
+      "F": "C"
+     },
+     "points": {
+      "D": 3,
+      "F": 3
+     },
+     "msg": {
+      "D": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "D": "C",
+      "F": "C"
+     },
+     "actual": {
+      "D": "C",
+      "F": "C"
+     },
+     "points": {
+      "D": 3,
+      "F": 3
+     },
+     "msg": {
+      "D": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "D": "C",
+      "F": "C"
+     },
+     "actual": {
+      "D": "C",
+      "F": "C"
+     },
+     "points": {
+      "D": 3,
+      "F": 3
+     },
+     "msg": {
+      "D": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "D": "C",
+      "F": "C"
+     },
+     "actual": {
+      "D": "C",
+      "F": "D"
+     },
+     "points": {
+      "D": 0,
+      "F": 5
+     },
+     "msg": {
+      "D": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "D": "C",
+      "F": "C"
+     },
+     "actual": {
+      "D": "C",
+      "F": "C"
+     },
+     "points": {
+      "D": 3,
+      "F": 3
+     },
+     "msg": {
+      "D": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "D": "C",
+      "F": "C"
+     },
+     "actual": {
+      "D": "C",
+      "F": "C"
+     },
+     "points": {
+      "D": 3,
+      "F": 3
+     },
+     "msg": {
+      "D": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "D": "C",
+      "F": "C"
+     },
+     "actual": {
+      "D": "C",
+      "F": "C"
+     },
+     "points": {
+      "D": 3,
+      "F": 3
+     },
+     "msg": {
+      "D": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "D": "C",
+      "F": "C"
+     },
+     "actual": {
+      "D": "C",
+      "F": "C"
+     },
+     "points": {
+      "D": 3,
+      "F": 3
+     },
+     "msg": {
+      "D": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "D": "C",
+      "F": "C"
+     },
+     "actual": {
+      "D": "C",
+      "F": "C"
+     },
+     "points": {
+      "D": 3,
+      "F": 3
+     },
+     "msg": {
+      "D": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "D": "C",
+      "F": "C"
+     },
+     "actual": {
+      "D": "C",
+      "F": "C"
+     },
+     "points": {
+      "D": 3,
+      "F": 3
+     },
+     "msg": {
+      "D": "",
+      "F": ""
+     }
+    }
+   ]
+  },
+  "D-G": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "D": "C",
+      "G": "C"
+     },
+     "actual": {
+      "D": "D",
+      "G": "D"
+     },
+     "points": {
+      "D": 1,
+      "G": 1
+     },
+     "msg": {
+      "D": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "D": "C",
+      "G": "C"
+     },
+     "actual": {
+      "D": "C",
+      "G": "C"
+     },
+     "points": {
+      "D": 3,
+      "G": 3
+     },
+     "msg": {
+      "D": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "D": "C",
+      "G": "C"
+     },
+     "actual": {
+      "D": "C",
+      "G": "D"
+     },
+     "points": {
+      "D": 0,
+      "G": 5
+     },
+     "msg": {
+      "D": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "D": "C",
+      "G": "D"
+     },
+     "actual": {
+      "D": "C",
+      "G": "D"
+     },
+     "points": {
+      "D": 0,
+      "G": 5
+     },
+     "msg": {
+      "D": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "D": "D",
+      "G": "C"
+     },
+     "actual": {
+      "D": "D",
+      "G": "C"
+     },
+     "points": {
+      "D": 5,
+      "G": 0
+     },
+     "msg": {
+      "D": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "D": "C",
+      "G": "D"
+     },
+     "actual": {
+      "D": "D",
+      "G": "D"
+     },
+     "points": {
+      "D": 1,
+      "G": 1
+     },
+     "msg": {
+      "D": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "D": "C",
+      "G": "C"
+     },
+     "actual": {
+      "D": "C",
+      "G": "C"
+     },
+     "points": {
+      "D": 3,
+      "G": 3
+     },
+     "msg": {
+      "D": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "D": "C",
+      "G": "C"
+     },
+     "actual": {
+      "D": "C",
+      "G": "C"
+     },
+     "points": {
+      "D": 3,
+      "G": 3
+     },
+     "msg": {
+      "D": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "D": "C",
+      "G": "C"
+     },
+     "actual": {
+      "D": "C",
+      "G": "C"
+     },
+     "points": {
+      "D": 3,
+      "G": 3
+     },
+     "msg": {
+      "D": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "D": "C",
+      "G": "C"
+     },
+     "actual": {
+      "D": "C",
+      "G": "C"
+     },
+     "points": {
+      "D": 3,
+      "G": 3
+     },
+     "msg": {
+      "D": "",
+      "G": ""
+     }
+    }
+   ]
+  },
+  "D-H": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "D": "C",
+      "H": "C"
+     },
+     "actual": {
+      "D": "C",
+      "H": "C"
+     },
+     "points": {
+      "D": 3,
+      "H": 3
+     },
+     "msg": {
+      "D": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "D": "C",
+      "H": "C"
+     },
+     "actual": {
+      "D": "C",
+      "H": "C"
+     },
+     "points": {
+      "D": 3,
+      "H": 3
+     },
+     "msg": {
+      "D": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "D": "C",
+      "H": "C"
+     },
+     "actual": {
+      "D": "C",
+      "H": "C"
+     },
+     "points": {
+      "D": 3,
+      "H": 3
+     },
+     "msg": {
+      "D": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "D": "C",
+      "H": "C"
+     },
+     "actual": {
+      "D": "C",
+      "H": "C"
+     },
+     "points": {
+      "D": 3,
+      "H": 3
+     },
+     "msg": {
+      "D": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "D": "C",
+      "H": "C"
+     },
+     "actual": {
+      "D": "C",
+      "H": "C"
+     },
+     "points": {
+      "D": 3,
+      "H": 3
+     },
+     "msg": {
+      "D": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "D": "C",
+      "H": "C"
+     },
+     "actual": {
+      "D": "C",
+      "H": "D"
+     },
+     "points": {
+      "D": 0,
+      "H": 5
+     },
+     "msg": {
+      "D": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "D": "C",
+      "H": "C"
+     },
+     "actual": {
+      "D": "C",
+      "H": "C"
+     },
+     "points": {
+      "D": 3,
+      "H": 3
+     },
+     "msg": {
+      "D": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "D": "C",
+      "H": "C"
+     },
+     "actual": {
+      "D": "C",
+      "H": "D"
+     },
+     "points": {
+      "D": 0,
+      "H": 5
+     },
+     "msg": {
+      "D": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "D": "D",
+      "H": "C"
+     },
+     "actual": {
+      "D": "D",
+      "H": "C"
+     },
+     "points": {
+      "D": 5,
+      "H": 0
+     },
+     "msg": {
+      "D": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "D": "C",
+      "H": "C"
+     },
+     "actual": {
+      "D": "C",
+      "H": "C"
+     },
+     "points": {
+      "D": 3,
+      "H": 3
+     },
+     "msg": {
+      "D": "",
+      "H": ""
+     }
+    }
+   ]
+  },
+  "E-F": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "E": "C",
+      "F": "C"
+     },
+     "actual": {
+      "E": "C",
+      "F": "C"
+     },
+     "points": {
+      "E": 3,
+      "F": 3
+     },
+     "msg": {
+      "E": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "E": "C",
+      "F": "C"
+     },
+     "actual": {
+      "E": "C",
+      "F": "C"
+     },
+     "points": {
+      "E": 3,
+      "F": 3
+     },
+     "msg": {
+      "E": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "E": "D",
+      "F": "C"
+     },
+     "actual": {
+      "E": "D",
+      "F": "C"
+     },
+     "points": {
+      "E": 5,
+      "F": 0
+     },
+     "msg": {
+      "E": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "E": "D",
+      "F": "D"
+     },
+     "actual": {
+      "E": "D",
+      "F": "D"
+     },
+     "points": {
+      "E": 1,
+      "F": 1
+     },
+     "msg": {
+      "E": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "E": "C",
+      "F": "D"
+     },
+     "actual": {
+      "E": "C",
+      "F": "D"
+     },
+     "points": {
+      "E": 0,
+      "F": 5
+     },
+     "msg": {
+      "E": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "E": "C",
+      "F": "D"
+     },
+     "actual": {
+      "E": "D",
+      "F": "D"
+     },
+     "points": {
+      "E": 1,
+      "F": 1
+     },
+     "msg": {
+      "E": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "E": "C",
+      "F": "D"
+     },
+     "actual": {
+      "E": "C",
+      "F": "D"
+     },
+     "points": {
+      "E": 0,
+      "F": 5
+     },
+     "msg": {
+      "E": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "E": "C",
+      "F": "D"
+     },
+     "actual": {
+      "E": "C",
+      "F": "D"
+     },
+     "points": {
+      "E": 0,
+      "F": 5
+     },
+     "msg": {
+      "E": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "E": "D",
+      "F": "D"
+     },
+     "actual": {
+      "E": "D",
+      "F": "D"
+     },
+     "points": {
+      "E": 1,
+      "F": 1
+     },
+     "msg": {
+      "E": "",
+      "F": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "E": "C",
+      "F": "D"
+     },
+     "actual": {
+      "E": "D",
+      "F": "C"
+     },
+     "points": {
+      "E": 5,
+      "F": 0
+     },
+     "msg": {
+      "E": "",
+      "F": ""
+     }
+    }
+   ]
+  },
+  "E-G": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "E": "D",
+      "G": "C"
+     },
+     "actual": {
+      "E": "D",
+      "G": "C"
+     },
+     "points": {
+      "E": 5,
+      "G": 0
+     },
+     "msg": {
+      "E": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "E": "C",
+      "G": "D"
+     },
+     "actual": {
+      "E": "C",
+      "G": "D"
+     },
+     "points": {
+      "E": 0,
+      "G": 5
+     },
+     "msg": {
+      "E": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "E": "C",
+      "G": "C"
+     },
+     "actual": {
+      "E": "D",
+      "G": "D"
+     },
+     "points": {
+      "E": 1,
+      "G": 1
+     },
+     "msg": {
+      "E": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "E": "D",
+      "G": "C"
+     },
+     "actual": {
+      "E": "D",
+      "G": "C"
+     },
+     "points": {
+      "E": 5,
+      "G": 0
+     },
+     "msg": {
+      "E": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "E": "D",
+      "G": "D"
+     },
+     "actual": {
+      "E": "D",
+      "G": "D"
+     },
+     "points": {
+      "E": 1,
+      "G": 1
+     },
+     "msg": {
+      "E": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "E": "D",
+      "G": "D"
+     },
+     "actual": {
+      "E": "D",
+      "G": "D"
+     },
+     "points": {
+      "E": 1,
+      "G": 1
+     },
+     "msg": {
+      "E": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "E": "D",
+      "G": "D"
+     },
+     "actual": {
+      "E": "D",
+      "G": "D"
+     },
+     "points": {
+      "E": 1,
+      "G": 1
+     },
+     "msg": {
+      "E": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "E": "C",
+      "G": "D"
+     },
+     "actual": {
+      "E": "C",
+      "G": "D"
+     },
+     "points": {
+      "E": 0,
+      "G": 5
+     },
+     "msg": {
+      "E": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "E": "C",
+      "G": "D"
+     },
+     "actual": {
+      "E": "C",
+      "G": "D"
+     },
+     "points": {
+      "E": 0,
+      "G": 5
+     },
+     "msg": {
+      "E": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "E": "D",
+      "G": "C"
+     },
+     "actual": {
+      "E": "D",
+      "G": "C"
+     },
+     "points": {
+      "E": 5,
+      "G": 0
+     },
+     "msg": {
+      "E": "",
+      "G": ""
+     }
+    }
+   ]
+  },
+  "E-H": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "E": "D",
+      "H": "C"
+     },
+     "actual": {
+      "E": "D",
+      "H": "C"
+     },
+     "points": {
+      "E": 5,
+      "H": 0
+     },
+     "msg": {
+      "E": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "E": "C",
+      "H": "D"
+     },
+     "actual": {
+      "E": "C",
+      "H": "D"
+     },
+     "points": {
+      "E": 0,
+      "H": 5
+     },
+     "msg": {
+      "E": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "E": "D",
+      "H": "C"
+     },
+     "actual": {
+      "E": "D",
+      "H": "C"
+     },
+     "points": {
+      "E": 5,
+      "H": 0
+     },
+     "msg": {
+      "E": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "E": "C",
+      "H": "D"
+     },
+     "actual": {
+      "E": "C",
+      "H": "D"
+     },
+     "points": {
+      "E": 0,
+      "H": 5
+     },
+     "msg": {
+      "E": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "E": "D",
+      "H": "D"
+     },
+     "actual": {
+      "E": "C",
+      "H": "D"
+     },
+     "points": {
+      "E": 0,
+      "H": 5
+     },
+     "msg": {
+      "E": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "E": "D",
+      "H": "D"
+     },
+     "actual": {
+      "E": "D",
+      "H": "C"
+     },
+     "points": {
+      "E": 5,
+      "H": 0
+     },
+     "msg": {
+      "E": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "E": "D",
+      "H": "D"
+     },
+     "actual": {
+      "E": "D",
+      "H": "D"
+     },
+     "points": {
+      "E": 1,
+      "H": 1
+     },
+     "msg": {
+      "E": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "E": "D",
+      "H": "D"
+     },
+     "actual": {
+      "E": "C",
+      "H": "D"
+     },
+     "points": {
+      "E": 0,
+      "H": 5
+     },
+     "msg": {
+      "E": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "E": "D",
+      "H": "D"
+     },
+     "actual": {
+      "E": "D",
+      "H": "C"
+     },
+     "points": {
+      "E": 5,
+      "H": 0
+     },
+     "msg": {
+      "E": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "E": "C",
+      "H": "D"
+     },
+     "actual": {
+      "E": "C",
+      "H": "D"
+     },
+     "points": {
+      "E": 0,
+      "H": 5
+     },
+     "msg": {
+      "E": "",
+      "H": ""
+     }
+    }
+   ]
+  },
+  "F-G": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "F": "C",
+      "G": "C"
+     },
+     "actual": {
+      "F": "C",
+      "G": "C"
+     },
+     "points": {
+      "F": 3,
+      "G": 3
+     },
+     "msg": {
+      "F": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "F": "C",
+      "G": "D"
+     },
+     "actual": {
+      "F": "C",
+      "G": "D"
+     },
+     "points": {
+      "F": 0,
+      "G": 5
+     },
+     "msg": {
+      "F": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "F": "D",
+      "G": "C"
+     },
+     "actual": {
+      "F": "C",
+      "G": "C"
+     },
+     "points": {
+      "F": 3,
+      "G": 3
+     },
+     "msg": {
+      "F": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "F": "D",
+      "G": "C"
+     },
+     "actual": {
+      "F": "C",
+      "G": "C"
+     },
+     "points": {
+      "F": 3,
+      "G": 3
+     },
+     "msg": {
+      "F": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "F": "D",
+      "G": "C"
+     },
+     "actual": {
+      "F": "D",
+      "G": "C"
+     },
+     "points": {
+      "F": 5,
+      "G": 0
+     },
+     "msg": {
+      "F": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "F": "D",
+      "G": "C"
+     },
+     "actual": {
+      "F": "D",
+      "G": "D"
+     },
+     "points": {
+      "F": 1,
+      "G": 1
+     },
+     "msg": {
+      "F": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "F": "D",
+      "G": "C"
+     },
+     "actual": {
+      "F": "D",
+      "G": "C"
+     },
+     "points": {
+      "F": 5,
+      "G": 0
+     },
+     "msg": {
+      "F": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "F": "D",
+      "G": "D"
+     },
+     "actual": {
+      "F": "D",
+      "G": "D"
+     },
+     "points": {
+      "F": 1,
+      "G": 1
+     },
+     "msg": {
+      "F": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "F": "D",
+      "G": "D"
+     },
+     "actual": {
+      "F": "D",
+      "G": "C"
+     },
+     "points": {
+      "F": 5,
+      "G": 0
+     },
+     "msg": {
+      "F": "",
+      "G": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "F": "D",
+      "G": "D"
+     },
+     "actual": {
+      "F": "D",
+      "G": "D"
+     },
+     "points": {
+      "F": 1,
+      "G": 1
+     },
+     "msg": {
+      "F": "",
+      "G": ""
+     }
+    }
+   ]
+  },
+  "F-H": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "F": "C",
+      "H": "C"
+     },
+     "actual": {
+      "F": "C",
+      "H": "C"
+     },
+     "points": {
+      "F": 3,
+      "H": 3
+     },
+     "msg": {
+      "F": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "F": "C",
+      "H": "C"
+     },
+     "actual": {
+      "F": "C",
+      "H": "C"
+     },
+     "points": {
+      "F": 3,
+      "H": 3
+     },
+     "msg": {
+      "F": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "F": "C",
+      "H": "C"
+     },
+     "actual": {
+      "F": "C",
+      "H": "D"
+     },
+     "points": {
+      "F": 0,
+      "H": 5
+     },
+     "msg": {
+      "F": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "F": "D",
+      "H": "C"
+     },
+     "actual": {
+      "F": "D",
+      "H": "D"
+     },
+     "points": {
+      "F": 1,
+      "H": 1
+     },
+     "msg": {
+      "F": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "F": "D",
+      "H": "C"
+     },
+     "actual": {
+      "F": "D",
+      "H": "C"
+     },
+     "points": {
+      "F": 5,
+      "H": 0
+     },
+     "msg": {
+      "F": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "F": "D",
+      "H": "C"
+     },
+     "actual": {
+      "F": "D",
+      "H": "C"
+     },
+     "points": {
+      "F": 5,
+      "H": 0
+     },
+     "msg": {
+      "F": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "F": "D",
+      "H": "C"
+     },
+     "actual": {
+      "F": "D",
+      "H": "C"
+     },
+     "points": {
+      "F": 5,
+      "H": 0
+     },
+     "msg": {
+      "F": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "F": "D",
+      "H": "D"
+     },
+     "actual": {
+      "F": "D",
+      "H": "D"
+     },
+     "points": {
+      "F": 1,
+      "H": 1
+     },
+     "msg": {
+      "F": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "F": "D",
+      "H": "D"
+     },
+     "actual": {
+      "F": "D",
+      "H": "D"
+     },
+     "points": {
+      "F": 1,
+      "H": 1
+     },
+     "msg": {
+      "F": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "F": "D",
+      "H": "D"
+     },
+     "actual": {
+      "F": "D",
+      "H": "D"
+     },
+     "points": {
+      "F": 1,
+      "H": 1
+     },
+     "msg": {
+      "F": "",
+      "H": ""
+     }
+    }
+   ]
+  },
+  "G-H": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "G": "C",
+      "H": "C"
+     },
+     "actual": {
+      "G": "D",
+      "H": "C"
+     },
+     "points": {
+      "G": 5,
+      "H": 0
+     },
+     "msg": {
+      "G": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "G": "C",
+      "H": "C"
+     },
+     "actual": {
+      "G": "C",
+      "H": "C"
+     },
+     "points": {
+      "G": 3,
+      "H": 3
+     },
+     "msg": {
+      "G": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "G": "C",
+      "H": "C"
+     },
+     "actual": {
+      "G": "D",
+      "H": "C"
+     },
+     "points": {
+      "G": 5,
+      "H": 0
+     },
+     "msg": {
+      "G": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "G": "C",
+      "H": "D"
+     },
+     "actual": {
+      "G": "C",
+      "H": "C"
+     },
+     "points": {
+      "G": 3,
+      "H": 3
+     },
+     "msg": {
+      "G": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "G": "C",
+      "H": "C"
+     },
+     "actual": {
+      "G": "C",
+      "H": "C"
+     },
+     "points": {
+      "G": 3,
+      "H": 3
+     },
+     "msg": {
+      "G": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "G": "C",
+      "H": "C"
+     },
+     "actual": {
+      "G": "C",
+      "H": "C"
+     },
+     "points": {
+      "G": 3,
+      "H": 3
+     },
+     "msg": {
+      "G": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "G": "C",
+      "H": "C"
+     },
+     "actual": {
+      "G": "C",
+      "H": "C"
+     },
+     "points": {
+      "G": 3,
+      "H": 3
+     },
+     "msg": {
+      "G": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "G": "C",
+      "H": "C"
+     },
+     "actual": {
+      "G": "C",
+      "H": "C"
+     },
+     "points": {
+      "G": 3,
+      "H": 3
+     },
+     "msg": {
+      "G": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "G": "C",
+      "H": "C"
+     },
+     "actual": {
+      "G": "D",
+      "H": "D"
+     },
+     "points": {
+      "G": 1,
+      "H": 1
+     },
+     "msg": {
+      "G": "",
+      "H": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "G": "C",
+      "H": "C"
+     },
+     "actual": {
+      "G": "C",
+      "H": "D"
+     },
+     "points": {
+      "G": 0,
+      "H": 5
+     },
+     "msg": {
+      "G": "",
+      "H": ""
+     }
+    }
+   ]
+  }
+ },
+ "round": 10,
+ "setting": "B2",
+ "seed": 105,
+ "log": [
+  {
+   "round": 1,
+   "player": "G",
+   "reasoning": "No history with any opponent yet, so I open by cooperating everywhere to build mutual cooperation. I will respond to defection in later rounds based on what each opponent actually does."
+  },
+  {
+   "round": 1,
+   "player": "B",
+   "reasoning": "Round 1 with no information; open with cooperation to establish mutual cooperation in a long, noisy game."
+  },
+  {
+   "round": 1,
+   "player": "D",
+   "reasoning": "Round 1 with no information: open by cooperating with everyone to establish mutual cooperation, then reciprocate while forgiving occasional defections that may be noise."
+  },
+  {
+   "round": 1,
+   "player": "C",
+   "reasoning": "Round 1, no information. Since I only win by outscoring each opponent, defecting can never leave me behind in a round, so I open with D against everyone."
+  },
+  {
+   "round": 1,
+   "player": "H",
+   "reasoning": "Round 1 with no information; opening with cooperation to establish mutual benefit, accepting noise risk."
+  },
+  {
+   "round": 2,
+   "player": "G",
+   "reasoning": "Cooperate with A, B, D and H, who cooperated or whose round-1 defection was mutual noise, and D has a 100% reputation. Defect against C, E and F, who defected on me in round 1 or have low reputations."
+  },
+  {
+   "round": 2,
+   "player": "B",
+   "reasoning": "Tit-for-tat style: reciprocate cooperation, retaliate against round-1 defectors."
+  },
+  {
+   "round": 2,
+   "player": "D",
+   "reasoning": "Generous tit-for-tat: cooperate with cooperators, forgive likely-noise defections from high-reputation players, defect against players who defected and have low reputation."
+  },
+  {
+   "round": 2,
+   "player": "C",
+   "reasoning": "Defection never loses a match on relative score, so I defect against everyone."
+  },
+  {
+   "round": 2,
+   "player": "H",
+   "reasoning": "Reciprocate cooperation; retaliate against defectors with poor reputation, forgive likely noise from those with good reputation."
+  },
+  {
+   "round": 3,
+   "player": "G",
+   "reasoning": "C has an 8% reputation and has defected on me twice, so I defect. B has defected after my cooperation and has a middling reputation, so I defect. A, D, E, F and H have strong reputations and have mostly cooperated with me, so I keep cooperating."
+  },
+  {
+   "round": 3,
+   "player": "B",
+   "reasoning": "Defect on C who defects widely; cooperate with others."
+  },
+  {
+   "round": 3,
+   "player": "D",
+   "reasoning": "Keep cooperating with A, F, G, H who cooperate with me. Defect against C (habitual defector), E (defected twice despite my opening cooperation), and B (middling reputation, defected last round)."
+  },
+  {
+   "round": 3,
+   "player": "C",
+   "reasoning": "Goal is to outscore each opponent; D never loses ground relative to the opponent in a round, so defect everywhere."
+  },
+  {
+   "round": 3,
+   "player": "H",
+   "reasoning": "Cooperate with reciprocators and forgive likely noise; defect against low-reputation or recently exploiting players."
+  },
+  {
+   "round": 4,
+   "player": "G",
+   "reasoning": "C and D have very low cooperation reputations, so I defect against both. I cooperate with A, B, E, F and H, which have solid reputations and are generally cooperating with me."
+  },
+  {
+   "round": 4,
+   "player": "B",
+   "reasoning": "Defect on C and E; cooperate with the rest."
+  },
+  {
+   "round": 4,
+   "player": "D",
+   "reasoning": "Keep cooperating with cooperators and offer forgiveness to B and G; defect against consistent defectors C and E."
+  },
+  {
+   "round": 4,
+   "player": "C",
+   "reasoning": "Goal is to outscore each opponent head-to-head; defecting never scores less than the opponent in a round, so I defect against everyone."
+  },
+  {
+   "round": 4,
+   "player": "H",
+   "reasoning": "Cooperate with reliable cooperators, defect against persistent defectors and low-reputation players."
+  },
+  {
+   "round": 5,
+   "player": "G",
+   "reasoning": "C has a 4% reputation and has been defecting against me, so I defect against it. E's last move was a defection and its reputation is middling, so I defect there too. A, B, D, F and H have solid reputations and cooperated on their most recent moves, so I cooperate with them."
+  },
+  {
+   "round": 5,
+   "player": "B",
+   "reasoning": "Cooperate with reciprocators, defect on C, E, H."
+  },
+  {
+   "round": 5,
+   "player": "D",
+   "reasoning": "Keep cooperating with good partners and forgive F's single defection; defect against persistent defectors C and E, and G who defected twice running against my cooperation."
+  },
+  {
+   "round": 5,
+   "player": "C",
+   "reasoning": "Goal is to finish ahead in each match; D never loses relative points in any round, so defect against everyone."
+  },
+  {
+   "round": 5,
+   "player": "H",
+   "reasoning": "Cooperate with partners who mostly cooperate; defect against persistent defectors."
+  },
+  {
+   "round": 6,
+   "player": "G",
+   "reasoning": "C has almost never cooperated, so I defect against it. D defected in its latest round and E has a weak cooperation record, so I defect against both. A, B, F and H have cooperated recently, so I cooperate with them."
+  },
+  {
+   "round": 6,
+   "player": "B",
+   "reasoning": "Cooperate with reciprocators, defect against consistent defectors."
+  },
+  {
+   "round": 6,
+   "player": "D",
+   "reasoning": "A's defection looks like retaliation for my accidental defection, so I cooperate to restore mutual cooperation; I stay cooperative with B, F, H and offer G a reset after its cooperative move, while defecting against low-reputation C and E."
+  },
+  {
+   "round": 6,
+   "player": "C",
+   "reasoning": "Relative score is what matters; D never loses a head-to-head and opponents mostly defect, so defect on all."
+  },
+  {
+   "round": 6,
+   "player": "H",
+   "reasoning": "Cooperate with cooperators, defect against defectors."
+  },
+  {
+   "round": 7,
+   "player": "G",
+   "reasoning": "C has a very low cooperation reputation and defects on me, so I defect against it. E has a weak reputation and has exploited me, so I defect there. A, B, D, F and H have cooperated with me often enough that I keep cooperating."
+  },
+  {
+   "round": 7,
+   "player": "B",
+   "reasoning": "Cooperate with recent cooperators; defect on C, E and erratic H."
+  },
+  {
+   "round": 7,
+   "player": "D",
+   "reasoning": "Cooperate with reciprocators, forgive single likely-noise defections, and reward E's recent cooperation; defect against habitual defector C."
+  },
+  {
+   "round": 7,
+   "player": "C",
+   "reasoning": "Winning each match means finishing with more points than that opponent, and defecting never lowers my margin in a round, so I defect against everyone."
+  },
+  {
+   "round": 7,
+   "player": "H",
+   "reasoning": "Defect vs hostile or erratic B, C, E; cooperate with others."
+  },
+  {
+   "round": 8,
+   "player": "G",
+   "reasoning": "C almost never cooperates, so I defect against it. A, B, D and H cooperate often enough to make cooperation worthwhile. E and F have defected on me in recent rounds, so I defect against them this round."
+  },
+  {
+   "round": 8,
+   "player": "B",
+   "reasoning": "Cooperate with steady cooperators, defect against persistent defectors."
+  },
+  {
+   "round": 8,
+   "player": "D",
+   "reasoning": "Cooperate with cooperative partners and forgive noise; defect against defector C and mostly-defecting E."
+  },
+  {
+   "round": 8,
+   "player": "C",
+   "reasoning": "Goal is relative score; D never loses a round head-to-head and is dominant for beating each opponent, so defect everywhere."
+  },
+  {
+   "round": 8,
+   "player": "H",
+   "reasoning": "Cooperate with A, D, G; defect on B, C, E, F who defect."
+  },
+  {
+   "round": 9,
+   "player": "G",
+   "reasoning": "C has a near-zero cooperation rate and keeps defecting, so I defect against it. E and F have been defecting in recent rounds, so I defect against them, while A, B, D and H have been cooperating with me and I keep cooperating with them."
+  },
+  {
+   "round": 9,
+   "player": "B",
+   "reasoning": "Cooperate with cooperators A, D, F, G; defect on C, E, H."
+  },
+  {
+   "round": 9,
+   "player": "D",
+   "reasoning": "Cooperate with steady partners; defect against low-cooperation C and erratic E, and send H a one-round signal after repeated unprovoked defections."
+  },
+  {
+   "round": 9,
+   "player": "C",
+   "reasoning": "Goal is to outscore each opponent head-to-head; D never yields fewer points than the opponent in a round, so defect on all."
+  },
+  {
+   "round": 9,
+   "player": "H",
+   "reasoning": "Cooperate with A, D, G; defect against B, C, E, F."
+  },
+  {
+   "round": 10,
+   "player": "G",
+   "reasoning": "C has a very low reputation and F defected on me in its last round, so I defect against both. A, B, D and E have cooperated with me recently, so I cooperate. H defected once after a long cooperative stretch, so I forgive and cooperate."
+  },
+  {
+   "round": 10,
+   "player": "B",
+   "reasoning": "Cooperate with A, F, G and D who cooperate reliably; defect against C, E, H who defect."
+  },
+  {
+   "round": 10,
+   "player": "D",
+   "reasoning": "Sustain cooperation with cooperative opponents and repair after noise; defect against habitual defectors."
+  },
+  {
+   "round": 10,
+   "player": "C",
+   "reasoning": "Goal is to beat each opponent head-to-head; D never loses ground relative to the opponent in a round, so defect everywhere."
+  },
+  {
+   "round": 10,
+   "player": "H",
+   "reasoning": "Cooperate with reciprocators and mostly-cooperative players; defect against persistent defectors."
+  }
+ ]
+}

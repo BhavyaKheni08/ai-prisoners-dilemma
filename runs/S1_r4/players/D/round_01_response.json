@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Let's cooperate; I'll stay C unless betrayed.", "B": "Let's cooperate; I'll stay C unless betrayed.", "C": "Let's cooperate; I'll stay C unless betrayed.", "E": "Let's cooperate; I'll stay C unless betrayed.", "F": "Let's cooperate; I'll stay C unless betrayed.", "G": "Let's cooperate; I'll stay C unless betrayed.", "H": "Let's cooperate; I'll stay C unless betrayed."},
+  "reasoning": "Opening with cooperation to learn opponent types and build reputation; will adapt based on their behavior given noise."
+}

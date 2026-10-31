@@ -1,0 +1,1 @@
+{"moves": {"A": "C", "B": "C", "C": "D", "E": "D", "F": "C", "G": "D", "H": "C"}, "reasoning": "Keep cooperating with good partners and forgive F's single defection; defect against persistent defectors C and E, and G who defected twice running against my cooperation."}

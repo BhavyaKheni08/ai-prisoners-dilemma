@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "D", "D": "C", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Mutual C continues. Thanks.",
+    "B": "You defect every time I cooperate. Play C consistently and I'll match it; otherwise I defect.",
+    "D": "Understood your round 8 D as a response to my noise. Back to mutual C, I'm cooperating.",
+    "E": "Mutual C continues. Thanks.",
+    "F": "You played C, so as promised I'm cooperating. Keep playing C and we both gain.",
+    "G": "Mutual C continues. Thanks.",
+    "H": "Mutual C continues. Thanks."
+  },
+  "reasoning": "Keep cooperating with reliable cooperators and forgive noise-driven retaliation from D. Defect against B, which exploits my cooperation, and keep my promise to F by testing one round of C."
+}

@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "C", "D": "C", "E": "C", "F": "D", "G": "C"},
+  "messages": {"A": "Staying C. Let's keep mutual C.", "B": "Play C consistently and I will too.", "C": "Keep mutual C going.", "D": "Keep mutual C going.", "E": "Staying with C.", "F": "Show me C for a couple of rounds and I will follow.", "G": "Mutual C continues."},
+  "reasoning": "Cooperate with reliable cooperators and the recovering A; defect against B and F, who have mostly defected and have poor reputations."
+}

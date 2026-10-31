@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "C": "C", "D": "D", "E": "D", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Continuing mutual cooperation.", "C": "Keeping mutual C going.", "D": "Defecting until you show consistent cooperation.", "E": "Defecting until you return to consistent C. Your reputation is low.", "F": "Staying mutual C.", "G": "Continuing mutual C.", "H": "Cooperating. Keep C and I will too."},
+  "reasoning": "Cooperate with reciprocal and high-reputation opponents (A, C, F, G, H) to keep mutual 3-point rounds. Defect against D and E, who have low reputations and have exploited me repeatedly."
+}

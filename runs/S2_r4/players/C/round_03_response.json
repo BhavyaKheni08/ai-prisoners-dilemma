@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "B": "C", "D": "D", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {"A": "You defected in round 1 and have 0% cooperation elsewhere. I defect until you cooperate.", "B": "Mutual C continues.", "D": "You defected in round 1 and I am defecting. Cooperate and I will return to C.", "E": "Mutual C continues.", "F": "You defected after my cooperation. I defect until you cooperate.", "G": "My round-2 defection was accidental. I am cooperating now.", "H": "Mutual C continues."},
+  "reasoning": "Cooperating with B, E, G and H keeps 3-point rounds going, with G forgiven for an accidental defection. Defecting against A, D and F, who defected or show no cooperation, avoids being exploited."
+}

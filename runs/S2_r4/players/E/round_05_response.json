@@ -1,0 +1,3 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"D","F":"C","G":"D","H":"C"},
+"messages":{"A":"Your actions say D. Play C and I'll return to C.","B":"Continuing mutual C.","C":"My round 4 D was a noise flip (intended C). Cooperating.","D":"Still mirroring. Play C and I'll return to C.","F":"Continuing mutual C.","G":"Three Ds against my C. Mirroring now; play C and I'll return to C.","H":"Cooperating, but repeated Ds will make me mirror."},
+"reasoning":"Cooperate with reliable partners and explain my noise flip to C; stop being exploited by G, keep defecting against habitual defectors A and D, give H one more chance given its decent reputation."}

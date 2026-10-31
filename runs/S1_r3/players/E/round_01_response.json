@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "", "B": "", "C": "", "D": "", "F": "", "G": "", "H": ""},
+  "reasoning": "No history with any opponent, so I open with cooperation to build mutual trust. I will reassess each match based on how the opponent responds and on their reputation in later rounds."
+}

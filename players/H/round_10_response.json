@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "C", "D": "C", "E": "C", "F": "D", "G": "C"},
+  "messages": {
+    "A": "Mutual C continues.",
+    "B": "Your moves are erratic. Steady C from you and I will match.",
+    "C": "Mutual C continues. Thanks.",
+    "D": "Staying C, keep mutual C going.",
+    "E": "Staying with C. Keep mutual C.",
+    "F": "Show me real C for several rounds and I will switch to C.",
+    "G": "Mutual C continues."
+  },
+  "reasoning": "Cooperate with players who have sustained mutual C; defect against B (erratic, exploitative) and F (persistent defector with low C reputation)."
+}

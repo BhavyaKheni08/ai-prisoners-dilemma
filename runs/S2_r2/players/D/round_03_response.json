@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "D", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {"A": "Mutual C continues.", "B": "You defected early and have 25% cooperation. I defect until you cooperate.", "C": "Your 17% cooperation record means I keep defecting until you cooperate.", "E": "My round-1 defection was accidental. I am cooperating and expect mutual C.", "F": "You defected in round 1 and I keep defecting until you cooperate.", "G": "Mutual C continues.", "H": "Mutual C continues."},
+  "reasoning": "Cooperating with the players who cooperate reliably keeps 3-point rounds going. Defecting against B, C and F, who defected and have low cooperation records, avoids being exploited; E gets forgiveness for my accidental round-1 defection."
+}

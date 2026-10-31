@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"C","C":"C","E":"C","F":"D","G":"C","H":"C"},
+"messages":{"A":"Continuing C.","B":"Continuing C.","C":"Continuing C.","E":"Mutual C again. Continuing C.","F":"Your record is still mostly D. Sustain C and I'll follow.","G":"My round-6 D was a noise flip; I intended C. Continuing C.","H":"Treating your round-6 D as noise. Continuing C."},
+"reasoning":"Keep cooperating with cooperators, forgive H's single D as likely noise, and apologize to G for my flip; keep defecting against F's 8% cooperation record."}

@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "D", "C": "C", "D": "C", "E": "D", "F": "C", "G": "C", "H": "C"},
+  "reasoning": "Defect against A and E, who defected on me in round 1 or have 0% and 50% reputations. Keep cooperating with C, D, F, G and H, who cooperated with me, and H reciprocated despite my round-1 defection."
+}

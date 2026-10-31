@@ -1,0 +1,3 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"D","E":"C","G":"C","H":"C"},
+"messages":{"A":"Still mirroring. Play C and I'll follow.","B":"Continuing mutual C.","C":"Continuing mutual C.","D":"Words aren't enough; your record is nearly all D. Play C consistently and I'll match.","E":"You played C, so I'm back to C. Let's keep mutual C.","G":"Continuing mutual C.","H":"Continuing mutual C."},
+"reasoning":"Cooperate with cooperators and forgive occasional noise; keep defecting against persistent defectors A and D while offering a path back."}

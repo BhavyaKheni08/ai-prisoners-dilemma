@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "D", "D": "C", "E": "C", "F": "C", "G": "C"},
+  "messages": {"A": "", "B": "Your record is very low; cooperate and I will return mutual C.", "C": "Your record is very low; cooperate and I will match you.", "D": "", "E": "", "F": "Thank you for returning to C; let's keep mutual C.", "G": "Continuing mutual C."},
+  "reasoning": "Continuing mutual cooperation with opponents whose recent play has been cooperative, including F who cooperated last round. Defecting against the two opponents with very low cooperation records."
+}

@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"D","C":"D","D":"C","E":"C","F":"C","H":"C"},
+"messages":{"A":"Continuing mutual C.","B":"Still mirroring. Play C and I'll return to C.","C":"Your actions say D. Play C and I'll follow.","D":"Continuing mutual C.","E":"Thanks for C. Continuing mutual C.","F":"You played C, so I'm back to C. Let's stay at mutual C.","H":"Continuing mutual C."},
+"reasoning":"Keep cooperation with cooperative players, return to C with F to break the retaliation echo, and keep defecting against persistent defectors B and C."}

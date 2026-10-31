@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "D", "E": "C", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Great start. I'll keep cooperating and forgive occasional flips.",
+    "B": "Good round. Let's keep it mutual C; I'll forgive an occasional noise flip.",
+    "C": "Thanks for cooperating. I'll keep playing C while you do.",
+    "D": "You said you always cooperate, but you defected and your record is 0% C. Play C consistently and I'll return to C.",
+    "E": "Nice start. I'll keep cooperating as long as you do; one stray D gets forgiven.",
+    "G": "Agreed. I'll keep cooperating and forgive accidental flips too.",
+    "H": "Agreed, mutual cooperation it is. I'll forgive noise as well."
+  },
+  "reasoning": "Keep cooperating with everyone who cooperated in round 1. D defected despite claiming to always cooperate and has a 0% cooperation reputation, so I defect against D but offer to return to cooperation if D does."
+}

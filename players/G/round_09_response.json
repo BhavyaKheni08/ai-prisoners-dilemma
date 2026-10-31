@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "C", "F": "D", "H": "C"},
+  "messages": {"A": "Mutual C continues. Thanks.", "B": "I'm still offering C; let's both play C.", "C": "Mutual C continues. Thanks.", "D": "Mutual C continues. Thanks for the cooperation.", "E": "Mutual C continues. Thanks.", "F": "Your record is still mostly D. I'll keep D until you play C consistently.", "H": "Mutual C continues. Let's keep cooperating."},
+  "reasoning": "Cooperating with opponents whose play has been mostly C (A, C, D, E, H) and with B, who cooperated after my defection last round. Defecting against F, whose record is about 10% C and who has defected in nearly every round."
+}

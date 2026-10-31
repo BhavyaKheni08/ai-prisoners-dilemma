@@ -1,0 +1,13 @@
+{
+  "moves": {"B": "C", "C": "D", "D": "C", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {
+    "B": "Great, mirroring works for me. Let's keep cooperating.",
+    "C": "You defected after claiming to always cooperate. I'll defect until you show cooperation.",
+    "D": "Good, let's keep cooperating.",
+    "E": "Let's cooperate every round; both of us earn more that way.",
+    "F": "Let's cooperate; steady C benefits us both.",
+    "G": "You defected last round despite your message. Cooperate this round and I'll keep cooperating.",
+    "H": "Good, let's keep cooperating."
+  },
+  "reasoning": "Cooperate with those who cooperated; defect against C, who defected despite promising cooperation and has low reputation. Give G one more chance since its reputation is high and the defection may have been noise."
+}

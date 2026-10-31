@@ -1,0 +1,1 @@
+{"moves":{"A":"D","B":"C","C":"C","E":"C","F":"D","G":"C","H":"D"},"messages":{"A":"","B":"Cooperating.","C":"Cooperating.","E":"Cooperating.","F":"","G":"Cooperating.","H":""},"reasoning":"Sustain mutual cooperation with B, C, E, G; defect against A, H and F who keep defecting."}

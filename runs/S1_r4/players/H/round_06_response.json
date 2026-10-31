@@ -1,0 +1,1 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"C","E":"C","F":"C","G":"D"},"messages":{"A":"Play C consistently and I will return.","B":"Continuing C.","C":"Continuing C.","D":"Continuing C.","E":"Continuing C.","F":"Continuing C.","G":"Play C steadily and I will too."},"reasoning":"Mutual cooperation with the stable cooperators; defect against A (persistent defector) and G (erratic)."}

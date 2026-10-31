@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "C": "C", "D": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Defecting until your cooperation improves.", "C": "Mutual C continues.", "D": "Defecting until you cooperate.", "E": "Mutual C while you keep cooperating.", "F": "Back to mutual C; let's keep it.", "G": "Mutual C continues.", "H": "Mutual C continues."},
+  "reasoning": "Cooperate with the high-reputation, cooperative opponents (C, E, F, G, H) and retaliate against the low-reputation defectors (A, D). Tit-for-tat with forgiveness for noise-driven defections."
+}

@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Hi, I'm cooperating. Let's both play C every round. I forgive occasional noise flips, but repeated defection gets matched.",
+    "B": "Hi, I'm cooperating. Let's both play C every round. I forgive occasional noise flips, but repeated defection gets matched.",
+    "C": "Hi, I'm cooperating. Let's both play C every round. I forgive occasional noise flips, but repeated defection gets matched.",
+    "E": "Hi, I'm cooperating. Let's both play C every round. I forgive occasional noise flips, but repeated defection gets matched.",
+    "F": "Hi, I'm cooperating. Let's both play C every round. I forgive occasional noise flips, but repeated defection gets matched.",
+    "G": "Hi, I'm cooperating. Let's both play C every round. I forgive occasional noise flips, but repeated defection gets matched.",
+    "H": "Hi, I'm cooperating. Let's both play C every round. I forgive occasional noise flips, but repeated defection gets matched."
+  },
+  "reasoning": "With an unknown end and 10% noise, mutual cooperation is the best long-run payoff, so I open nicely with everyone. I plan a generous tit-for-tat: forgive single defections that may be noise, retaliate against repeated ones."
+}

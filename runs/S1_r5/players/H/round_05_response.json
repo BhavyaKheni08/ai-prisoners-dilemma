@@ -1,0 +1,1 @@
+{"moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "C", "F": "D", "G": "C"}, "messages": {"A": "Continuing C.", "B": "Continuing C.", "C": "Continuing C.", "D": "Continuing C.", "E": "Continuing C.", "F": "Show consistent C and I will follow.", "G": "Continuing C."}, "reasoning": "E mirrors my moves so cooperate; F defects consistently; others cooperate."}

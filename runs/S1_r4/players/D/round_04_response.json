@@ -1,0 +1,1 @@
+{"moves":{"A":"D","B":"C","C":"C","E":"C","F":"C","G":"C","H":"C"},"messages":{"A":"","B":"Keep cooperating.","C":"Cooperating.","E":"Keep cooperating.","F":"Cooperating.","G":"Cooperating.","H":"Keep cooperating."},"reasoning":"Defect on A (0% C reputation); otherwise reciprocate the recent cooperation of everyone else."}

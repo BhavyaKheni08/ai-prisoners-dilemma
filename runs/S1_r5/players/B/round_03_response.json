@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "C": "C", "D": "C", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {
+    "A": "My D was a noise flip. Cooperating, let's keep playing C.",
+    "C": "Thanks, continuing C. Forgiving noise on both sides.",
+    "D": "My D was a noise flip. Cooperating, let's keep playing C.",
+    "E": "Both rounds of D hurt us. I'm trying C now; let's cooperate.",
+    "F": "You defected round 1. I'll keep matching D until you actually play C.",
+    "G": "Let's reset. I'll play C if you do; forgiving noise.",
+    "H": "Thanks. Cooperating, let's keep playing C."
+  },
+  "reasoning": "Cooperate with those who have cooperated or have good reputations, and try to break the D-D lock with E. Keep defecting against F, which has 0% C reputation."
+}

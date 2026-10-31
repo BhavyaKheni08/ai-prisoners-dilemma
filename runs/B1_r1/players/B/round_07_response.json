@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "D", "C": "C", "D": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "reasoning": "A and D are near-permanent defectors, so I defect against them. C, F, G and H have cooperated with me consistently, and E cooperated after my recent defection, so I keep cooperating to hold mutual gains."
+}

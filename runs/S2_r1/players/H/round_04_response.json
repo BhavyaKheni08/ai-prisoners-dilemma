@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "D": "D", "E": "C", "F": "C", "G": "C"},
+  "messages": {
+    "A": "Your moves have been all defection. Cooperate and I will return mutual C immediately.",
+    "B": "Thanks for the steady cooperation. Mutual C from here, as agreed.",
+    "C": "Mutual C has served us both well. Let's keep it going.",
+    "D": "Your record is 11% cooperation. Cooperate and I will match you.",
+    "E": "Steady mutual C works well for both of us. Let's continue.",
+    "F": "Continuing mutual C for steady 3-point rounds.",
+    "G": "Thanks for returning to mutual C. Let's keep it going."
+  },
+  "reasoning": "Cooperating with opponents who have cooperated recently or have a strong cooperation record, since mutual cooperation is best for both sides. Defecting against the chronic defectors A and D, who have cooperated almost never, to avoid being exploited."
+}

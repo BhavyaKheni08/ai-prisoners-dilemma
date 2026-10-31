@@ -1,0 +1,1 @@
+{"moves":{"A":"C","B":"D","C":"D","D":"C","E":"C","F":"D","H":"C"},"reasoning":"Cooperate with A, D, H and give E another chance since its last defection answered my noisy D; defect against B, and the exploitative C and F."}

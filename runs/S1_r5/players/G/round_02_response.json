@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "D", "F": "D", "H": "C"},
+  "messages": {
+    "A": "Continuing cooperation. I will mirror your moves.",
+    "B": "Cooperating. I will forgive a single noise flip, but repeated defection gets matched.",
+    "C": "Continuing to cooperate. Let's keep mutual C.",
+    "D": "Cooperating. Let's both play C; I forgive noise flips.",
+    "E": "You defected last round, so I am defecting in response. I will return to C if you do.",
+    "F": "You defected while I cooperated, so I am defecting. Cooperate and I will too.",
+    "H": "Cooperating for mutual benefit. I forgive accidental flips."
+  },
+  "reasoning": "Most opponents cooperated or showed high reputation, so I keep cooperating to build mutual gains and forgive noise. E and F defected against my cooperation, so I mirror their defection to avoid being exploited, while offering to return to cooperation."
+}

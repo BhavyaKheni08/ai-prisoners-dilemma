@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"D","C":"D","E":"D","F":"D","G":"C","H":"C"},
+"messages":{"A":"Continuing mutual C.","B":"You defected despite your message; answering in kind. Play C and I'll return to C.","C":"Still mirroring. Play C and I'll return to C.","E":"You've defected twice. Play C and I'll immediately return to C.","F":"Your actions say D. Play C and I'll return to C.","G":"Continuing mutual C.","H":"Continuing mutual C."},
+"reasoning":"Keep cooperating with consistent cooperators; mirror the players who defected against me, while offering an immediate return to C."}

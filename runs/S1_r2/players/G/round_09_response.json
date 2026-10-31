@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"C","C":"D","D":"C","E":"C","F":"D","H":"C"},
+"messages":{"A":"Continuing C.","B":"Mutual C last round. Continuing C; any D from me is noise.","C":"Your actual moves are still D. Staying D until you sustain C.","D":"My D's in rounds 6 and 8 were noise flips; I intended C. Continuing C.","E":"You played C last round; offering C now. Let's settle into mutual C.","F":"Still D-heavy from you. D until you play C.","H":"Continuing C."},
+"reasoning":"Keep cooperating with cooperators and forgive noise, offer E a restart since they played C, stay defensive against low-reputation defectors C and F."}

@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "B": "D", "D": "D", "E": "C", "F": "C", "G": "D", "H": "C"},
+  "messages": {"A": "Your 8% cooperation record means I keep defecting until you cooperate.", "B": "You defected after my cooperation, so I defect once. Return to C and I will too.", "D": "Your 0% cooperation record means I keep defecting until you cooperate.", "E": "Mutual C continues.", "F": "Mutual C continues.", "G": "You defected after my cooperation, so I defect once. Return to C and I will too.", "H": "Mutual C continues."},
+  "reasoning": "Cooperating with the steady cooperators E, F and H, and forgiving E's single recent defection. Defecting against the near-zero-cooperation A and D, and giving B and G one punishing defection each for defecting after my cooperation."
+}

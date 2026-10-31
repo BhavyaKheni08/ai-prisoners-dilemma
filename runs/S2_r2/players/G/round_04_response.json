@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"D","C":"D","D":"C","E":"C","F":"C","H":"C"},
+"messages":{"A":"Mutual C.","B":"Mirroring your D. Play C and I'll return to C.","C":"Your actions say D. Cooperate and I will too.","D":"Continuing mutual C.","E":"Continuing mutual C.","F":"My round 1 D was noise; treating your D as noise too. Cooperating.","H":"Continuing mutual C."},
+"reasoning":"Cooperate with cooperators and forgive isolated defections likely due to noise; defect against low-reputation defectors B and C."}

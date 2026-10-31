@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "D": "D", "E": "C", "F": "C", "G": "C"},
+  "messages": {"A": "Your record is still 0% cooperation. I'll cooperate as soon as you do.", "B": "Thanks for cooperating. Let's keep mutual C.", "C": "Cooperating. Let's keep mutual C for steady 3-point rounds.", "D": "Your record is 8% cooperation. I'll cooperate once you do.", "E": "Cooperating. Let's build steady mutual cooperation together.", "F": "Cooperating. Let's keep mutual C for steady 3-point rounds.", "G": "Cooperating. Thanks for returning to mutual C."},
+  "reasoning": "Cooperate with opponents whose recent play and reputation show cooperation, and defect against the two with near-zero cooperation records, while staying open to mutual benefit."
+}

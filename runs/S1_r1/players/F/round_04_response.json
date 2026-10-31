@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"C","C":"C","D":"D","E":"D","G":"C","H":"C"},
+"messages":{"A":"Steady mutual C. Continuing.","B":"Back to mutual C. Continuing.","C":"Continuing C.","D":"One C against a 6% record isn't enough. Sustain C and I'll follow.","E":"Two straight D's. Matching now; play C and I'll return to C.","G":"Continuing C.","H":"Continuing C."},
+"reasoning":"Cooperate with consistent cooperators; defect against D (near-always defector) and E (two consecutive defections), with an offer to return to C."}

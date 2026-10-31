@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "C": "C", "D": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Still cooperating. I will mirror your moves and forgive accidental flips.",
+    "C": "Still cooperating. Let's keep mutual C for mutual gain.",
+    "D": "Your reputation is 0% C against others, so I will keep defecting until you show consistent cooperation.",
+    "E": "Continuing C while you do. I will forgive a single noise flip.",
+    "F": "Agreed, mutual C. I will forgive a single stray D from noise.",
+    "G": "Still cooperating. I will forgive accidental flips.",
+    "H": "Cooperating now. I accept your noise explanation and will keep playing C."
+  },
+  "reasoning": "Cooperate with every opponent whose reputation and play show reciprocity, and forgive single noise flips to avoid retaliation spirals. Defect against D, whose 0% cooperation reputation marks it as an always-defector despite its recent C."
+}

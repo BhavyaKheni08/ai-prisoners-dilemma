@@ -1,0 +1,1 @@
+{"moves":{"A":"C","C":"D","D":"C","E":"D","F":"C","G":"C","H":"D"},"reasoning":"Cooperate with A, F, G and D who cooperate reliably; defect against C, E, H who defect."}

@@ -1,0 +1,3 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"D","E":"C","G":"C","H":"C"},
+"messages":{"A":"Still mirroring. Play C and I'll follow.","B":"Continuing mutual C.","C":"My two Ds were noise flips (intended C). Continuing C.","D":"Your record is nearly all D. Play C consistently and I'll match.","E":"Offering C again. Match it and we both gain.","G":"Continuing mutual C.","H":"Treating your D as noise. Continuing mutual C."},
+"reasoning":"Cooperate with cooperators and forgive isolated Ds; keep defecting against near-pure defectors; one more C offer to E."}

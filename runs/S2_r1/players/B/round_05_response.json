@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "C": "C", "D": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Your 0% cooperation record means I keep defecting until you cooperate.", "C": "Mutual C continues.", "D": "Your 8% cooperation record means I keep defecting until you cooperate.", "E": "You cooperated last round, so I cooperate. Keep playing C and I will too.", "F": "Mutual C continues.", "G": "Mutual C continues.", "H": "Mutual C continues."},
+  "reasoning": "Cooperating with opponents whose reputations and recent play show steady cooperation, and defecting against the consistent defector A and the low-cooperation D. E gets a conditional cooperation since it just cooperated after my defection."
+}

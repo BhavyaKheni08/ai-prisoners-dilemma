@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "D", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {"A": "Let's keep cooperating. I'm cooperating with you this round.", "B": "Let's keep cooperating. I'm cooperating with you this round.", "C": "You defected last round, so I'm defecting now. I'll cooperate again if you do.", "E": "Last round's defection was noise on my side. I'm cooperating now.", "F": "You defected last round, so I'm defecting now. I'll cooperate again if you do.", "G": "Let's keep cooperating. I'm cooperating with you this round.", "H": "Let's keep cooperating. I'm cooperating with you this round."},
+  "reasoning": "Tit-for-tat style: cooperate with opponents who cooperated last round and with E, whose round-1 cooperation followed my accidental noise defection. Defect against C and F, who defected on me in round 1, and be ready to return to cooperation if they do."
+}

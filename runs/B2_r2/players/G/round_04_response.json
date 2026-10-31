@@ -1,0 +1,1 @@
+{"moves":{"A":"C","B":"D","C":"C","D":"C","E":"C","F":"C","H":"C"},"reasoning":"Isolated defections look like noise or reactions to my own flipped moves, so keep cooperating; defect only against low-reputation B."}

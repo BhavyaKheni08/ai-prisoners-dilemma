@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "D", "C": "C", "D": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "reasoning": "A and D are low-reputation defectors, so I defect against them. C, E, F, G and H have been cooperating with me in recent rounds, so I keep cooperating to secure the mutual 3-point payoff."
+}

@@ -1,0 +1,1 @@
+{"moves":{"A":"C","C":"D","D":"C","E":"C","F":"D","G":"C","H":"C"},"messages":{"A":"Cooperating.","C":"Cooperate and I will.","D":"Cooperating.","E":"Let's both cooperate.","F":"Cooperate and I will.","G":"Cooperating.","H":"Cooperating."},"reasoning":"Defect against C and F, who have very low cooperation records; cooperate with the rest and try to repair things with E."}

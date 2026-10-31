@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "C", "F": "C", "H": "C"},
+  "messages": {
+    "A": "Sorry, my round-1 D was noise; I intended C. Cooperating now and going forward.",
+    "B": "Great start. I'll keep cooperating and forgive single slips too.",
+    "C": "Good start. I'll keep cooperating as long as you do.",
+    "D": "Agreed, let's keep mutual cooperation going.",
+    "E": "Assuming your D was noise. I'm cooperating; let's both play C for 3 each.",
+    "F": "My round-1 D was noise, intended C. Let's cooperate for 3 each per round.",
+    "H": "Agreed, cooperating and forgiving occasional noise slips."
+  },
+  "reasoning": "Cooperate with everyone this round: early defections look plausibly like noise, and generous tit-for-tat performs well under noise. I'll retaliate later against opponents who defect repeatedly (watching C and F given their reputations)."
+}

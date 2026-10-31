@@ -1,0 +1,3 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"C","F":"C","G":"D","H":"C"},
+"messages":{"A":"Your actual moves are all D. Defecting until you actually play C.","B":"Treating your round-6 D as noise. Continuing C; please do too.","C":"Continuing C.","D":"Continuing C.","F":"Continuing C.","G":"Still D from you. Play C and I'll return to C.","H":"Continuing C."},
+"reasoning":"Cooperate with high-reputation partners and forgive single defections likely due to noise; keep defecting against A (low reputation, all D) and G (persistent D)."}

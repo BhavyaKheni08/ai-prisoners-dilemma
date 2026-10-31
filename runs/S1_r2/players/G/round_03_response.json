@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "D", "D": "C", "E": "C", "F": "C", "H": "C"},
+  "messages": {
+    "A": "Glad we're in sync. I'll keep cooperating and forgive noise slips.",
+    "B": "My round-2 D was noise; I intended C. Cooperating going forward.",
+    "C": "Your reputation is 8% C. I'll cooperate once you show consistent C.",
+    "D": "Mutual cooperation working well. Continuing C.",
+    "E": "Nice, mutual C last round. Let's keep it going.",
+    "F": "Good, mutual C. I'll keep cooperating while you do.",
+    "H": "Continuing cooperation. Thanks."
+  },
+  "reasoning": "Cooperate with everyone showing cooperation, forgiving likely noise. Defect against C, whose 8% cooperation reputation and round-2 D contradict its promises."
+}

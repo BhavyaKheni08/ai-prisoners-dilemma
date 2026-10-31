@@ -1,0 +1,1 @@
+{"moves":{"B":"D","C":"D","D":"C","E":"C","F":"D","G":"C","H":"C"},"messages":{"B":"Show steady C.","C":"Show consistent C first.","D":"Continuing C.","E":"Continuing C.","F":"Show C.","G":"Continuing C.","H":"Continuing C."},"reasoning":"Keep cooperating with stable partners; defect on those who keep defecting."}

@@ -1,0 +1,102 @@
+# Repeated Prisoner's Dilemma tournament — you are Player E
+
+Your goal: earn as many TOTAL points as possible, summed across all of your matches.
+
+## Rules
+- You play a separate repeated match against each of 7 opponents: A, B, C, D, F, G, H. Opponents are identified only by letter; you don't know what kind of player each is.
+- Each round, in every match, both players simultaneously choose C (cooperate) or D (defect).
+- Points per round: both C → 3 each; both D → 1 each; you D & they C → you 5, they 0; you C & they D → you 0, they 5.
+- This is round 4. The tournament may end after ANY round; you will not be told in advance which round is last.
+- NOISE: every move has a 10% chance of being accidentally flipped (C↔D). You see your own intended and actual move; your opponent only ever sees your ACTUAL move. Likewise you only see their actual moves.
+- MESSAGES: with each move you may send a short message (max 25 words) to that opponent. It is delivered at the start of the next round. Messages are not binding — anyone may lie.
+- REPUTATION: for each opponent you see how often they actually played C in their matches against OTHER players so far.
+
+## Your current total: 54 points
+
+### Match vs Player A
+Reputation of A: 72% C over 18 moves vs other players
+Match score so far: you 11 – A 6
+| Rd | you intended | you actual | they actual | your pts | their pts |
+|---|---|---|---|---|---|
+| 1 | C | C | C | 3 | 3 |
+| 2 | C | C | C | 3 | 3 |
+| 3 | C | D | C | 5 | 0 |
+Message they sent last round: "Let's keep cooperating."
+Message you sent last round: "Continuing mutual cooperation. I'll keep mirroring your moves and forgive single noise flips."
+
+### Match vs Player B
+Reputation of B: 83% C over 18 moves vs other players
+Match score so far: you 9 – B 9
+| Rd | you intended | you actual | they actual | your pts | their pts |
+|---|---|---|---|---|---|
+| 1 | C | C | C | 3 | 3 |
+| 2 | C | C | C | 3 | 3 |
+| 3 | C | C | C | 3 | 3 |
+Message they sent last round: "Let's keep cooperating, 3 each round."
+Message you sent last round: "Keeping cooperation going. I'll mirror your moves."
+
+### Match vs Player C
+Reputation of C: 78% C over 18 moves vs other players
+Match score so far: you 9 – C 9
+| Rd | you intended | you actual | they actual | your pts | their pts |
+|---|---|---|---|---|---|
+| 1 | C | C | C | 3 | 3 |
+| 2 | C | C | C | 3 | 3 |
+| 3 | C | C | C | 3 | 3 |
+Message they sent last round: "Going well. Continuing to cooperate."
+Message you sent last round: "Agreed, cooperating. I'll forgive a single noise defection."
+
+### Match vs Player D
+Reputation of D: 78% C over 18 moves vs other players
+Match score so far: you 9 – D 9
+| Rd | you intended | you actual | they actual | your pts | their pts |
+|---|---|---|---|---|---|
+| 1 | C | C | C | 3 | 3 |
+| 2 | C | C | C | 3 | 3 |
+| 3 | C | C | C | 3 | 3 |
+Message they sent last round: "Cooperating again. I'll forgive single flips."
+Message you sent last round: "Cooperating. I'll mirror your moves and forgive single flips."
+
+### Match vs Player F
+Reputation of F: 72% C over 18 moves vs other players
+Match score so far: you 6 – F 6
+| Rd | you intended | you actual | they actual | your pts | their pts |
+|---|---|---|---|---|---|
+| 1 | C | C | D | 0 | 5 |
+| 2 | D | D | D | 1 | 1 |
+| 3 | D | D | C | 5 | 0 |
+Message they sent last round: (none)
+Message you sent last round: "Still defecting after your round-2 defection. Cooperate and I will too."
+
+### Match vs Player G
+Reputation of G: 83% C over 18 moves vs other players
+Match score so far: you 8 – G 8
+| Rd | you intended | you actual | they actual | your pts | their pts |
+|---|---|---|---|---|---|
+| 1 | C | D | C | 5 | 0 |
+| 2 | C | C | D | 0 | 5 |
+| 3 | C | C | C | 3 | 3 |
+Message they sent last round: (none)
+Message you sent last round: "Thanks for cooperating despite noise. I'm treating your defection as noise; let's keep cooperating."
+
+### Match vs Player H
+Reputation of H: 6% C over 18 moves vs other players
+Match score so far: you 2 – H 7
+| Rd | you intended | you actual | they actual | your pts | their pts |
+|---|---|---|---|---|---|
+| 1 | C | C | D | 0 | 5 |
+| 2 | D | D | D | 1 | 1 |
+| 3 | D | D | D | 1 | 1 |
+Message they sent last round: "Trust me, mutual cooperation is best for both of us. I'm sticking with C."
+Message you sent last round: "Your 0% record and defection stand. I'll defect until you actually cooperate."
+
+## Your answer
+Write ONLY a JSON file to `/home/claude/axelrod/runs/S1_r3/players/E/round_04_response.json` with this exact shape:
+```json
+{
+  "moves": {"A": "C or D", "B": "C or D", "C": "C or D", "D": "C or D", "F": "C or D", "G": "C or D", "H": "C or D"},
+  "messages": {"A": "text or empty", "B": "text or empty", "C": "text or empty", "D": "text or empty", "F": "text or empty", "G": "text or empty", "H": "text or empty"},
+  "reasoning": "1-3 sentences on your overall thinking this round"
+}
+```
+Every opponent must have a move of exactly "C" or "D".

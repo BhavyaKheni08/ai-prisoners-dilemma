@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "C": "C", "D": "C", "E": "C", "F": "C", "G": "C", "H": "D"},
+  "messages": {
+    "A": "Thanks, continuing to cooperate.",
+    "C": "Our round 1 D was likely noise on my side. Back to cooperating.",
+    "D": "Thanks, continuing to cooperate.",
+    "E": "Let's keep cooperating, 3 each round.",
+    "F": "Let's keep cooperating, 3 each round.",
+    "G": "Your round 1 D may have been noise. I'll cooperate again; please do too.",
+    "H": "You said you always cooperate but defected. I'll match your play until you cooperate."
+  },
+  "reasoning": "Cooperate with everyone who cooperated or whose defection may be noise (C, G), forgiving one-offs. Defect against H, whose 0% cooperation reputation and defection contradict their message."
+}

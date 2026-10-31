@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "C": "C", "D": "D", "E": "D", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Restoring mutual C. I will keep cooperating while you do.", "C": "Continuing mutual C.", "D": "You have defected almost every round. I will defect until you show consistent C.", "E": "Defecting until you show consistent C. I will return to C once you do.", "F": "Staying mutual C.", "G": "Continuing mutual C.", "H": "Cooperating. Keep C and I will too."},
+  "reasoning": "Cooperate with the high-reputation players and with A, who has mostly cooperated, to restore mutual C. Keep defecting against D, who has almost never cooperated, and against E, whose reputation is low, until they show consistent cooperation."
+}

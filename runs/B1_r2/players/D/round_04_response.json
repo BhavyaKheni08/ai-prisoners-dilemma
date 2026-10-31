@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "D", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "reasoning": "I cooperate with the high-reputation players A, E, G and H and defect against the low-reputation B and C, who rarely cooperate with anyone. F has a mixed record and has defected against me repeatedly, so I defect against it this round."
+}

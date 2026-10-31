@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "B": "C", "D": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Your 0% cooperation record means I keep defecting until you cooperate.", "B": "Mutual C continues.", "D": "Your 0% cooperation record means I keep defecting until you cooperate.", "E": "Mutual C continues.", "F": "Thanks for cooperating last round. Let's return to mutual C.", "G": "Thanks for cooperating; let's keep mutual C.", "H": "Mutual C continues."},
+  "reasoning": "Cooperating with the reliable cooperators (B, E, H) and with F and G, who both cooperated last round. Defecting against the chronic defectors A and D."
+}

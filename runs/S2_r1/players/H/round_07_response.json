@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "D": "D", "E": "C", "F": "C", "G": "C"},
+  "messages": {"A": "Your moves have been all defection; cooperate and I will return mutual C.", "B": "Mutual C continues.", "C": "Mutual C has served us both well; let's keep it going.", "D": "Your record is low; cooperate and I will match you.", "E": "Last round's defection is forgiven; let's return to mutual C.", "F": "Continuing mutual C. Thank you.", "G": "Cooperating; let's keep mutual C."},
+  "reasoning": "I cooperate with opponents whose recent play is cooperative or who I am willing to forgive, and defect against those who have defected consistently without signs of returning to cooperation. Messages are cheap talk, so I rely on observed behaviour."
+}

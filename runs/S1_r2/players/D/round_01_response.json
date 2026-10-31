@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Let's both cooperate and keep it that way.", "B": "Let's both cooperate and keep it that way.", "C": "Let's both cooperate and keep it that way.", "E": "Let's both cooperate and keep it that way.", "F": "Let's both cooperate and keep it that way.", "G": "Let's both cooperate and keep it that way.", "H": "Let's both cooperate and keep it that way."},
+  "reasoning": "No history exists yet, so I open with cooperation in every match to signal good faith and test whether opponents reciprocate. I will respond to each opponent's actual moves from here on."
+}

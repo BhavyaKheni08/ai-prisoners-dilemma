@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Continuing mutual cooperation.", "B": "You defected twice; I will defect until you return to consistent C.", "C": "You have defected almost every round. I will defect until you cooperate.", "E": "Cooperating. Let's keep mutual C.", "F": "Cooperating. Let's restore mutual C.", "G": "Continuing mutual C.", "H": "Continuing mutual C."},
+  "reasoning": "Cooperate with the cooperative majority and forgive noise, but defect against the consistent defector C and against B after its two recent defections. F gets a cooperative offer to restore mutual play."
+}

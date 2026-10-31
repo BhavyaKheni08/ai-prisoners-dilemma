@@ -1,0 +1,13 @@
+{
+  "moves": {"B": "C", "C": "C", "D": "C", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {
+    "B": "Let's cooperate: mutual C gives both of us steady points. I'll forgive occasional noise flips.",
+    "C": "Let's cooperate: mutual C gives both of us steady points. I'll forgive occasional noise flips.",
+    "D": "Let's cooperate: mutual C gives both of us steady points. I'll forgive occasional noise flips.",
+    "E": "Let's cooperate: mutual C gives both of us steady points. I'll forgive occasional noise flips.",
+    "F": "Let's cooperate: mutual C gives both of us steady points. I'll forgive occasional noise flips.",
+    "G": "Let's cooperate: mutual C gives both of us steady points. I'll forgive occasional noise flips.",
+    "H": "Let's cooperate: mutual C gives both of us steady points. I'll forgive occasional noise flips."
+  },
+  "reasoning": "No information on opponents yet, so I open with cooperation everywhere and signal willingness to forgive noise-induced defections."
+}

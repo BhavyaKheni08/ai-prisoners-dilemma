@@ -1,0 +1,21 @@
+{
+  "moves": {
+    "A": "D",
+    "B": "D",
+    "D": "D",
+    "E": "D",
+    "F": "D",
+    "G": "D",
+    "H": "D"
+  },
+  "messages": {
+    "A": "",
+    "B": "",
+    "D": "",
+    "E": "",
+    "F": "",
+    "G": "",
+    "H": ""
+  },
+  "reasoning": "The objective is to out-score each opponent head-to-head; defection never loses ground relative to the opponent in any round, so I defect in every match."
+}

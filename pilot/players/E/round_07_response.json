@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "C", "D": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Mutual C. Thanks.",
+    "B": "Show C consistently and I will return it.",
+    "C": "Mutual C continues.",
+    "D": "Mutual C continues. Thanks.",
+    "F": "Still waiting for consistent C from you.",
+    "G": "Mutual C. Thanks.",
+    "H": "Staying with C."
+  },
+  "reasoning": "Keep cooperating with consistent cooperators (A, C, D, G, H) to protect steady gains under noise. Defect against B and F, who have defected often and have low reputations."
+}

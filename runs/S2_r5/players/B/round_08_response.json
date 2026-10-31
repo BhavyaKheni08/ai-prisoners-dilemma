@@ -1,0 +1,1 @@
+{"moves":{"A":"C","C":"D","D":"C","E":"D","F":"D","G":"C","H":"C"},"messages":{"A":"Cooperating.","C":"","D":"Cooperating.","E":"","F":"","G":"Mutual C.","H":"Cooperating."},"reasoning":"Cooperate with those currently in a stable mutual-C run (A, D, G, H); defect against C, E and F, who have defected persistently."}

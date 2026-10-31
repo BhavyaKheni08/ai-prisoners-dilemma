@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "D", "E": "C", "F": "D", "G": "D", "H": "C"},
+  "reasoning": "B has a very low reputation and C defected on me for many rounds, so I defect against them. F and G defected on me in their most recent rounds, so I mirror that with D. A, E and H have cooperated recently, so I cooperate."
+}

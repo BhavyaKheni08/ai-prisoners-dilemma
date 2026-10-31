@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "D", "F": "D", "G": "C"},
+  "messages": {
+    "A": "Your defection may have been noise. I'll keep cooperating; let's both play C.",
+    "B": "My defection last round was a noise flip, sorry. Cooperating from here.",
+    "C": "Great, let's keep cooperating.",
+    "D": "Great, let's keep cooperating.",
+    "E": "You defected on me. I'll match defection until you cooperate.",
+    "F": "You said you always cooperate but defected. I'll match until you play C.",
+    "G": "You defected first despite mirroring. I'll try C again; please mirror that."
+  },
+  "reasoning": "Cooperate with those who cooperated or have high reputation (forgiving possible noise), and retaliate against E and F who defected and have poor reputations; give A and G one more chance."
+}

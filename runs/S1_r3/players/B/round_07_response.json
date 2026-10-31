@@ -1,0 +1,1 @@
+{"moves":{"A":"C","C":"C","D":"C","E":"C","F":"C","G":"C","H":"D"},"messages":{"A":"Continuing C.","C":"Continuing C.","D":"Continuing C.","E":"Continuing C.","F":"Continuing C.","G":"Continuing C.","H":"Cooperate and I will too."},"reasoning":"Cooperate with reciprocating players; H is a persistent defector with 11% reputation, so defect there."}

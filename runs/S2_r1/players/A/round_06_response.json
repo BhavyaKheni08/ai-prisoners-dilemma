@@ -1,0 +1,21 @@
+{
+  "moves": {
+    "B": "D",
+    "C": "D",
+    "D": "D",
+    "E": "D",
+    "F": "D",
+    "G": "D",
+    "H": "D"
+  },
+  "messages": {
+    "B": "",
+    "C": "",
+    "D": "",
+    "E": "",
+    "F": "",
+    "G": "",
+    "H": ""
+  },
+  "reasoning": "The goal is to beat each opponent head-to-head, and defecting never scores less than the opponent in any round, so D dominates for match margin regardless of their move. I send no messages rather than make promises I won't keep."
+}

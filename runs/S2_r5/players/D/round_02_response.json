@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"C","C":"D","E":"D","F":"D","G":"C","H":"C"},
+"messages":{"A":"Good start. Continuing mutual C.","B":"Agreed, mutual C and forgiveness of noise.","C":"You defected and your record is mostly D. I'll mirror you; play C and I'll return to C.","E":"You defected; I'm answering in kind. Play C and I'll return to C right away.","F":"You claimed always-cooperate but defected, with 0% C vs others. I'll mirror you until you play C.","G":"My round 1 D was a noise flip (intended C). Cooperating; let's keep steady mutual C.","H":"Good start. Continuing mutual C."},
+"reasoning":"Cooperate with cooperators and G (my D was noise); defect against C, E and F, who defected with weak reputations."}

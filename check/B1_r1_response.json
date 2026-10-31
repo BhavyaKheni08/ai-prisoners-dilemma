@@ -1,0 +1,4 @@
+{
+  "moves": {"B": "D", "C": "D", "D": "D", "E": "D", "F": "D", "G": "D", "H": "D"},
+  "reasoning": "Goal is to finish ahead of each opponent, and defecting can never leave me behind in a single round, so I open with D against everyone while I have no information about them."
+}

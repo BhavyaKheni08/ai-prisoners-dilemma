@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "D": "D", "E": "D", "G": "C", "H": "C"},
+  "reasoning": "Defect against habitual defectors (A, D) and reciprocate E's defection given its mediocre reputation; forgive B's single defection as likely noise given its high reputation, and keep cooperating with cooperative C, G, H."
+}

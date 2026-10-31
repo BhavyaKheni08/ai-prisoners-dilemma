@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Continuing mutual cooperation.", "B": "Keeping mutual C going.", "C": "You have defected almost every round. I will defect until you cooperate.", "E": "Cooperating. Let's keep mutual C.", "F": "Cooperating. My defection was not intended; let's restore mutual C.", "G": "Continuing mutual C.", "H": "Continuing mutual C."},
+  "reasoning": "Keep cooperating with A, B, E, G and H, who mostly cooperate, to protect the 3-point rounds. Keep defecting against C, whose record is almost all defection. Return to C with F, who cooperated when I did."
+}

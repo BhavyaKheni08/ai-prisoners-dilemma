@@ -1,0 +1,1 @@
+{"moves": {"A": "D", "B": "C", "C": "C", "D": "D", "F": "C", "G": "D", "H": "C"}, "reasoning": "Cooperate with reciprocating, high-reputation players (B, C, F, H), treating isolated defections as noise; defect against habitual defectors A and D and against G, which exploits cooperation."}

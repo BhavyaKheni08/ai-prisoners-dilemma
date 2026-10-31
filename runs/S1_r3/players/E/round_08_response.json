@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "F": "C", "G": "C", "H": "D"},
+  "messages": {"A": "Continuing mutual cooperation.", "B": "Continuing mutual cooperation.", "C": "Staying mutual C.", "D": "Continuing mutual C.", "F": "Cooperating. Let's keep mutual C.", "G": "Cooperating. Let's keep mutual C.", "H": "Your 0% record stands. I will defect until you actually cooperate."},
+  "reasoning": "Cooperate with the high-reputation cooperators and with F and G, who have been cooperating recently. Keep defecting against H, who has defected every round since round 2."
+}

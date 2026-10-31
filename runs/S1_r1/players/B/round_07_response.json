@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "C": "C", "D": "D", "E": "D", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Continuing mutual cooperation.", "C": "Keeping mutual C going.", "D": "Defecting until you show consistent cooperation.", "E": "Defecting until you return to consistent C.", "F": "Staying mutual C.", "G": "Continuing mutual C.", "H": "Cooperating. Keep C and I will too."},
+  "reasoning": "Cooperate with the reliable cooperators (A, C, F, G, H) and keep mutual C going. Defect against D, who has defected almost every round, and against E, who has exploited me and is at 36% reputation."
+}

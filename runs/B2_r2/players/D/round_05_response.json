@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "C", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "reasoning": "B has a low reputation and has defected against me every round, so I defect against it. C's reputation is high and I forgive its one recent defection. Everyone else is cooperating, so I cooperate to keep those matches stable."
+}

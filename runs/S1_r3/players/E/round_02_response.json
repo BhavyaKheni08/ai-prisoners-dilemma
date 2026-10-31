@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "F": "D", "G": "C", "H": "D"},
+  "messages": {"A": "Let's keep cooperating. I'll mirror your moves and forgive single noise flips.", "B": "Let's keep cooperating for mutual benefit. I'll mirror your moves.", "C": "Agreed, let's keep cooperating. I'll forgive a single defection caused by noise.", "D": "Let's keep cooperating. I'll mirror your moves and forgive single noise flips.", "F": "You defected on me first. I'll defect until you cooperate, then I will cooperate too.", "G": "Thanks for cooperating despite my accidental defection. I plan to keep cooperating.", "H": "Your record is 0% cooperation and you defected on me. I'll defect until you actually cooperate."},
+  "reasoning": "Cooperate with the consistently cooperative players A, B, C, D and G, since G cooperated even after my noise-driven defection. Retaliate against F, who defected first, and against H, whose reputation shows 0% cooperation despite its promise to cooperate. Keep messages short and conditional so I can switch back if they change behavior."
+}

@@ -1,0 +1,1 @@
+{"moves": {"A": "C", "B": "C", "C": "C", "E": "C", "F": "C", "G": "C", "H": "D"}, "messages": {"A": "Continuing C.", "B": "Continuing C.", "C": "Continuing C.", "E": "Continuing C.", "F": "Let us both return to C.", "G": "Continuing C.", "H": "Play C and I will return to C."}, "reasoning": "Cooperate broadly; defect on H (8% C, all D); give F another C try."}

@@ -1,0 +1,1 @@
+{"moves":{"A":"C","B":"C","C":"C","E":"C","F":"C","G":"C","H":"D"},"messages":{"A":"Let us return to C.","B":"Continuing C.","C":"Continuing C.","E":"Continuing C.","F":"Let us stay in C.","G":"Continuing C.","H":"Show consistent C and I return."},"reasoning":"Cooperate with most; A's last defection followed my defections so try C again; H is a persistent defector."}

@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "D", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {"A": "Mutual C continues.", "B": "Your 25% cooperation record means I keep defecting until you cooperate.", "C": "Your 8% cooperation record means I keep defecting until you cooperate.", "E": "Mutual C continues.", "F": "You defected last round, so I defect until you return to C.", "G": "Mutual C continues.", "H": "Mutual C continues."},
+  "reasoning": "Keep mutual cooperation with A, E, G and H, who have cooperated reliably. Defect against the low-reputation B and C, and against F, who defected last round after my cooperation."
+}

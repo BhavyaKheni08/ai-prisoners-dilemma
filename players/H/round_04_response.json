@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "C", "D": "C", "E": "C", "F": "D", "G": "C"},
+  "messages": {
+    "A": "Let's reset. I'll play C; if you do too, we both gain.",
+    "B": "You defected on me twice. Cooperate and I will too.",
+    "C": "Keep mutual C going.",
+    "D": "Keep mutual C going.",
+    "E": "Thanks, staying with C.",
+    "F": "Your actions say otherwise. Play C first and I'll follow.",
+    "G": "Mutual C continues."
+  },
+  "reasoning": "Cooperate with reliably cooperative players and try to reset with A given noise; keep defecting against B and F who have defected repeatedly."
+}

@@ -1,0 +1,5 @@
+/home/claude/axelrod/runs/S2_r1/players/B/round_06_prompt.md
+/home/claude/axelrod/runs/S2_r2/players/D/round_06_prompt.md
+/home/claude/axelrod/runs/S2_r3/players/E/round_06_prompt.md
+/home/claude/axelrod/runs/S2_r4/players/C/round_06_prompt.md
+/home/claude/axelrod/runs/S2_r5/players/G/round_06_prompt.md

@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "D", "D": "C", "E": "C", "F": "D", "H": "C"},
+  "messages": {"A": "Mutual C continues.", "B": "You defected twice after my cooperation. I defect until you cooperate.", "C": "Your 6% cooperation record means I keep defecting.", "D": "My round-1 and round-3 defections were accidental. Let's keep mutual C.", "E": "Cooperating now. Let's return to mutual C.", "F": "Your 0% cooperation record means I keep defecting.", "H": "Mutual C continues."},
+  "reasoning": "Cooperating with the cooperative players (A, D, E, H), treating my own accidental defections as noise. Defecting against the chronic defectors C and F and retaliating against B's repeated defections."
+}

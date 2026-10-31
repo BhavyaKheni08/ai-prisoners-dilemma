@@ -1,0 +1,5 @@
+{
+  "moves": {"B": "C", "C": "C", "D": "C", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {"B": "Let's cooperate. I'll forgive occasional noise-driven defections.", "C": "Let's cooperate. I'll forgive occasional noise-driven defections.", "D": "Let's cooperate. I'll forgive occasional noise-driven defections.", "E": "Let's cooperate. I'll forgive occasional noise-driven defections.", "F": "Let's cooperate. I'll forgive occasional noise-driven defections.", "G": "Let's cooperate. I'll forgive occasional noise-driven defections.", "H": "Let's cooperate. I'll forgive occasional noise-driven defections."},
+  "reasoning": "Round 1 with no information; opening with cooperation to probe opponents and establish mutual cooperation, adapting later based on their behavior and reputation."
+}

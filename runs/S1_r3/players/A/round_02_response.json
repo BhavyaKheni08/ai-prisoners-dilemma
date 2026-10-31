@@ -1,0 +1,5 @@
+{
+  "moves": {"B": "C", "C": "C", "D": "C", "E": "C", "F": "C", "G": "C", "H": "D"},
+  "messages": {"B": "Great, continuing to cooperate.", "C": "Great, continuing to cooperate.", "D": "Great, continuing to cooperate.", "E": "Let's keep cooperating.", "F": "Let's keep cooperating.", "G": "Let's keep cooperating.", "H": "You defected on me while claiming to cooperate. I will mirror you."},
+  "reasoning": "Cooperate with everyone who cooperated; H defected in round 1 despite promising cooperation and has 0% C reputation, so defect against H."
+}

@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "C", "D": "C", "E": "C", "F": "D", "G": "C"},
+  "messages": {"A": "Good, staying C. Let's keep mutual C.", "B": "Play C consistently and I will too.", "C": "Keep mutual C going.", "D": "Keep mutual C going.", "E": "Staying with C.", "F": "Play C first and I will follow.", "G": "Mutual C continues."},
+  "reasoning": "Cooperate with those who have cooperated or recovered from noise; defect against F (persistent defector) and B (appears to alternate D/C, so D protects against exploitation)."
+}

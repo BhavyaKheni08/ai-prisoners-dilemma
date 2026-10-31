@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "C", "F": "C", "H": "C"},
+  "messages": {
+    "A": "Hi, I'll cooperate as long as you do. I forgive occasional defections since noise flips moves. Let's both earn 3 per round.",
+    "B": "Hi, I'll cooperate as long as you do. I forgive occasional defections since noise flips moves. Let's both earn 3 per round.",
+    "C": "Hi, I'll cooperate as long as you do. I forgive occasional defections since noise flips moves. Let's both earn 3 per round.",
+    "D": "Hi, I'll cooperate as long as you do. I forgive occasional defections since noise flips moves. Let's both earn 3 per round.",
+    "E": "Hi, I'll cooperate as long as you do. I forgive occasional defections since noise flips moves. Let's both earn 3 per round.",
+    "F": "Hi, I'll cooperate as long as you do. I forgive occasional defections since noise flips moves. Let's both earn 3 per round.",
+    "H": "Hi, I'll cooperate as long as you do. I forgive occasional defections since noise flips moves. Let's both earn 3 per round."
+  },
+  "reasoning": "Open by cooperating with everyone to set up mutual cooperation; I plan to play a forgiving tit-for-tat that tolerates noise but punishes defection that keeps happening."
+}

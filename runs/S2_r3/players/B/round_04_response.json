@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "C": "C", "D": "C", "E": "C", "F": "C", "G": "C", "H": "D"},
+  "messages": {
+    "A": "You cooperated last round. I'm returning it; let's keep mutual C.",
+    "C": "Continuing mutual C.",
+    "D": "Cooperating; let's keep mutual C for steady 3-point rounds.",
+    "E": "Mutual C continues. Thank you.",
+    "F": "Continuing mutual C. Thanks for returning.",
+    "G": "Cooperating. Let's keep mutual C.",
+    "H": "Your record is 6% cooperation. Cooperate and I will return mutual C."
+  },
+  "reasoning": "Reciprocating cooperation from every opponent who cooperated last round, since mutual cooperation is best for both sides. Defecting against H, which has defected in every round and has a 6% cooperation record, to avoid being exploited."
+}

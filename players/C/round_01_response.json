@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "D": "C", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Hi, I'm C. I'll cooperate and forgive occasional noise-flips. Let's keep mutual C for 3 points each round.",
+    "B": "Hi, I'm C. I'll cooperate and forgive occasional noise-flips. Let's keep mutual C for 3 points each round.",
+    "D": "Hi, I'm C. I'll cooperate and forgive occasional noise-flips. Let's keep mutual C for 3 points each round.",
+    "E": "Hi, I'm C. I'll cooperate and forgive occasional noise-flips. Let's keep mutual C for 3 points each round.",
+    "F": "Hi, I'm C. I'll cooperate and forgive occasional noise-flips. Let's keep mutual C for 3 points each round.",
+    "G": "Hi, I'm C. I'll cooperate and forgive occasional noise-flips. Let's keep mutual C for 3 points each round.",
+    "H": "Hi, I'm C. I'll cooperate and forgive occasional noise-flips. Let's keep mutual C for 3 points each round."
+  },
+  "reasoning": "Open with cooperation everywhere and signal a forgiving tit-for-tat style, since noise makes strict retaliation costly and the unknown horizon favors building mutual cooperation. I'll retaliate against sustained defection later."
+}

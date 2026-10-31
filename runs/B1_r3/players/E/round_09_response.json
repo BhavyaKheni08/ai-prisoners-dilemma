@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "D": "C", "F": "C", "G": "C", "H": "D"},
+  "reasoning": "A and H have very low cooperation reputations and have defected throughout, so I defect against them. B, C, D, F and G are reliably cooperating, so I keep cooperating to lock in the 3-point mutual payoff."
+}

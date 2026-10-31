@@ -1,0 +1,1 @@
+{"moves":{"A":"C","C":"D","D":"C","E":"D","F":"D","G":"C","H":"D"},"reasoning":"Cooperate with A and D who have been cooperative; defect against hostile or erratic C, E, F, H; G is mixed so try C."}

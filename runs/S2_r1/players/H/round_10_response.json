@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "D": "D", "E": "D", "F": "C", "G": "C"},
+  "messages": {"A": "Your defections leave no basis for trust; I will cooperate once you do.", "B": "", "C": "", "D": "", "E": "I will return to mutual C once you cooperate with me.", "F": "", "G": "Cooperating this round; let's build mutual C together."},
+  "reasoning": "Cooperating with opponents who have mostly cooperated and defecting against those with very low cooperation records. Forgiving G, whose reputation is decent, while answering E's recent defections with defection."
+}

@@ -1,0 +1,13 @@
+{
+  "moves": {"B": "C", "C": "C", "D": "C", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {
+    "B": "Let's cooperate. I'll forgive occasional slips caused by noise.",
+    "C": "Let's cooperate. I'll forgive occasional slips caused by noise.",
+    "D": "Let's cooperate. I'll forgive occasional slips caused by noise.",
+    "E": "Let's cooperate. I'll forgive occasional slips caused by noise.",
+    "F": "Let's cooperate. I'll forgive occasional slips caused by noise.",
+    "G": "Let's cooperate. I'll forgive occasional slips caused by noise.",
+    "H": "Let's cooperate. I'll forgive occasional slips caused by noise."
+  },
+  "reasoning": "With no information on opponents, opening with cooperation is safe and invites mutual cooperation; I'll adapt next round based on their actual moves and reputation, and defect against exploiters."
+}

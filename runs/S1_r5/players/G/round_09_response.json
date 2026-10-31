@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "D", "D": "C", "E": "D", "F": "D", "H": "C"},
+  "messages": {"A": "Continuing mutual C.", "B": "Keep cooperating.", "C": "You have defected in most recent rounds. I will defect until you cooperate.", "D": "Continuing mutual C.", "E": "You have defected in most recent rounds. I will defect until you cooperate.", "F": "You have defected in most rounds. I will defect until you cooperate.", "H": "Cooperating. I forgive accidental flips."},
+  "reasoning": "Cooperate with the cooperative players A, B, D and H and forgive noise. Defect against F, E and C, who defected most of the recent rounds."
+}

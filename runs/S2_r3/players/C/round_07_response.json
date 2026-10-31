@@ -1,0 +1,3 @@
+{"moves":{"A":"D","B":"C","D":"C","E":"C","F":"C","G":"C","H":"D"},
+"messages":{"A":"Still mirroring. Show consistent C and I'll cooperate.","B":"Continuing mutual C.","D":"Continuing mutual C.","E":"My last D was a noise flip (intended C). Continuing mutual C.","F":"Breaking the D cycle: I'm playing C. Match it and we both earn 3s.","G":"Continuing mutual C.","H":"Your actions say D. Play C and I'll follow."},
+"reasoning":"Keep up mutual cooperation with cooperators, offer F one C to break the retaliation loop, and stay D against persistent defectors A and H."}

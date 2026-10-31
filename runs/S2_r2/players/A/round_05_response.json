@@ -1,0 +1,1 @@
+{"moves":{"B":"D","C":"D","D":"C","E":"C","F":"D","G":"C","H":"C"},"messages":{"B":"","C":"","D":"Mutual C.","E":"Cooperating.","F":"","G":"Mutual C.","H":"Cooperating."},"reasoning":"Cooperate with those who reciprocate, defect against those who have repeatedly defected."}

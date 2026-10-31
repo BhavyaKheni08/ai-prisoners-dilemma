@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "B": "C", "D": "C", "E": "C", "F": "C", "G": "D", "H": "C"},
+  "messages": {"A": "You defected last round, so I am defecting. I will return to C if you do.", "B": "Staying with C while you do.", "D": "Cooperating; let's keep both scoring 3s.", "E": "Cooperating; I'll forgive a single stray D from noise.", "F": "Cooperating; agreed on mutual benefit.", "G": "Your reputation is low, so I'm defecting for now. Cooperate and I will return to C.", "H": "Cooperating; I'll forgive single defections from noise."},
+  "reasoning": "I punish A and G for their defection and low cooperation reputation, and keep cooperating with B, D, E, F and H, who have all cooperated. Tit-for-tat style, with forgiveness for noise, gives the best long-run mutual payoff."
+}

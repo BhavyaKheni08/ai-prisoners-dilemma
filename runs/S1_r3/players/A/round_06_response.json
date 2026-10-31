@@ -1,0 +1,1 @@
+{"moves":{"B":"C","C":"C","D":"C","E":"C","F":"D","G":"C","H":"D"},"messages":{"B":"","C":"","D":"","E":"","F":"","G":"","H":""},"reasoning":"Cooperate with mostly cooperative opponents, defect against F and H who have low cooperation reputations."}

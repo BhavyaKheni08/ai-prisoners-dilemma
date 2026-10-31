@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"D","C":"D","D":"C","E":"C","F":"D","H":"C"},
+"messages":{"A":"Continuing mutual C.","B":"One C isn't a pattern. Keep playing C and I'll follow.","C":"Still mostly D from you. Show consistent C and I'll cooperate.","D":"Continuing mutual C.","E":"My D last round was a noise flip (intended C). Continuing C.","F":"Three Ds against my C. Mirroring now; play C and I return to C.","H":"Continuing mutual C."},
+"reasoning":"Keep cooperation with reliable partners, forgive E given my own noise flip, punish F's repeated defections, and stay D against low-reputation defectors."}

@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "C", "B": "C", "D": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "reasoning": "Six of seven opponents cooperated with me in round 1, so I keep cooperating to lock in mutual 3-point rounds. Defect against D, who defected on me and has a 0% reputation."
+}

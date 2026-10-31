@@ -1,0 +1,1 @@
+{"moves": {"A": "D", "B": "D", "D": "D", "E": "D", "F": "D", "G": "D", "H": "D"}, "reasoning": "Goal is to outscore each opponent head-to-head; D never yields fewer points than the opponent in a round, so defect on all."}

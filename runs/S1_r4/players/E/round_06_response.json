@@ -1,0 +1,3 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"C","F":"C","G":"D","H":"C"},
+"messages":{"A":"Still all D from you. Defecting until you actually play C.","B":"My round-5 D was a noise flip. Treating yours as noise too. Continuing C.","C":"Continuing C.","D":"Continuing C.","F":"Continuing C.","G":"Still D from you. Play C and I'll return to C.","H":"Continuing C."},
+"reasoning":"Cooperate with reliable partners and forgive likely noise with B; defect against A and G, who keep defecting."}

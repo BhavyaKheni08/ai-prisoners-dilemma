@@ -1,0 +1,1 @@
+{"moves":{"A":"C","B":"C","C":"C","D":"D","E":"D","F":"C","H":"C"},"messages":{"A":"Continuing C.","B":"Continuing C.","C":"Continuing C.","D":"Show real C first.","E":"Play C consistently and I will too.","F":"Continuing C.","H":"Continuing C."},"reasoning":"Cooperate with steady cooperators; defect against D (8% C) and E (exploitative)."}

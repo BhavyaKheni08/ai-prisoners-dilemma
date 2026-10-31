@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"C","C":"D","D":"C","E":"C","F":"C","H":"C"},
+"messages":{"A":"Continuing C.","B":"Fair, we're even now. Back to mutual C from here.","C":"Your record is mostly D. Defecting until you show sustained C.","D":"Continuing C.","E":"Continuing C.","F":"Treating your round-3 D as noise once. Repeated D gets matched.","H":"Continuing C."},
+"reasoning":"Cooperate broadly and forgive single defections given 10% noise; defect against C, a near-constant defector."}

@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "B": "C", "D": "C", "E": "C", "F": "C", "G": "D", "H": "C"},
+  "messages": {"A": "You have defected in almost every round. I will defect until you cooperate.", "B": "Cooperating, keeping mutual C.", "D": "Cooperating. Let's keep mutual C.", "E": "Staying mutual C.", "F": "Continuing mutual cooperation.", "G": "You defected after my C. I will defect until you return to C.", "H": "Cooperating; I forgive single defections from noise."},
+  "reasoning": "Cooperate with the high-reputation players (B, D, E, F, H) to keep mutual 3-point rounds. Defect against A and G, who have low reputations and have defected in most rounds, including after my cooperation."
+}

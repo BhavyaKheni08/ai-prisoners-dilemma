@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"C","C":"C","D":"D","E":"D","G":"C","H":"C"},
+"messages":{"A":"Continuing C.","B":"Continuing C.","C":"Treating your round-6 D as evening out my flips. Continuing C.","D":"Your actual moves are mostly D. Staying D until you show sustained C.","E":"Still D. Play C consistently and I'll return to C.","G":"Continuing C.","H":"Continuing C."},
+"reasoning":"Cooperate with reliable cooperators and forgive isolated noise-like defections; keep defecting against the low-reputation D player and the exploitative E."}

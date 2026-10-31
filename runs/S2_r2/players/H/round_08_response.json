@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "D", "D": "C", "E": "C", "F": "C", "G": "C"},
+  "messages": {"A": "Mutual C continues; thank you.", "B": "Your record is very low; cooperate and I will return mutual C.", "C": "Your record is very low; cooperate and I will match you.", "D": "Mutual C continues; thank you.", "E": "Mutual C continues; thank you.", "F": "Two defections after my cooperation; I will return to mutual C if you do.", "G": "Continuing mutual C."},
+  "reasoning": "Keep cooperating with reliable cooperators and those who returned to cooperation, defect against the very-low-reputation players, and offer a path back to mutual cooperation to F."
+}

@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "D", "D": "C", "E": "C", "F": "C", "G": "C"},
+  "messages": {"A": "Cooperating. Let's keep mutual C for steady 3-point rounds.", "B": "Your record is 25% cooperation. I'll cooperate once you do.", "C": "Your record is 17% cooperation. I'll cooperate once you do.", "D": "Cooperating. Let's keep mutual C for steady 3-point rounds.", "E": "Cooperating. One stray defection is forgiven; let's keep mutual C.", "F": "Cooperating. Let's both cooperate for mutual benefit.", "G": "Cooperating. Let's keep mutual C for steady 3-point rounds."},
+  "reasoning": "Keep mutual cooperation with opponents who have cooperated or whose reputation is reasonably high, and defect against the two with low cooperation records until they change."
+}

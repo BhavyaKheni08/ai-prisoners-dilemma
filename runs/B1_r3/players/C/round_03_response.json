@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "D", "B": "C", "D": "C", "E": "C", "F": "C", "G": "C", "H": "D"},
+  "reasoning": "A and H are near-pure defectors by reputation, so I defect against them (A's lone C was likely noise). Everyone else is cooperating, including B after the round-1 noise, so I keep cooperating."
+}

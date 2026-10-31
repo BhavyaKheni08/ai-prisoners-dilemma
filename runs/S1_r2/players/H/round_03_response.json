@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "D", "D": "C", "E": "C", "F": "C", "G": "C"},
+  "messages": {
+    "A": "Thanks, still cooperating.",
+    "B": "Noise happens on both sides. I'm cooperating; let's both keep going.",
+    "C": "Your record shows mostly defection. I'll cooperate once you do.",
+    "D": "Great, let's keep cooperating.",
+    "E": "Cooperating again, let's keep it up.",
+    "F": "I'll cooperate now. Let's try mutual cooperation.",
+    "G": "Great, let's keep cooperating."
+  },
+  "reasoning": "Cooperate with those who have cooperated or are likely noise-affected; keep defending against C, who defects consistently and has low reputation. Give F a chance to restart cooperation."
+}

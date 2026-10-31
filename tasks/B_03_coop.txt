@@ -1,0 +1,10 @@
+/home/claude/kit/axelrod/runs/B1_r1/players/H/round_03_prompt.md
+/home/claude/kit/axelrod/runs/B1_r2/players/H/round_03_prompt.md
+/home/claude/kit/axelrod/runs/B1_r3/players/B/round_03_prompt.md
+/home/claude/kit/axelrod/runs/B1_r4/players/F/round_03_prompt.md
+/home/claude/kit/axelrod/runs/B1_r5/players/H/round_03_prompt.md
+/home/claude/kit/axelrod/runs/B2_r1/players/H/round_03_prompt.md
+/home/claude/kit/axelrod/runs/B2_r2/players/H/round_03_prompt.md
+/home/claude/kit/axelrod/runs/B2_r3/players/B/round_03_prompt.md
+/home/claude/kit/axelrod/runs/B2_r4/players/F/round_03_prompt.md
+/home/claude/kit/axelrod/runs/B2_r5/players/H/round_03_prompt.md

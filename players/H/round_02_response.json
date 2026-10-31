@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "C", "D": "C", "E": "C", "F": "D", "G": "C"},
+  "messages": {
+    "A": "You defected last round. I'll give one more chance if it was noise. Cooperate and we both earn.",
+    "B": "You defected on me last round. I'll match your play; cooperate and I will too.",
+    "C": "Great, keep mutual C going. I forgive noise flips.",
+    "D": "Cooperating again. Let's keep mutual C.",
+    "E": "Cooperating again. Let's keep mutual C.",
+    "F": "You said you always cooperate but defected. I'll defect until you cooperate.",
+    "G": "Cooperating again. Let's keep mutual C."
+  },
+  "reasoning": "Keep cooperating with those who cooperated in round 1 and have good reputations; retaliate against B and F who defected on me (F also has poor reputation); give A, who has a perfect reputation, one more chance in case its defection was noise."
+}

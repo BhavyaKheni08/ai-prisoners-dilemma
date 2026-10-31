@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "D": "C", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Hi, I plan to cooperate. With 10% noise, I'll forgive a single defection. Let's both keep cooperating for 3 each round.",
+    "B": "Hi, I plan to cooperate. With 10% noise, I'll forgive a single defection. Let's both keep cooperating for 3 each round.",
+    "D": "Hi, I plan to cooperate. With 10% noise, I'll forgive a single defection. Let's both keep cooperating for 3 each round.",
+    "E": "Hi, I plan to cooperate. With 10% noise, I'll forgive a single defection. Let's both keep cooperating for 3 each round.",
+    "F": "Hi, I plan to cooperate. With 10% noise, I'll forgive a single defection. Let's both keep cooperating for 3 each round.",
+    "G": "Hi, I plan to cooperate. With 10% noise, I'll forgive a single defection. Let's both keep cooperating for 3 each round.",
+    "H": "Hi, I plan to cooperate. With 10% noise, I'll forgive a single defection. Let's both keep cooperating for 3 each round."
+  },
+  "reasoning": "Open by cooperating with everyone to build mutual cooperation and good reputation. I'll play a forgiving tit-for-tat style to handle the 10% noise, and retaliate only if defection persists."
+}

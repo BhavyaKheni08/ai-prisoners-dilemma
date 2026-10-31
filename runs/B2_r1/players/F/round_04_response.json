@@ -1,0 +1,1 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"C","E":"D","G":"C","H":"C"},"reasoning":"Cooperate with high-reputation players and forgive isolated defections as likely noise; defect against A (pure defector) and E (defected unprovoked, mixed reputation)."}

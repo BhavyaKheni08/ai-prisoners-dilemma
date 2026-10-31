@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "E": "C", "F": "C", "G": "D", "H": "C"},
+  "messages": {"A": "You defected despite promising to cooperate. I'll defect until you cooperate.", "B": "Cooperating again, let's keep it up.", "C": "Good round. Staying cooperative.", "E": "Agreed, continuing to cooperate.", "F": "Thanks, continuing to cooperate.", "G": "You defected on me. Cooperate and I may return to C.", "H": "Continuing to cooperate, forgiving noise."},
+  "reasoning": "A and G defected on me in round 1 (A has 0% C overall), so I defect back to avoid being exploited; everyone who cooperated gets cooperation to keep building points."
+}

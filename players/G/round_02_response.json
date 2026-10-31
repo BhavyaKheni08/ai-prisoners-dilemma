@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "C", "D": "C", "E": "C", "F": "D", "H": "C"},
+  "messages": {
+    "A": "Mutual C again. I'll keep cooperating as long as you do.",
+    "B": "You defected last round, so I'm defecting this round. Cooperate and I will return to C.",
+    "C": "Mutual C continues. Let's keep it going for 3 points each.",
+    "D": "My round 1 defection was noise, not intent. I'm cooperating; let's keep mutual C.",
+    "E": "Mutual C again. I'll keep cooperating with you.",
+    "F": "Your cooperation record is 0%, so I'm defecting. Play C and I will reciprocate.",
+    "H": "Mutual C continues. Let's keep cooperating."
+  },
+  "reasoning": "Tit-for-tat with noise tolerance: I cooperate with opponents who cooperated and have high reputations (A, C, D, E, H). I retaliate once against B, who defected on me, and will return to C if B cooperates. I defect against F because its 0% cooperation record suggests it exploits others despite its promises."
+}

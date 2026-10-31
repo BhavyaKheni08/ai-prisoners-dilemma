@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "D": "C", "F": "C", "G": "C", "H": "D"},
+  "messages": {"A": "Your 11% cooperation record means I keep defecting until you cooperate.", "B": "Mutual C continues.", "C": "Mutual C continues.", "D": "Mutual C continues.", "F": "Mutual C continues.", "G": "Mutual C continues.", "H": "Your 11% cooperation record means I keep defecting until you cooperate."},
+  "reasoning": "A and H have very low cooperation records, so I defect against them. B, C, D, F and G cooperate reliably, so I keep mutual cooperation going with them."
+}

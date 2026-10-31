@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "C": "C", "D": "C", "E": "C", "F": "D", "G": "D", "H": "C"},
+  "messages": {
+    "A": "Cooperating again. Let's keep playing C.",
+    "C": "Cooperating again. Let's keep playing C.",
+    "D": "Cooperating again. Let's keep playing C.",
+    "E": "My D last round was noise. Let's both play C.",
+    "F": "You defected on round 1 after promising C. I'll match defection until you cooperate.",
+    "G": "You defected despite promising to mirror. I'll mirror that until you cooperate.",
+    "H": "Your D last round may have been noise. I'll try C again; let's cooperate."
+  },
+  "reasoning": "Keep cooperating with those who cooperated and with E/H where defection may be noise; retaliate once against F and G who defected first despite cooperative messages."
+}

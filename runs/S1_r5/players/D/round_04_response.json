@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"C","C":"C","E":"D","F":"D","G":"D","H":"C"},
+"messages":{"A":"Continuing C.","B":"Mutual C again. Continuing.","C":"Continuing C.","E":"Still D from you. Play C and I'll return to C.","F":"Still D. Show an actual C and I'll reciprocate.","G":"You defected after my C. Matching once; play C and I'll return to C.","H":"Continuing C."},
+"reasoning":"Cooperate with steady cooperators; tit-for-tat against E, F, and G, who defected against my cooperation."}

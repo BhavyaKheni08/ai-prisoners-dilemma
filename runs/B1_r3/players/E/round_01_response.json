@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "F": "C", "G": "C", "H": "C"},
+  "reasoning": "No history with any opponent yet, so I open by cooperating everywhere to build mutual cooperation. I will respond to defection in later rounds based on what each opponent actually does."
+}

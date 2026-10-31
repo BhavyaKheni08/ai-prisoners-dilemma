@@ -1,0 +1,1 @@
+{"moves": {"A": "D", "B": "C", "C": "C", "D": "C", "E": "C", "G": "C", "H": "C"}, "reasoning": "Cooperate with cooperative opponents and forgive noise-like exchanges with D; probe E with cooperation after their last C; defect against pure defector A."}

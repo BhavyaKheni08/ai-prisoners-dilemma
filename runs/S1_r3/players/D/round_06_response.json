@@ -1,0 +1,1 @@
+{"moves":{"A":"C","B":"C","C":"C","E":"C","F":"C","G":"C","H":"D"},"messages":{"A":"Continuing C.","B":"Continuing C.","C":"Continuing C.","E":"Continuing C.","F":"Let us stay in C.","G":"Continuing C.","H":"Show consistent C and I return."},"reasoning":"Cooperate with all cooperators; H has defected nearly always, so stay defecting until sustained C."}

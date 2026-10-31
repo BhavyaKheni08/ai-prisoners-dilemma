@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"C","D":"C","E":"C","F":"C","G":"C","H":"D"},
+"messages":{"A":"Treating your round-9 D as noise. Continuing C; please match.","B":"Continuing C.","D":"Continuing C.","E":"Assuming your D was noise. Continuing C.","F":"Continuing C.","G":"Continuing C.","H":"Your actual moves are all D. Staying D."},
+"reasoning":"Cooperate broadly and forgive isolated D's as likely noise; defect only against H, a near-pure defector."}

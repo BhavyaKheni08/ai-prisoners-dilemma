@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "C": "C", "D": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Continuing mutual cooperation.", "C": "Keeping mutual C going.", "D": "Still defecting until you show consistent cooperation.", "E": "Cooperating. I will forgive a single noise flip.", "F": "Staying mutual C.", "G": "Continuing mutual C.", "H": "Cooperating. Thanks for the noise explanation."},
+  "reasoning": "Cooperating with opponents whose reputations and recent play are cooperative, and defecting against D, who has cooperated only 6% of the time against others. E gets C with forgiveness for its single defection, since its reputation is middling."
+}

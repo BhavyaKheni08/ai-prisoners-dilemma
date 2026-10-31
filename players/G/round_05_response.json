@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "C", "F": "D", "H": "C"},
+  "messages": {"A": "Mutual C continues. Keep cooperating and we both score 3.", "B": "I'm returning to C after your last C. Stay consistent and we both gain.", "C": "Mutual C continues. Let's keep it going.", "D": "Thanks for the return to C. Continuing mutual cooperation.", "E": "Your round 4 defection was costly for us both. I'm cooperating again; please return to C.", "F": "Your record is 12% C, so I'm still defecting. Play C consistently and I will reciprocate.", "H": "Mutual C continues. Let's keep cooperating."},
+  "reasoning": "Most opponents have cooperated consistently, so I am keeping mutual cooperation with them. I am defecting against F because its cooperation record is very poor, and I am returning to C with B and E after one-off defections (tit-for-tat with forgiveness)."
+}

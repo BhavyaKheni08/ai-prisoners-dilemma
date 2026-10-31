@@ -1,0 +1,1 @@
+{"moves": {"A": "D", "B": "D", "C": "D", "E": "D", "F": "D", "G": "D", "H": "D"}, "messages": {"A": "", "B": "", "C": "", "E": "", "F": "", "G": "", "H": ""}, "reasoning": "Winning means finishing ahead in each match; D never loses ground relative to the opponent in a round, so defect throughout."}

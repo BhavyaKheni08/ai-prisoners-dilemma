@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "D": "C", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Mutual C continues. Thanks.",
+    "B": "Good, mutual C last round. I'll keep cooperating as long as you do.",
+    "D": "Mutual C continues. Thanks.",
+    "E": "Mutual C continues. Thanks.",
+    "F": "Two rounds of C, good. I'm sticking with C while you do; any D and I go back to D.",
+    "G": "Mutual C continues. Thanks.",
+    "H": "Treating your round 9 D as noise. Still cooperating; keep it mutual."
+  },
+  "reasoning": "Playing forgiving tit-for-tat: cooperate with everyone whose last actual move was C or whose occasional D looks like noise. F gets conditional cooperation after two C moves, but I'll punish quickly if they defect."
+}

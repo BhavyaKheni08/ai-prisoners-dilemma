@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "D", "E": "D", "F": "C", "G": "C", "H": "C"},
+  "reasoning": "Keep cooperating with A, F, G, H who cooperate with me. Defect against C (habitual defector), E (defected twice despite my opening cooperation), and B (middling reputation, defected last round)."
+}

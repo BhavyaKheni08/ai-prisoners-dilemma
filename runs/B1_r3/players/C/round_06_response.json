@@ -1,0 +1,1 @@
+{"moves": {"A": "D", "B": "C", "D": "C", "E": "C", "F": "D", "G": "C", "H": "D"}, "reasoning": "Cooperate with high-reputation reciprocators and forgive E's single defection as likely noise; defect against low-reputation defectors A and H, and against F, which kept defecting despite my cooperation."}

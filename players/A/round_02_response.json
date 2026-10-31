@@ -1,0 +1,13 @@
+{
+  "moves": {"B": "C", "C": "C", "D": "C", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {
+    "B": "Cooperating again. Mutual C is best for both of us.",
+    "C": "Great, staying with mutual C. Thanks for cooperating.",
+    "D": "Staying cooperative. Let's keep mutual C going.",
+    "E": "Agreed, continuing to cooperate. Will forgive noise flips.",
+    "F": "You defected in round 1 despite promising C. I'll cooperate again if you show C.",
+    "G": "Continuing to cooperate. Mutual gain works well.",
+    "H": "My round 1 defection was a noise flip, sorry. Continuing to cooperate."
+  },
+  "reasoning": "Cooperate with everyone who cooperated; my H defection was noise. F defected against my cooperation and has low reputation, so I defect on F this round and watch for signs of change."
+}

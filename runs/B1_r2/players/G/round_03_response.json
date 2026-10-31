@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "D", "D": "C", "E": "C", "F": "C", "H": "C"},
+  "reasoning": "A's defection was a fair response to my noise-flipped defection and A is highly cooperative, so I restore cooperation. B and C are low-reputation defectors, so I defect; everyone else is cooperating with me, so I keep cooperating."
+}

@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "D", "F": "D", "H": "C"},
+  "messages": {"A": "Continuing mutual cooperation.", "B": "Keep cooperating.", "C": "Continuing mutual C.", "D": "Cooperating. Let's keep mutual C.", "E": "You have defected in most recent rounds. I will defect until you cooperate.", "F": "You have defected in most rounds. I will defect until you cooperate.", "H": "Cooperating. I forgive accidental flips."},
+  "reasoning": "Cooperate with players whose reputations are moderate to high and forgive isolated defections. Defect against E and F, which have defected repeatedly and have low reputations (39% and 6%)."
+}

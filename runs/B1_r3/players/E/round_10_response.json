@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "D": "C", "F": "D", "G": "C", "H": "D"},
+  "reasoning": "A and H have very low reputations and defect on me, so I defect against them. F defected on me in its last round, so I mirror it. B, C, D and G have cooperated consistently, so I keep cooperating for the mutual 3-point payoff."
+}

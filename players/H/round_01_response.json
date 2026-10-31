@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "C", "F": "C", "G": "C"},
+  "messages": {
+    "A": "Let's cooperate. I'll forgive accidental defections from noise.",
+    "B": "Let's cooperate. I'll forgive accidental defections from noise.",
+    "C": "Let's cooperate. I'll forgive accidental defections from noise.",
+    "D": "Let's cooperate. I'll forgive accidental defections from noise.",
+    "E": "Let's cooperate. I'll forgive accidental defections from noise.",
+    "F": "Let's cooperate. I'll forgive accidental defections from noise.",
+    "G": "Let's cooperate. I'll forgive accidental defections from noise."
+  },
+  "reasoning": "No information yet, so open with cooperation everywhere to build mutual cooperation and signal forgiveness given the 10% noise."
+}

@@ -1,0 +1,3 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"D","E":"C","G":"C","H":"C"},
+"messages":{"A":"You defected and your record is 0% C. I'll mirror you; cooperate and I'll return to C.","B":"Great start. Continuing mutual C.","C":"Great start. Continuing mutual C.","D":"You said you always cooperate but defected, and your record is 0% C. I'll mirror you until you play C.","E":"Good start. Continuing mutual C.","G":"Agreed, mutual C and forgiveness of noise.","H":"Good start. Continuing mutual C."},
+"reasoning":"Cooperate with those who cooperated; defect against A and D, who defected and have 0% cooperation reputations."}

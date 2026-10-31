@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "D", "F": "D", "H": "C"},
+  "messages": {"A": "Continuing mutual cooperation.", "B": "Returning to C. Keep cooperating and I will too.", "C": "Continuing mutual C.", "D": "Cooperating. Let's keep mutual C.", "E": "You have defected in most recent rounds. I will defect until you cooperate.", "F": "You have defected in most rounds. I will defect until you cooperate.", "H": "Cooperating. I forgive accidental flips."},
+  "reasoning": "Cooperate with the reciprocal and high-reputation players (A, B, C, D, H) to keep mutual 3-point rounds. Defect against E and F, who have low reputations and have defected in recent rounds."
+}

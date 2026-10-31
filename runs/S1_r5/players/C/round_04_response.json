@@ -1,0 +1,1 @@
+{"moves":{"A":"C","B":"C","D":"C","E":"D","F":"D","G":"D","H":"C"},"messages":{"A":"Keep C.","B":"Keep C.","D":"Keep C.","E":"You defected; mirroring.","F":"","G":"You defected twice; mirroring.","H":"Keep C."},"reasoning":"Cooperate with steady cooperators; retaliate against E, F, G who defected on me or have poor reputations."}

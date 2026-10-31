@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "C": "C", "D": "C", "E": "C", "F": "C", "G": "C", "H": "D"},
+  "messages": {
+    "A": "Great, still cooperating.",
+    "C": "Thanks, glad we're back to cooperating.",
+    "D": "Thanks, continuing to cooperate.",
+    "E": "Let's keep cooperating, 3 each round.",
+    "F": "Your round 2 D may have been noise. I'll keep cooperating; please do too.",
+    "G": "Thanks for cooperating. Let's keep it going.",
+    "H": "I'll cooperate once you do. Play C and I'll follow."
+  },
+  "reasoning": "Cooperate with everyone who has been cooperative, forgiving likely noise flips. Keep defecting against H, who has 0% cooperation reputation, until it shows cooperation."
+}

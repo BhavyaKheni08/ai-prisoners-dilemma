@@ -1,0 +1,1 @@
+{"moves":{"A":"C","B":"C","C":"C","D":"C","E":"D","F":"D","G":"C"},"messages":{"A":"","B":"","C":"","D":"","E":"","F":"","G":""},"reasoning":"Cooperate with mostly cooperative players; defect against F (persistent defector) and erratic E."}

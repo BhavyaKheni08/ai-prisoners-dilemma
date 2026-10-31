@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "D": "C", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Sorry, my round-2 D was a noise flip; I intended C. Continuing mutual C.",
+    "B": "Mutual C continues. I forgive noise flips.",
+    "D": "Your round-2 D was fair retaliation for my flip. Let's reset: I'm cooperating, please do too.",
+    "E": "Mutual C continues. Thanks.",
+    "F": "Your record vs others is mostly D. I'll cooperate once you actually play C.",
+    "G": "Mutual C continues. Thanks.",
+    "H": "Mutual C continues. Thanks."
+  },
+  "reasoning": "Cooperate with cooperative opponents and forgive noise (including D's likely retaliation for my flipped move); keep defecting against F, whose 17% C reputation and actual play contradict its promises."
+}

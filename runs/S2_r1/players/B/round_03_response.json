@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "C": "C", "D": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Defection since round 1 gives me no reason to cooperate. Return to C and I will too.", "C": "Mutual C continues.", "D": "Your 0% cooperation record means I defect. Cooperate consistently and I will return to C.", "E": "Mutual C continues.", "F": "Mutual C continues.", "G": "Mutual C continues.", "H": "Thanks for the forgiveness. Mutual C from here."},
+  "reasoning": "Cooperating with the reliably cooperative players keeps 3-point rounds going. Defecting against A and D, who defected and show no cooperation elsewhere, avoids being exploited."
+}

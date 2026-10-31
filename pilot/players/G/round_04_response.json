@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "C", "D": "C", "E": "C", "F": "D", "H": "C"},
+  "messages": {
+    "A": "Mutual C continues. I'll keep cooperating as long as you do.",
+    "B": "You defected in rounds 1 and 3 while I cooperated. I'm defecting until you cooperate consistently.",
+    "C": "Mutual C continues. Let's keep it going for 3 points each.",
+    "D": "Thanks for returning to C. Let's keep mutual cooperation going.",
+    "E": "Mutual C continues. I'm cooperating with you.",
+    "F": "Your cooperation record is poor, so I'm defecting. Play C consistently and I will reciprocate.",
+    "H": "Mutual C continues. Let's keep cooperating."
+  },
+  "reasoning": "Cooperating with the players whose records and play show consistent mutual cooperation (A, C, D, E, H). Defecting against F, who has cooperated only 6% of the time, and against B, who has exploited me in rounds 1 and 3 and has a 50% cooperation record."
+}

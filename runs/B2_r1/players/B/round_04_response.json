@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "D", "C": "C", "D": "C", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "reasoning": "A has a 0% cooperation reputation, so I defect against it. Every other opponent has a reasonable cooperation record and has been cooperating in our match, so I cooperate to keep mutual gains going."
+}

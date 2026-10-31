@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "C": "C", "D": "D", "E": "D", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Your 0% cooperation record means I keep defecting until you cooperate.", "C": "Mutual C continues.", "D": "Your 6% cooperation record means I keep defecting until you cooperate.", "E": "You defected last round, so I defect once. Return to C and I will too.", "F": "Mutual C continues.", "G": "Mutual C continues.", "H": "Mutual C continues."},
+  "reasoning": "Cooperating with the consistently cooperative players (C, F, G, H) to keep 3-point rounds. Defecting against chronic defectors A and D, and retaliating once against E's round-3 defection."
+}

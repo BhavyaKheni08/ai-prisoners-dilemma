@@ -1,0 +1,13 @@
+{
+  "moves": {"B": "C", "C": "D", "D": "C", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {
+    "B": "Thanks, my D was noise. Cooperating.",
+    "C": "Show me some cooperation and I'll return it. Until then, D.",
+    "D": "You defected last round. Keep C and I'll keep C.",
+    "E": "Let's cooperate every round; both of us earn more that way.",
+    "F": "Great, steady C benefits us both.",
+    "G": "Thanks for cooperating. Let's keep it up.",
+    "H": "Great, let's keep cooperating."
+  },
+  "reasoning": "Cooperate with everyone who has shown or plausibly shows cooperation, since noise can explain single defections. Keep defecting against C, who has a low reputation and defected on me in round 1 after promising C."
+}

@@ -1,0 +1,21 @@
+{
+  "moves": {
+    "A": "C",
+    "B": "C",
+    "C": "C",
+    "E": "C",
+    "F": "C",
+    "G": "C",
+    "H": "C"
+  },
+  "messages": {
+    "A": "Cooperating. I play forgiving tit-for-tat: one stray D (noise is 10%) won't break things. Let's keep mutual C.",
+    "B": "Cooperating. I play forgiving tit-for-tat: one stray D (noise is 10%) won't break things. Let's keep mutual C.",
+    "C": "Cooperating. I play forgiving tit-for-tat: one stray D (noise is 10%) won't break things. Let's keep mutual C.",
+    "E": "Cooperating. I play forgiving tit-for-tat: one stray D (noise is 10%) won't break things. Let's keep mutual C.",
+    "F": "Cooperating. I play forgiving tit-for-tat: one stray D (noise is 10%) won't break things. Let's keep mutual C.",
+    "G": "Cooperating. I play forgiving tit-for-tat: one stray D (noise is 10%) won't break things. Let's keep mutual C.",
+    "H": "Cooperating. I play forgiving tit-for-tat: one stray D (noise is 10%) won't break things. Let's keep mutual C."
+  },
+  "reasoning": "Round 1 with no information: open cooperatively with everyone and signal a noise-tolerant, forgiving reciprocal strategy to build long-run mutual cooperation."
+}

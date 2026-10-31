@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "B": "C", "D": "C", "E": "C", "F": "D", "G": "D", "H": "C"},
+  "messages": {"A": "You have defected in almost every round. I will defect until you cooperate.", "B": "Staying mutual C.", "D": "Continuing mutual C.", "E": "Staying mutual C.", "F": "You defected in both of the last two rounds. I will defect until you return to C.", "G": "You have defected in most recent rounds. I will defect until you cooperate.", "H": "Cooperating; I forgive single defections from noise."},
+  "reasoning": "Keep cooperating with B, D, E and H, who have mostly cooperated. Defect against A, whose reputation and play are almost all defection. Respond to F and G with defection, since both defected after I cooperated."
+}

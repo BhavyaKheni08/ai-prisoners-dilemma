@@ -1,0 +1,1 @@
+{"moves":{"A":"C","B":"C","C":"C","D":"D","E":"D","F":"C","H":"C"},"messages":{"A":"Back to C please.","B":"Continuing C.","C":"Steady C please.","D":"Show real C first.","E":"","F":"Continuing C.","H":"Continuing C."},"reasoning":"Cooperate with stable partners, retry A, defect against D and erratic E."}

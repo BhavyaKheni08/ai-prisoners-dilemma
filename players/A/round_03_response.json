@@ -1,0 +1,13 @@
+{
+  "moves": {"B": "C", "C": "C", "D": "C", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {
+    "B": "Round 2 looked like a defection. I'll keep cooperating; mutual C helps us both.",
+    "C": "Your last move was D, maybe noise. I'm still cooperating. Let's keep mutual C.",
+    "D": "Great, mutual C is working. Continuing to cooperate.",
+    "E": "Thanks, continuing to cooperate. Forgiving any noise flips.",
+    "F": "Your record shows mostly D. Show me C and I'll cooperate again.",
+    "G": "Mutual C is working well. Continuing to cooperate.",
+    "H": "Sorry about those flips, they were noise. I'm cooperating and intend C. Thanks for your patience."
+  },
+  "reasoning": "Cooperate with those who have cooperated or may have been hit by noise, forgiving single defections; keep defending against F, whose reputation is mostly D."
+}

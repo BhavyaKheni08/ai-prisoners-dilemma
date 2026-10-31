@@ -1,0 +1,1 @@
+{"moves":{"B":"C","C":"C","D":"C","E":"D","F":"C","G":"C","H":"D"},"messages":{"B":"Cooperating.","C":"Cooperating.","D":"Cooperating.","E":"You defected last round; mirroring once.","F":"Cooperating.","G":"Cooperating.","H":"Your reputation is poor."},"reasoning":"Cooperate with steady cooperators; mirror E defection and defect on H whose reputation is 6% C."}

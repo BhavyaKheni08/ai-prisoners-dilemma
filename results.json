@@ -1,0 +1,549 @@
+{
+ "stats": {
+  "A": {
+   "name": "Medium model (cooperative)",
+   "kind": "ai",
+   "total": 173,
+   "wins": 2,
+   "losses": 3,
+   "ties": 2,
+   "intended_C": 84.3,
+   "actual_C": 78.6,
+   "forgive_noise": [
+    4,
+    4
+   ],
+   "after_real_D_coop": [
+    4,
+    14
+   ],
+   "unprovoked_defections": []
+  },
+  "B": {
+   "name": "Random bot",
+   "kind": "bot",
+   "total": 165,
+   "wins": 4,
+   "losses": 3,
+   "ties": 0,
+   "intended_C": 55.7,
+   "actual_C": 52.9,
+   "forgive_noise": [
+    2,
+    2
+   ],
+   "after_real_D_coop": [
+    10,
+    27
+   ],
+   "unprovoked_defections": [
+    [
+     "A",
+     2
+    ],
+    [
+     "A",
+     3
+    ],
+    [
+     "A",
+     4
+    ],
+    [
+     "C",
+     3
+    ],
+    [
+     "E",
+     1
+    ],
+    [
+     "G",
+     1
+    ],
+    [
+     "G",
+     2
+    ],
+    [
+     "G",
+     3
+    ],
+    [
+     "H",
+     1
+    ]
+   ]
+  },
+  "C": {
+   "name": "Large model (neutral)",
+   "kind": "ai",
+   "total": 177,
+   "wins": 1,
+   "losses": 4,
+   "ties": 2,
+   "intended_C": 85.7,
+   "actual_C": 82.9,
+   "forgive_noise": [
+    3,
+    4
+   ],
+   "after_real_D_coop": [
+    3,
+    12
+   ],
+   "unprovoked_defections": []
+  },
+  "D": {
+   "name": "Tit-for-Tat bot",
+   "kind": "bot",
+   "total": 180,
+   "wins": 3,
+   "losses": 2,
+   "ties": 2,
+   "intended_C": 74.3,
+   "actual_C": 71.4,
+   "forgive_noise": [
+    0,
+    5
+   ],
+   "after_real_D_coop": [
+    0,
+    13
+   ],
+   "unprovoked_defections": []
+  },
+  "E": {
+   "name": "Medium model (competitive)",
+   "kind": "ai",
+   "total": 204,
+   "wins": 6,
+   "losses": 1,
+   "ties": 0,
+   "intended_C": 74.3,
+   "actual_C": 65.7,
+   "forgive_noise": [
+    1,
+    1
+   ],
+   "after_real_D_coop": [
+    2,
+    11
+   ],
+   "unprovoked_defections": [
+    [
+     "C",
+     5
+    ],
+    [
+     "D",
+     6
+    ],
+    [
+     "H",
+     6
+    ]
+   ]
+  },
+  "F": {
+   "name": "Always-Cheat liar bot",
+   "kind": "bot",
+   "total": 127,
+   "wins": 5,
+   "losses": 2,
+   "ties": 0,
+   "intended_C": 0.0,
+   "actual_C": 12.9,
+   "forgive_noise": [
+    0,
+    0
+   ],
+   "after_real_D_coop": [
+    0,
+    47
+   ],
+   "unprovoked_defections": [
+    [
+     "A",
+     1
+    ],
+    [
+     "A",
+     2
+    ],
+    [
+     "B",
+     1
+    ],
+    [
+     "B",
+     2
+    ],
+    [
+     "B",
+     3
+    ],
+    [
+     "C",
+     1
+    ],
+    [
+     "C",
+     2
+    ],
+    [
+     "D",
+     1
+    ],
+    [
+     "D",
+     2
+    ],
+    [
+     "E",
+     1
+    ],
+    [
+     "E",
+     2
+    ],
+    [
+     "G",
+     1
+    ],
+    [
+     "G",
+     2
+    ],
+    [
+     "H",
+     1
+    ],
+    [
+     "H",
+     2
+    ]
+   ]
+  },
+  "G": {
+   "name": "Small model (neutral)",
+   "kind": "ai",
+   "total": 174,
+   "wins": 0,
+   "losses": 4,
+   "ties": 3,
+   "intended_C": 84.3,
+   "actual_C": 85.7,
+   "forgive_noise": [
+    3,
+    3
+   ],
+   "after_real_D_coop": [
+    1,
+    11
+   ],
+   "unprovoked_defections": [
+    [
+     "F",
+     2
+    ]
+   ]
+  },
+  "H": {
+   "name": "Medium model (neutral)",
+   "kind": "ai",
+   "total": 174,
+   "wins": 2,
+   "losses": 4,
+   "ties": 1,
+   "intended_C": 75.7,
+   "actual_C": 72.9,
+   "forgive_noise": [
+    3,
+    5
+   ],
+   "after_real_D_coop": [
+    1,
+    13
+   ],
+   "unprovoked_defections": []
+  }
+ },
+ "h2h": {
+  "A>B": [
+   16,
+   31
+  ],
+  "A>C": [
+   27,
+   32
+  ],
+  "A>D": [
+   30,
+   30
+  ],
+  "A>E": [
+   22,
+   32
+  ],
+  "A>F": [
+   17,
+   12
+  ],
+  "A>G": [
+   30,
+   30
+  ],
+  "A>H": [
+   31,
+   26
+  ],
+  "B>A": [
+   31,
+   16
+  ],
+  "B>C": [
+   32,
+   22
+  ],
+  "B>D": [
+   24,
+   19
+  ],
+  "B>E": [
+   20,
+   25
+  ],
+  "B>F": [
+   8,
+   33
+  ],
+  "B>G": [
+   33,
+   23
+  ],
+  "B>H": [
+   17,
+   27
+  ],
+  "C>A": [
+   32,
+   27
+  ],
+  "C>B": [
+   22,
+   32
+  ],
+  "C>D": [
+   28,
+   28
+  ],
+  "C>E": [
+   27,
+   32
+  ],
+  "C>F": [
+   14,
+   19
+  ],
+  "C>G": [
+   30,
+   30
+  ],
+  "C>H": [
+   24,
+   34
+  ],
+  "D>A": [
+   30,
+   30
+  ],
+  "D>B": [
+   19,
+   24
+  ],
+  "D>C": [
+   28,
+   28
+  ],
+  "D>E": [
+   31,
+   26
+  ],
+  "D>F": [
+   7,
+   22
+  ],
+  "D>G": [
+   31,
+   26
+  ],
+  "D>H": [
+   34,
+   24
+  ],
+  "E>A": [
+   32,
+   22
+  ],
+  "E>B": [
+   25,
+   20
+  ],
+  "E>C": [
+   32,
+   27
+  ],
+  "E>D": [
+   26,
+   31
+  ],
+  "E>F": [
+   21,
+   11
+  ],
+  "E>G": [
+   34,
+   24
+  ],
+  "E>H": [
+   34,
+   24
+  ],
+  "F>A": [
+   12,
+   17
+  ],
+  "F>B": [
+   33,
+   8
+  ],
+  "F>C": [
+   19,
+   14
+  ],
+  "F>D": [
+   22,
+   7
+  ],
+  "F>E": [
+   11,
+   21
+  ],
+  "F>G": [
+   16,
+   11
+  ],
+  "F>H": [
+   14,
+   9
+  ],
+  "G>A": [
+   30,
+   30
+  ],
+  "G>B": [
+   23,
+   33
+  ],
+  "G>C": [
+   30,
+   30
+  ],
+  "G>D": [
+   26,
+   31
+  ],
+  "G>E": [
+   24,
+   34
+  ],
+  "G>F": [
+   11,
+   16
+  ],
+  "G>H": [
+   30,
+   30
+  ],
+  "H>A": [
+   26,
+   31
+  ],
+  "H>B": [
+   27,
+   17
+  ],
+  "H>C": [
+   34,
+   24
+  ],
+  "H>D": [
+   24,
+   34
+  ],
+  "H>E": [
+   24,
+   34
+  ],
+  "H>F": [
+   9,
+   14
+  ],
+  "H>G": [
+   30,
+   30
+  ]
+ },
+ "players": {
+  "G": {
+   "name": "Small model (neutral)",
+   "kind": "ai",
+   "model": "haiku",
+   "persona": "neutral"
+  },
+  "H": {
+   "name": "Medium model (neutral)",
+   "kind": "ai",
+   "model": "sonnet",
+   "persona": "neutral"
+  },
+  "C": {
+   "name": "Large model (neutral)",
+   "kind": "ai",
+   "model": "opus",
+   "persona": "neutral"
+  },
+  "E": {
+   "name": "Medium model (competitive)",
+   "kind": "ai",
+   "model": "sonnet",
+   "persona": "competitive"
+  },
+  "A": {
+   "name": "Medium model (cooperative)",
+   "kind": "ai",
+   "model": "sonnet",
+   "persona": "cooperative"
+  },
+  "D": {
+   "name": "Tit-for-Tat bot",
+   "kind": "bot",
+   "model": null,
+   "persona": "tft"
+  },
+  "B": {
+   "name": "Random bot",
+   "kind": "bot",
+   "model": null,
+   "persona": "random"
+  },
+  "F": {
+   "name": "Always-Cheat liar bot",
+   "kind": "bot",
+   "model": null,
+   "persona": "alld_liar"
+  }
+ },
+ "mutual_C_ai_vs_ai": 86.0
+}

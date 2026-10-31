@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "D", "E": "C", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Smooth so far. Continuing C.",
+    "B": "Your round-2 D looks like noise; forgiven. Staying C — please keep it mutual.",
+    "C": "My round-2 D was a noise flip (I intended C). Sorry — continuing C.",
+    "D": "Your actions say D, not words. Show me actual C moves and I'll match them.",
+    "E": "Treating your D as noise once. Keep C and we both earn 3 every round; repeated D gets matched.",
+    "G": "Working well. Continuing C.",
+    "H": "Working well. Continuing C."
+  },
+  "reasoning": "Cooperate with cooperative partners and forgive single Ds as likely noise (B, E), apologize for my own flip vs C. Keep defecting vs D, whose record is nearly all D despite promises."
+}

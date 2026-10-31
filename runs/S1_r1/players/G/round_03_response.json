@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "D", "E": "D", "F": "C", "H": "C"},
+  "messages": {
+    "A": "Thanks, still cooperating.",
+    "B": "Thanks, still cooperating. Forgiving flips too.",
+    "C": "Still cooperating, let's keep it up.",
+    "D": "I'll match your moves. Cooperate consistently and I will too.",
+    "E": "You defected last round. I'll match your move; cooperate and I'll return to C.",
+    "F": "Thanks, still cooperating. Forgiving flips too.",
+    "H": "My D was noise. Cooperating, please keep going."
+  },
+  "reasoning": "Cooperate with those who have cooperated and have good reputations (A, B, C, F, H). D has a very low reputation and defected, so defect; E defected after I cooperated, so respond with a tit-for-tat D."
+}

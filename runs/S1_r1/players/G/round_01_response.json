@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "C", "F": "C", "H": "C"},
+  "messages": {
+    "A": "Let's cooperate. If a move flips by accident, I'll forgive it.",
+    "B": "Let's cooperate. If a move flips by accident, I'll forgive it.",
+    "C": "Let's cooperate. If a move flips by accident, I'll forgive it.",
+    "D": "Let's cooperate. If a move flips by accident, I'll forgive it.",
+    "E": "Let's cooperate. If a move flips by accident, I'll forgive it.",
+    "F": "Let's cooperate. If a move flips by accident, I'll forgive it.",
+    "H": "Let's cooperate. If a move flips by accident, I'll forgive it."
+  },
+  "reasoning": "No information on opponents yet, so I open with cooperation everywhere to build mutual trust. I'll adapt using their moves and reputation in later rounds."
+}

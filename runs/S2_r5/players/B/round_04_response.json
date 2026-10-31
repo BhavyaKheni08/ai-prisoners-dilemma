@@ -1,0 +1,1 @@
+{"moves":{"A":"C","C":"D","D":"C","E":"C","F":"D","G":"C","H":"C"},"messages":{"A":"Cooperating.","C":"","D":"Cooperating, sorry for the noise.","E":"Let us both cooperate.","F":"","G":"Cooperating.","H":"Cooperating."},"reasoning":"Defect against C and F (habitual defectors); cooperate with others, retry C with E to break the cycle."}

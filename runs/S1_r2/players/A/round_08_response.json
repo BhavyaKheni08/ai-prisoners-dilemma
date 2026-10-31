@@ -1,0 +1,1 @@
+{"moves":{"B":"C","C":"D","D":"C","E":"C","F":"C","G":"C","H":"C"},"messages":{"B":"Continuing C.","C":"Show consistent C first.","D":"Continuing C.","E":"Continuing C.","F":"Let us both play C.","G":"Continuing C.","H":"Continuing C."},"reasoning":"Cooperate with mostly cooperative players; keep defecting against C, who has defected persistently."}

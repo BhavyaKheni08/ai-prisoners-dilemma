@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"C","C":"C","E":"D","F":"D","G":"C","H":"C"},
+"messages":{"A":"Continuing C.","B":"Continuing C.","C":"Continuing C.","E":"You defected on my C. Matching D; play C and I'll return.","F":"Your record is still mostly D. Sustain C and I'll follow.","G":"Continuing mutual C.","H":"Continuing C."},
+"reasoning":"Maintain cooperation with reliable partners, punish E's defection on mutual C, and stay D against the near-pure defector F."}

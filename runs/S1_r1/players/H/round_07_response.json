@@ -1,0 +1,1 @@
+{"moves":{"A":"C","B":"C","C":"C","D":"D","E":"C","F":"C","G":"C"},"messages":{"A":"Continuing C.","B":"Continuing C.","C":"Continuing C.","D":"Cooperate and I will too.","E":"Continuing C.","F":"Continuing C.","G":"Continuing C."},"reasoning":"Keep cooperating with reciprocators; D has defected consistently and has a very low reputation, so defect there."}

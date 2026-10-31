@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Let's cooperate. Moves may flip by noise; I'll forgive one-off defections.", "B": "Let's cooperate. Moves may flip by noise; I'll forgive one-off defections.", "C": "Let's cooperate. Moves may flip by noise; I'll forgive one-off defections.", "D": "Let's cooperate. Moves may flip by noise; I'll forgive one-off defections.", "F": "Let's cooperate. Moves may flip by noise; I'll forgive one-off defections.", "G": "Let's cooperate. Moves may flip by noise; I'll forgive one-off defections.", "H": "Let's cooperate. Moves may flip by noise; I'll forgive one-off defections."},
+  "reasoning": "No information yet, so open with cooperation to establish mutual cooperation and learn opponent types; will adapt to retaliate against exploiters."
+}

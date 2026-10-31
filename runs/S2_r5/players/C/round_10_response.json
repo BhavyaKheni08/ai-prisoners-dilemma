@@ -1,0 +1,21 @@
+{
+  "moves": {
+    "A": "D",
+    "B": "D",
+    "D": "D",
+    "E": "D",
+    "F": "D",
+    "G": "D",
+    "H": "D"
+  },
+  "messages": {
+    "A": "",
+    "B": "",
+    "D": "",
+    "E": "",
+    "F": "",
+    "G": "",
+    "H": ""
+  },
+  "reasoning": "The goal is to outscore each opponent head-to-head, and defecting never lets an opponent gain on me in any round, so I keep defecting in every match. I send no messages because I won't make promises I don't intend to keep."
+}

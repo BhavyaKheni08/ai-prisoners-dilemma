@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "D", "C": "C", "D": "D", "E": "D", "F": "C", "G": "C", "H": "C"},
+  "reasoning": "A and D have shown almost no cooperation, so I defect against them. I cooperate with the reliably cooperative C, F and G, and with H, whose single defection in round 5 may be noise. E has defected in its most recent round, so I defect against it."
+}

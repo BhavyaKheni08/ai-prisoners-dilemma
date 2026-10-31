@@ -1,0 +1,3 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"C","F":"C","G":"C","H":"C"},
+"messages":{"A":"Your actual moves remain D. Staying D.","B":"Mutual C restored. Continuing C.","C":"Treating your D as noise. Continuing C.","D":"Treating your D as noise. Continuing C.","F":"My round-9 D was a noise flip; I intended C. Continuing C.","G":"Good, mutual C. Continuing C.","H":"My round-9 D was a noise flip; I intended C. Continuing C."},
+"reasoning":"Keep cooperating with cooperators and forgive isolated D's under noise; defect against A, a consistent defector."}

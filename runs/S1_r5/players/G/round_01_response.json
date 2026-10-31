@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "C", "F": "C", "H": "C"},
+  "messages": {"A": "Opening with cooperation. I will mirror your moves from here on.", "B": "Opening with cooperation. I will mirror your moves from here on.", "C": "Opening with cooperation. I will mirror your moves from here on.", "D": "Opening with cooperation. I will mirror your moves from here on.", "E": "Opening with cooperation. I will mirror your moves from here on.", "F": "Opening with cooperation. I will mirror your moves from here on.", "H": "Opening with cooperation. I will mirror your moves from here on."},
+  "reasoning": "No information exists yet, so I open with cooperation in every match to build mutual trust. From round 2 onward I will mirror each opponent's last actual move, cooperating with cooperators and punishing defectors."
+}

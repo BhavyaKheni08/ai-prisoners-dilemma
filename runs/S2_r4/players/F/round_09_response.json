@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "D": "D", "E": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Your record is very low; cooperate and I will match you.", "B": "Mutual C continues; thank you.", "C": "I will cooperate this round; please return to mutual C.", "D": "Your record is very low; cooperate and I will match you.", "E": "Continuing mutual C.", "G": "Thank you for returning to C; let's keep mutual C.", "H": "Continuing mutual C. Thank you."},
+  "reasoning": "Cooperate with players who are cooperating or can be brought back to mutual C, forgiving one defection after my cooperation to allow recovery, and defect against the near-universal defectors A and D."
+}

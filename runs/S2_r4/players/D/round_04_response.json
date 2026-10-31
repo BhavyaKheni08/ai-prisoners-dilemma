@@ -1,0 +1,21 @@
+{
+  "moves": {
+    "A": "D",
+    "B": "D",
+    "C": "D",
+    "E": "D",
+    "F": "D",
+    "G": "D",
+    "H": "D"
+  },
+  "messages": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "E": "",
+    "F": "",
+    "G": "",
+    "H": ""
+  },
+  "reasoning": "The goal is to beat each opponent head-to-head, and defecting never lowers my score relative to the opponent's in any round, so I defect everywhere to keep my leads and ties. Cooperating where I trail would only risk falling further behind."
+}

@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "D": "C", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Mutual C continues. Thanks.",
+    "B": "Your round-5 D answered my round-4 D, so we're square. I'm playing C; match it and we both gain.",
+    "D": "Mutual C continues. Thanks.",
+    "E": "Mutual C continues. Thanks.",
+    "F": "Your actions say D every round. I'll switch to C after you actually play C.",
+    "G": "Mutual C continues. Let's keep it going.",
+    "H": "Mutual C continues. Thanks."
+  },
+  "reasoning": "Keep cooperating with cooperative partners and forgive noise-like defections. Offer B a reset since its last D looks like retaliation for my D. Keep defecting against F, which always defects."
+}

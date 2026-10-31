@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"C","D":"C","E":"C","F":"C","G":"C","H":"D"},
+"messages":{"A":"Continuing C.","B":"Continuing C.","D":"Continuing C.","E":"Continuing C.","F":"My round-3 D was a noise flip; I intended C. Continuing C.","G":"My round-3 D was a noise flip; I intended C. Continuing C.","H":"Still all D from you. Play actual C and I'll reciprocate."},
+"reasoning":"Keep cooperating with cooperators and explain my noise flips to F and G; defect against H, a near-constant defector."}

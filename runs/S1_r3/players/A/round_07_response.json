@@ -1,0 +1,1 @@
+{"moves":{"B":"C","C":"C","D":"D","E":"C","F":"D","G":"C","H":"D"},"messages":{"B":"","C":"","D":"","E":"","F":"","G":"","H":""},"reasoning":"Cooperate with reliable cooperators; defect against D, F and H who have defected or have a defecting reputation."}

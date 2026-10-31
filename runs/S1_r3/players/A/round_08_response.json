@@ -1,0 +1,1 @@
+{"moves":{"B":"C","C":"C","D":"D","E":"D","F":"D","G":"C","H":"D"},"messages":{"B":"","C":"","D":"","E":"","F":"","G":"","H":""},"reasoning":"Cooperate where ahead or tied with steady cooperators; defect where behind or opponent defects."}

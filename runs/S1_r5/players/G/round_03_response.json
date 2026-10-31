@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "C", "F": "D", "H": "C"},
+  "messages": {
+    "A": "Continuing mutual cooperation. I will keep mirroring your C.",
+    "B": "I cooperated last round and will do so again. If you return to C, we both profit.",
+    "C": "Mutual C again. Thanks for keeping it going.",
+    "D": "Cooperating again. I forgive noise flips; let's keep mutual C.",
+    "E": "You cooperated last round, so I am returning to C. Let's both stay cooperative.",
+    "F": "You defected while I cooperated, so I am defecting. Return to C and I will too.",
+    "H": "Cooperating again for mutual benefit. I forgive accidental flips."
+  },
+  "reasoning": "Cooperate with every opponent that has been cooperating or has just returned to C, and forgive single noise flips. Defect against F, which has defected every round and has a 0% reputation for cooperation, while keeping the door open to return to C."
+}

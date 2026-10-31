@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "D": "C", "F": "D", "G": "C", "H": "D"},
+  "messages": {"A": "Your 17% cooperation record means I keep defecting until you cooperate.", "B": "Mutual C continues.", "C": "Mutual C continues.", "D": "Mutual C continues.", "F": "You defected after my cooperation, so I defect once. Return to C and I will too.", "G": "Mutual C continues.", "H": "Your 8% cooperation record means I keep defecting until you cooperate."},
+  "reasoning": "Cooperating with the reliable cooperators B, C, D and G, and defecting against the low-reputation A and H. F gets one punishing defection for its defection after my cooperation, with an offer to return to mutual cooperation."
+}

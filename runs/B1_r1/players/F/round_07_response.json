@@ -1,0 +1,1 @@
+{"moves": {"A": "D", "B": "C", "C": "C", "D": "D", "E": "D", "G": "C", "H": "C"}, "reasoning": "Cooperate with high-reputation cooperators and forgive isolated (likely noise-driven) defections; defect against persistent defectors and the erratic E."}

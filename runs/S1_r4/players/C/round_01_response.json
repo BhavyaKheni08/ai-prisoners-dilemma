@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "D": "C", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Let's both cooperate and keep it that way.", "B": "Let's both cooperate and keep it that way.", "D": "Let's both cooperate and keep it that way.", "E": "Let's both cooperate and keep it that way.", "F": "Let's both cooperate and keep it that way.", "G": "Let's both cooperate and keep it that way.", "H": "Let's both cooperate and keep it that way."},
+  "reasoning": "Mutual cooperation pays 3 per round, more than the 1-point mutual defection outcome, so I open by cooperating with everyone. I will track each opponent's replies and respond in kind from here."
+}

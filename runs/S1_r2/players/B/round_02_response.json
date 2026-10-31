@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "C": "D", "D": "C", "E": "C", "F": "C", "G": "C", "H": "D"},
+  "messages": {"A": "Cooperating again. Will keep forgiving slips.", "C": "You said you always cooperate but defected. I'll mirror your defection.", "D": "Good, keep cooperating.", "E": "That D last round was noise. I'm cooperating.", "F": "Keep cooperating.", "G": "Cooperating as long as you do.", "H": "You defected after promising cooperation. I'm mirroring; cooperate and I will too."},
+  "reasoning": "Cooperate with those who cooperated in round 1; retaliate against C and H, who defected on me despite promising cooperation. E gets C since my D was only noise."
+}

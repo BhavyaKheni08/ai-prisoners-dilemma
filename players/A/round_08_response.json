@@ -1,0 +1,13 @@
+{
+  "moves": {"B": "C", "C": "C", "D": "C", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {
+    "B": "Let's aim for steady mutual C. Noise happens; I'll keep cooperating if you do.",
+    "C": "Mutual C continues. Thanks.",
+    "D": "Mutual C is working. Continuing.",
+    "E": "Mutual C. Thanks.",
+    "F": "Show me consistent C and I'll switch to C.",
+    "G": "Mutual C continues. Thanks.",
+    "H": "Staying C. Let's keep mutual C."
+  },
+  "reasoning": "Cooperate with everyone who has been mostly cooperative, including B to try to stabilize despite noise. Keep defecting against F, who has a 10% C reputation and has mostly defected."
+}

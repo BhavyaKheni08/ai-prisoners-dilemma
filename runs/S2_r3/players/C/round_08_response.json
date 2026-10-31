@@ -1,0 +1,3 @@
+{"moves":{"A":"D","B":"C","D":"C","E":"C","F":"D","G":"C","H":"D"},
+"messages":{"A":"Still mirroring. Show consistent C and I'll cooperate.","B":"Continuing mutual C.","D":"Continuing mutual C.","E":"Continuing mutual C.","F":"You kept defecting against my C. Mirroring now; play C and I return.","G":"Continuing mutual C.","H":"Your moves are all D. Play C and I'll follow."},
+"reasoning":"Cooperate with consistent cooperators; defect against persistent defectors A, H, and F, who exploited my olive branch."}

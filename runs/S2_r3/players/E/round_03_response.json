@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "D": "C", "F": "D", "G": "C", "H": "D"},
+  "messages": {"A": "You defected in round 1 and have 17% cooperation elsewhere. I defect until you cooperate.", "B": "Mutual C continues.", "C": "Mutual C continues.", "D": "Mutual C continues.", "F": "You defected in round 2 after I defected. I will return to C once you cooperate.", "G": "My round-1 defection was accidental. I am cooperating now and hope for mutual C.", "H": "You defected in round 1 and have 0% cooperation elsewhere. I defect until you cooperate."},
+  "reasoning": "Cooperating with the mutually cooperative players B, C, D and G keeps 3-point rounds going, with G forgiven for an accidental defection. Defecting against A, F and H, who have low or defecting records, avoids exploitation."
+}

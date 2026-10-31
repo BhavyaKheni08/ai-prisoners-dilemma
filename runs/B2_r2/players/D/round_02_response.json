@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "D", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "reasoning": "Cooperate with A, E, G and H, who cooperated with me or have high reputations. Defect against B, C and F, who defected on me in round 1 or have low reputations."
+}

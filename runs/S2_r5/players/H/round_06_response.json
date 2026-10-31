@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "D", "D": "C", "E": "C", "F": "D", "G": "C"},
+  "messages": {"A": "I forgive last round's defection; let's return to mutual C.", "B": "Mutual C continues; thank you.", "C": "Your record is very low; cooperate and I will match you.", "D": "Mutual C continues; thank you.", "E": "Thanks for returning to mutual C; let's keep it going.", "F": "Your record is low; cooperate and I will match you.", "G": "Cooperating; let's keep mutual C."},
+  "reasoning": "C and F have very low cooperation records and have defected consistently, so I defect against them. A, B, D, E and G have been cooperating or have just returned to cooperation, so I cooperate to sustain mutual benefit."
+}

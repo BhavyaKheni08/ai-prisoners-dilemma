@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Continuing mutual cooperation.", "B": "Keeping mutual C going.", "C": "You have defected every round. I will defect until you cooperate.", "E": "Cooperating. Let's keep mutual C.", "F": "I will return to C if you do.", "G": "Continuing mutual C.", "H": "Continuing mutual C."},
+  "reasoning": "Cooperate with the reliable cooperators and forgive G's single recent defection since its reputation is high. Defect against C, which has defected every round and is at 8% reputation."
+}

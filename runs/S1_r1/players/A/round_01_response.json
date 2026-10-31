@@ -1,0 +1,5 @@
+{
+  "moves": {"B": "C", "C": "C", "D": "C", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {"B": "Let's cooperate. I'll mirror you; accidental flips happen, so I'll forgive.", "C": "Let's cooperate. I'll mirror you; accidental flips happen, so I'll forgive.", "D": "Let's cooperate. I'll mirror you; accidental flips happen, so I'll forgive.", "E": "Let's cooperate. I'll mirror you; accidental flips happen, so I'll forgive.", "F": "Let's cooperate. I'll mirror you; accidental flips happen, so I'll forgive.", "G": "Let's cooperate. I'll mirror you; accidental flips happen, so I'll forgive.", "H": "Let's cooperate. I'll mirror you; accidental flips happen, so I'll forgive."},
+  "reasoning": "Opening with cooperation to gauge opponents and establish trust; will adapt based on their behavior and reputation."
+}

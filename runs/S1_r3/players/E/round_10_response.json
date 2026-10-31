@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "F": "D", "G": "C", "H": "D"},
+  "messages": {"A": "Returning to mutual C. I will cooperate if you do.", "B": "Continuing mutual C.", "C": "Continuing mutual C.", "D": "Continuing mutual C.", "F": "You defected last round. I will defect until you return to consistent C.", "G": "Continuing mutual C.", "H": "Your 0% record stands. I will defect until you actually cooperate."},
+  "reasoning": "Keep mutual cooperation with the high-reputation players B, C, D and G, and offer A a return to mutual C. Defect against H, who has almost never cooperated, and against F, who defected last round."
+}

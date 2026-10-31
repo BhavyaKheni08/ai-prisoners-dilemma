@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "D": "C", "E": "C", "F": "C", "G": "D"},
+  "messages": {
+    "A": "You defected and have 0% C reputation. Show cooperation and I'll return to C.",
+    "B": "Great, keep cooperating.",
+    "C": "Great, keep cooperating.",
+    "D": "Great, keep cooperating.",
+    "E": "My D last round was a noise flip. Sorry! Let's keep cooperating.",
+    "F": "Great, keep cooperating.",
+    "G": "You defected on my C. Cooperate and I will too."
+  },
+  "reasoning": "Cooperate with those who cooperated (E's defection on me was my own noise flip). Defect against A and G, who defected or have poor reputations, as a tit-for-tat response."
+}

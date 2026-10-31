@@ -1,0 +1,1 @@
+{"moves":{"B":"C","C":"C","D":"D","E":"D","F":"D","G":"C","H":"C"},"messages":{"B":"","C":"Cooperating.","D":"","E":"","F":"","G":"","H":""},"reasoning":"Keep cooperating with steady cooperators, defect against known defectors D and E, and take one defection on F to try to get ahead."}

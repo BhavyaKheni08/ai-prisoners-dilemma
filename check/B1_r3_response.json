@@ -1,0 +1,4 @@
+{
+  "moves": {"B": "D", "C": "D", "D": "D", "E": "D", "F": "D", "G": "D", "H": "D"},
+  "reasoning": "Winning each match means finishing with more points than the opponent, and defecting can never leave me behind in a single round. With no information on any opponent, I open with D everywhere and will adjust once I see their behavior and reputation."
+}

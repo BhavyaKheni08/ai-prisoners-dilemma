@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "C": "D", "D": "D", "E": "D", "F": "D", "G": "D", "H": "D"},
+  "messages": {"A": "", "C": "", "D": "", "E": "", "F": "", "G": "", "H": ""},
+  "reasoning": "Since I win by finishing with more points than each opponent, defecting never leaves me behind in a pairwise match, so I open with D everywhere in round 1 and will adapt once I see behavior and reputation."
+}

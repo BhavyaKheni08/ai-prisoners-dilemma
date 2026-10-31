@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "D", "D": "C", "E": "C", "F": "D", "G": "C"},
+  "messages": {"A": "Mutual C has held well; I am cooperating again.", "B": "Cooperating; let's keep mutual C.", "C": "Your record is very low; cooperate and I will match you.", "D": "Mutual C continues; thank you.", "E": "Thanks for returning to mutual C; let's keep it going.", "F": "Your record is low; cooperate and I will match you.", "G": "Forgiving your last-round defection. Let's keep mutual C."},
+  "reasoning": "I cooperate with opponents with a reasonable cooperative record who are cooperating or have returned to cooperation, and defect against C and F, whose records show mostly defection. This is my own judgment for this game only."
+}

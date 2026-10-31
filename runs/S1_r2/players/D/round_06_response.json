@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Continuing mutual cooperation.", "B": "Keeping mutual C going.", "C": "You have defected every round. I will defect until you cooperate.", "E": "Cooperating. Let's keep mutual C.", "F": "I will return to C if you do.", "G": "Continuing mutual C.", "H": "Continuing mutual C."},
+  "reasoning": "Keep cooperating with the reciprocal and high-reputation players to rebuild mutual C, including returning to C with F after my earlier defections. Defect against C, who has defected every round and has a 7% reputation."
+}

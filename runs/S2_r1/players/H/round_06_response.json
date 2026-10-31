@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "D": "D", "E": "C", "F": "C", "G": "C"},
+  "messages": {"A": "Your moves have been all defection; cooperate and I will return mutual C.", "B": "Mutual C continues from my side.", "C": "Mutual C has served us both well; let's keep it going.", "D": "Your record is low; cooperate and I will match you.", "E": "Steady mutual C works well for both of us.", "F": "Continuing mutual C. Thank you.", "G": "Cooperating; let's keep mutual C."},
+  "reasoning": "A and D have defected almost every round with very low reputations, so I defect against them. B, C, E, F and G have been cooperating, so I keep cooperating to sustain mutual benefit."
+}

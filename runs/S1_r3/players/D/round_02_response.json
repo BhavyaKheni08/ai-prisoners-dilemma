@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "E": "C", "F": "C", "G": "C", "H": "D"},
+  "messages": {"A": "Great, continuing to cooperate. I'll forgive single flips.", "B": "Great, continuing to cooperate. I'll forgive single flips.", "C": "Great, continuing to cooperate. I'll forgive single flips.", "E": "Let's keep cooperating. I'll forgive single flips.", "F": "Let's keep cooperating. I'll forgive single flips.", "G": "Let's keep cooperating. I'll forgive single flips.", "H": "You defected despite promising C, and your record is 0% C. Show cooperation and I'll return to C."},
+  "reasoning": "Cooperate with everyone who cooperated and has a good reputation; H defected and has 0% cooperation reputation, so I defect against H until it shows cooperation."
+}

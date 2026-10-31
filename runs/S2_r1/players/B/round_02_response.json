@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "D", "C": "C", "D": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {
+    "A": "You defected in round 1 and have 0% cooperation elsewhere. I will mirror you until you cooperate.",
+    "C": "Thanks for cooperating. I'm keeping mutual C going.",
+    "D": "You defected first and I answered in kind. Cooperate and I will return to C.",
+    "E": "You cooperated, so I'm cooperating. Let's keep mutual C.",
+    "F": "Agreed on mutual cooperation. I'll keep playing C while you do.",
+    "G": "Agreed on mutual cooperation. I'll keep playing C while you do.",
+    "H": "Round 1 was my accidental defection, not a plan. I'm cooperating now."
+  },
+  "reasoning": "Cooperate with the reliable cooperators and mirror the defectors, which punishes A and D without starting a spiral. I'm returning to C with H because my round-1 defection was accidental noise and H cooperated."
+}

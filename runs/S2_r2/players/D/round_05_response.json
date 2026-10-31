@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Mutual C continues.", "B": "Your 25% cooperation record means I keep defecting until you cooperate.", "C": "Your 8% cooperation record means I keep defecting until you cooperate.", "E": "Mutual C continues.", "F": "Cooperating now; let's keep mutual C.", "G": "Mutual C continues.", "H": "Mutual C continues."},
+  "reasoning": "Mutual cooperation with the high-reputation opponents A, E, G and H, and a cooperative opening with F after its recent cooperation. Defecting against the low-reputation B and C, which keep defecting on me."
+}

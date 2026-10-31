@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "D", "E": "C", "F": "C", "G": "C"},
+  "messages": {
+    "A": "Thanks, let's keep cooperating.",
+    "B": "Glad to hear it. Continuing to cooperate.",
+    "C": "Likely noise on both sides. I'm cooperating, let's keep C.",
+    "D": "You've defected twice. I'll cooperate once you do.",
+    "E": "You cooperated last round, so I'm back to C. Let's keep it mutual.",
+    "F": "Great, mutual cooperation continues.",
+    "G": "Noise happens. I'm cooperating, let's stay with C."
+  },
+  "reasoning": "Cooperate with players who show cooperative reputations and behavior, forgiving likely noise flips. Defect against D, who has defected consistently and has a very low cooperation reputation."
+}

@@ -1,0 +1,1 @@
+{"moves": {"A":"C","C":"D","D":"C","E":"D","F":"C","G":"C","H":"D"}, "reasoning": "Cooperate with recent cooperators; defect on C, E and erratic H."}

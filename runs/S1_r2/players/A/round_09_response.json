@@ -1,0 +1,1 @@
+{"moves":{"B":"C","C":"D","D":"C","E":"C","F":"D","G":"C","H":"C"},"messages":{"B":"Continuing C.","C":"Show consistent C first.","D":"Continuing C.","E":"Continuing C.","F":"Defecting on me; show C.","G":"Continuing C.","H":"Continuing C."},"reasoning":"Cooperate with cooperators; defect on C (10% C rep) and F (repeated exploitation)."}

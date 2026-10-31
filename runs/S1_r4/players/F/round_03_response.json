@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "D": "C", "E": "C", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Your reputation is 0% C. I'll cooperate if you show C first.",
+    "B": "Great, let's keep cooperating.",
+    "C": "Great, let's keep cooperating.",
+    "D": "Thanks. My D was a noise flip. Let's keep cooperating.",
+    "E": "That D hurt, but I'll forgive noise. Let's keep cooperating.",
+    "G": "Let's both try C this round and build mutual benefit.",
+    "H": "Great, let's keep cooperating."
+  },
+  "reasoning": "Cooperate with those who have cooperated or whose defections may be noise (E, D, G), keep mutual C with B, C, H, and defect against A, who has defected consistently and has 0% C reputation."
+}

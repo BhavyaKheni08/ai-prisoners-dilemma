@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "D": "C", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Let's cooperate; I'll forgive occasional noise.", "B": "Let's cooperate; I'll forgive occasional noise.", "D": "Let's cooperate; I'll forgive occasional noise.", "E": "Let's cooperate; I'll forgive occasional noise.", "F": "Let's cooperate; I'll forgive occasional noise.", "G": "Let's cooperate; I'll forgive occasional noise.", "H": "Let's cooperate; I'll forgive occasional noise."},
+  "reasoning": "Round 1 with no information: open with cooperation to learn opponent types and establish mutual cooperation, adjusting later based on behavior."
+}

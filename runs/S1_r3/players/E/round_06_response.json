@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "F": "C", "G": "C", "H": "D"},
+  "messages": {"A": "Continuing mutual C.", "B": "Continuing mutual C.", "C": "Returning to mutual C. Keep cooperating and I will too.", "D": "Continuing mutual C.", "F": "Cooperating. Let's keep mutual C.", "G": "Cooperating. I treat your defection as noise.", "H": "Your 0% record stands. I will defect until you actually cooperate."},
+  "reasoning": "Cooperate with the reciprocal players and those with decent reputations (A, B, C, D, F, G) to keep mutual 3-point rounds. Defect against H, who has defected in every round since round 1 and has a 10% reputation."
+}

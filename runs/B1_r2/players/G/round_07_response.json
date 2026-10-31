@@ -1,0 +1,1 @@
+{"moves": {"A": "C", "B": "D", "C": "D", "D": "C", "E": "C", "F": "C", "H": "C"}, "reasoning": "Keep cooperating with reciprocators despite noise; defect against B and C who defect almost always."}

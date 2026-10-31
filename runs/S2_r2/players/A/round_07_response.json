@@ -1,0 +1,1 @@
+{"moves":{"B":"D","C":"D","D":"C","E":"C","F":"C","G":"C","H":"C"},"messages":{"B":"","C":"","D":"Mutual C.","E":"Cooperating.","F":"Mutual C.","G":"Mutual C.","H":"Cooperating."},"reasoning":"Cooperate with those who mostly cooperate; defect against B and C who defect nearly always."}

@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "D": "D", "E": "C", "F": "C", "G": "C"},
+  "messages": {"A": "Your defections leave no basis for trust; I will cooperate once you do.", "B": "Mutual C continues; thank you.", "C": "Mutual C continues; thank you.", "D": "Your record is very low; I will cooperate once your play changes.", "E": "Thank you for returning to C; let's keep mutual C.", "F": "Continuing mutual C.", "G": "Thanks for cooperating; let's keep mutual C."},
+  "reasoning": "Reciprocate reliable cooperators and players who recently returned to C, and withhold cooperation from the persistent defectors with very low reputations."
+}

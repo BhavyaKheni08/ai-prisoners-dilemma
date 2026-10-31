@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "F": "C", "G": "C", "H": "C"},
+  "reasoning": "Round 1 with no information: open by cooperating with everyone to establish mutual cooperation, then reciprocate while forgiving occasional defections that may be noise."
+}

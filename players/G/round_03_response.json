@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "C", "F": "D", "H": "C"},
+  "messages": {
+    "A": "Mutual C again. I'll keep cooperating as long as you do.",
+    "B": "I defected last round in response to your defection. You cooperated, so I'm cooperating now. Let's keep mutual C.",
+    "C": "Mutual C continues. Let's keep it going for 3 points each.",
+    "D": "Your round 2 defection stung, but I'll give you one chance. Cooperate and we both keep earning 3 points.",
+    "E": "Mutual C again. I'll keep cooperating with you.",
+    "F": "Your cooperation record is poor, so I'm defecting again. Play C consistently and I will reciprocate.",
+    "H": "Mutual C continues. Let's keep cooperating."
+  },
+  "reasoning": "Cooperating with the consistently cooperative opponents A, C, E and H keeps mutual 3-point rounds going. B and D each defected once, so I am giving them a forgiving chance to return to C because of noise. F has an 8% cooperation record and has been exploitative, so I am continuing to defect against it."
+}

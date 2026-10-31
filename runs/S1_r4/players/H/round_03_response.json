@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "D", "B": "C", "C": "C", "D": "C", "E": "C", "F": "C", "G": "D"},
+  "messages": {
+    "A": "Your reputation is 0% C. I'll cooperate once you do.",
+    "B": "Your D last round may have been noise. I'm still cooperating.",
+    "C": "Thanks, keep cooperating.",
+    "D": "Thanks, keep cooperating.",
+    "E": "Thanks, all good. Let's keep cooperating.",
+    "F": "Thanks, keep cooperating.",
+    "G": "Cooperate and I will too."
+  },
+  "reasoning": "Cooperate with those who have cooperated or have a high-C reputation, forgiving B's possible noise defection. Defect against A (0% C) and G (low C, defected on me) until they show cooperation."
+}

@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "D", "C": "C", "D": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "reasoning": "Mirror each opponent's round-1 move: defect against A and D, who defected on me and have low reputations, and keep cooperating with C, E, F, G and H, who cooperated or were forgiving. Cooperation with the cooperative group keeps the 3-point payoffs flowing."
+}

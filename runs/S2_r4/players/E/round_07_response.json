@@ -1,0 +1,3 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"D","F":"C","G":"D","H":"C"},
+"messages":{"A":"Your actions say D. Play C and I'll return to C.","B":"Your D answered my noise flip; we're square. Cooperating again.","C":"Continuing mutual C.","D":"Still mirroring. Play C and I'll return to C.","F":"Continuing mutual C.","G":"Mirroring. Play C and I'll return to C.","H":"Continuing mutual C."},
+"reasoning":"Cooperate with cooperators, forgive B's retaliation for my noise flip, and keep defecting against A, D, and G, who have mostly defected against me."}

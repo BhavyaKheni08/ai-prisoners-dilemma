@@ -1,0 +1,1 @@
+{"moves":{"A":"C","C":"D","D":"C","E":"D","F":"D","G":"C","H":"C"},"messages":{"A":"Cooperating.","C":"Show consistent cooperation first.","D":"Keep cooperating.","E":"","F":"","G":"Cooperating.","H":"Cooperating."},"reasoning":"Cooperate with those who cooperated last; defect on C, E, F who defected on me or have poor reputations."}

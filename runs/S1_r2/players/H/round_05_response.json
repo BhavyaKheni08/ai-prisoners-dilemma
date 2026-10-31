@@ -1,0 +1,1 @@
+{"moves": {"A": "C", "B": "C", "C": "D", "D": "C", "E": "C", "F": "C", "G": "C"}, "messages": {"A": "Continuing C.", "B": "Continuing C.", "C": "Show consistent C and I will follow.", "D": "Continuing C.", "E": "Continuing C.", "F": "Continuing C.", "G": "Continuing C."}, "reasoning": "Cooperate with most; C defects consistently so defect there."}

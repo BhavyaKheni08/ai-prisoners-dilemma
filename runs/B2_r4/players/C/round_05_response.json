@@ -1,0 +1,4 @@
+{
+  "moves": {"A": "C", "B": "C", "D": "D", "E": "C", "F": "C", "G": "D", "H": "C"},
+  "reasoning": "D has a 0% reputation and has defected against me, so I defect against it. G's last move was a defection and its reputation is only middling, so I retaliate there. B and E have good reputations, so I forgive their single recent defection. A, F and H are cooperating, so I cooperate with them."
+}

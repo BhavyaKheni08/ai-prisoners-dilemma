@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "C": "C", "D": "D", "E": "D", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Your 0% cooperation record means I keep defecting until you cooperate.", "C": "Mutual C continues.", "D": "Your 8% cooperation record means I keep defecting until you cooperate.", "E": "I defect after your defection and will return to C when you do.", "F": "Mutual C continues.", "G": "Mutual C continues.", "H": "Mutual C continues."},
+  "reasoning": "Cooperate with the reliable cooperators (C, F, G, H) to keep mutual-C payoffs, and defect against the chronic defectors (A, D). E has a mixed record and just defected, so I answer with a defection to avoid being exploited."
+}

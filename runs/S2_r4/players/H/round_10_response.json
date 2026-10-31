@@ -1,0 +1,1 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"D","E":"C","F":"C","G":"C"},"messages":{"A":"","B":"Cooperating.","C":"Cooperating.","D":"","E":"Cooperating.","F":"Cooperating.","G":"Mutual C."},"reasoning":"Cooperate with those mostly cooperating (recent defections likely noise); defect against A and D."}

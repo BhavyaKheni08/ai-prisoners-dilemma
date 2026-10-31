@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "D", "E": "C", "F": "D", "G": "D", "H": "C"},
+  "messages": {"A": "Continuing mutual cooperation.", "B": "You have defected for three rounds. I will defect until you return to consistent C.", "C": "You have defected almost every round. I will defect until you cooperate.", "E": "Continuing mutual C.", "F": "You defected while I cooperated. I will defect until you return to consistent C.", "G": "You defected while I cooperated. I will defect until you return to consistent C.", "H": "Continuing mutual C."},
+  "reasoning": "Cooperate with the consistently cooperative A, E and H. Defect against B, C, F and G, who have defected against my cooperation in recent rounds, until they return to consistent cooperation."
+}

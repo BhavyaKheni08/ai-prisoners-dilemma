@@ -1,0 +1,1 @@
+{"moves": {"A": "C", "B": "D", "C": "D", "D": "C", "E": "C", "F": "C", "H": "C"}, "reasoning": "Keep cooperating with reciprocating players and forgive noise-like defections; defect against low-reputation persistent defectors B and C. Offer F a return to cooperation after its cooperative move."}

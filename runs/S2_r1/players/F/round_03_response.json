@@ -1,0 +1,3 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"D","E":"D","G":"C","H":"C"},
+"messages":{"A":"Still mirroring. Play C and I'll follow.","B":"Treating your D as noise. Cooperating; let's keep mutual C.","C":"My round 2 D was a noise flip (intended C). Cooperating.","D":"Your actions say D. Play C and I'll return to C.","E":"You defected; answering in kind. Play C and I return to C immediately.","G":"Continuing mutual C.","H":"Continuing mutual C."},
+"reasoning":"Cooperate with cooperative/high-reputation players and forgive likely noise; mirror defectors and low-reputation players."}

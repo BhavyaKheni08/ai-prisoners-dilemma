@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "D": "C", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Mutual C continues. Thanks.",
+    "B": "You played C, so as promised I'm back to C. Let's keep mutual C from here.",
+    "D": "My round 7 D was accidental noise, sorry. Intending C; please keep cooperating.",
+    "E": "Assuming your round 7 D was noise. Staying with C; let's continue mutual C.",
+    "F": "Your actions show only D. Play an actual C and I'll reciprocate next round.",
+    "G": "Mutual C continues. Thanks.",
+    "H": "Mutual C continues. Thanks."
+  },
+  "reasoning": "Cooperate with cooperators and forgive isolated defections likely due to noise; return to C with B as promised after they played C; keep defecting against F, which has only ever played D despite its claims."
+}

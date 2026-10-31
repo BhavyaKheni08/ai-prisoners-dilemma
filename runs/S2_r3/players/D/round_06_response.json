@@ -1,0 +1,1 @@
+{"moves":{"A":"D","B":"C","C":"C","E":"C","F":"C","G":"C","H":"D"},"messages":{"A":"","B":"Cooperating.","C":"Cooperating.","E":"Cooperating.","F":"Let's keep mutual C.","G":"Cooperating.","H":""},"reasoning":"Mutual cooperation is working with most players; A and H are near-universal defectors so defect against them."}

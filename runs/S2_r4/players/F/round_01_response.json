@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "C", "G": "C", "H": "C"},
+  "messages": {"A": "I'm opening with cooperation. Let's both do well by staying cooperative.", "B": "I'm opening with cooperation. Let's both do well by staying cooperative.", "C": "I'm opening with cooperation. Let's both do well by staying cooperative.", "D": "I'm opening with cooperation. Let's both do well by staying cooperative.", "E": "I'm opening with cooperation. Let's both do well by staying cooperative.", "G": "I'm opening with cooperation. Let's both do well by staying cooperative.", "H": "I'm opening with cooperation. Let's both do well by staying cooperative."},
+  "reasoning": "No history yet, so I open with cooperation against everyone, since mutual cooperation gives both sides good outcomes and fits my value of fairness. I will reassess after seeing how each opponent responds."
+}

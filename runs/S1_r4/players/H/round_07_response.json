@@ -1,0 +1,1 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"C","E":"C","F":"C","G":"D"},"messages":{"A":"Play C consistently and I will return.","B":"Continuing C.","C":"Continuing C.","D":"Continuing C.","E":"Continuing C.","F":"Continuing C.","G":"Play C steadily and I will too."},"reasoning":"Keep cooperating with cooperators; A defects constantly and G is erratic so defect on both."}

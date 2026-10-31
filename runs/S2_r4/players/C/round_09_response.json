@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "D", "B": "C", "D": "D", "E": "C", "F": "C", "G": "D", "H": "C"},
+  "messages": {"A": "Defecting until you cooperate.", "B": "Mutual C continues.", "D": "Defecting until you cooperate.", "E": "Mutual C continues.", "F": "Cooperating; let's restore mutual C.", "G": "You defected after my cooperation; I defect until you cooperate.", "H": "Mutual C continues."},
+  "reasoning": "Cooperate with opponents who cooperated last round or are in mutual C (B, E, H), and with F, who cooperated after my defection. Defect against the very low-reputation players (A, D) and against G, who defected after my cooperation."
+}

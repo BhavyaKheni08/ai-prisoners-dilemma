@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "D", "E": "D", "F": "C", "G": "C"},
+  "messages": {
+    "A": "Great, continuing to cooperate.",
+    "B": "Your D last round may have been noise; I'm still cooperating. Let's keep C.",
+    "C": "My D last round was a noise flip. Cooperating again.",
+    "D": "You said you always cooperate but played D. I'll mirror you until you cooperate.",
+    "E": "You defected last round. I'll mirror; cooperate and I'll return to C.",
+    "F": "Thanks, continuing to cooperate.",
+    "G": "My D last round was a noise flip. Cooperating again."
+  },
+  "reasoning": "Cooperate with those who have good reputations, forgiving possible noise defections from B; retaliate against D (0% C) and E, who defected on me, with a tit-for-tat posture."
+}

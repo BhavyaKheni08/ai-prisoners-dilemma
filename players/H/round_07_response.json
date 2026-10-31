@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "C", "D": "C", "E": "C", "F": "D", "G": "C"},
+  "messages": {
+    "A": "Mutual C continues.",
+    "B": "Play C consistently and I will too.",
+    "C": "Mutual C continues. Thanks.",
+    "D": "Last D looked like noise. Staying C, keep mutual C going.",
+    "E": "Staying with C. Let's keep mutual C.",
+    "F": "Show me C for a couple of rounds and I will follow.",
+    "G": "Mutual C continues."
+  },
+  "reasoning": "Cooperate with the players who have been cooperating (A, C, D, E, G), treating isolated defections as noise. Keep defecting against B and F, who have a record of defecting and low reputation."
+}

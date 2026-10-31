@@ -1,0 +1,13 @@
+{
+  "moves": {"B": "C", "C": "C", "D": "D", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {
+    "B": "Thanks, continuing to cooperate.",
+    "C": "Still cooperating, let's keep it going.",
+    "D": "I'll keep defecting until you show consistent cooperation.",
+    "E": "Both defected last round. Let's try cooperating together this round.",
+    "F": "Thanks, continuing to cooperate.",
+    "G": "Cooperating again, thanks.",
+    "H": "Cooperating again, thanks."
+  },
+  "reasoning": "Cooperate with those who have cooperated so far and have good reputations; keep defecting on D, who defects against everyone. Try one cooperative probe with E, whose reputation is middling, to escape mutual defection."
+}

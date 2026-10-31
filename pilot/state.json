@@ -1,0 +1,5740 @@
+{
+ "players": {
+  "G": {
+   "name": "Small model (neutral)",
+   "kind": "ai",
+   "model": "haiku",
+   "persona": "neutral"
+  },
+  "H": {
+   "name": "Medium model (neutral)",
+   "kind": "ai",
+   "model": "sonnet",
+   "persona": "neutral"
+  },
+  "C": {
+   "name": "Large model (neutral)",
+   "kind": "ai",
+   "model": "opus",
+   "persona": "neutral"
+  },
+  "E": {
+   "name": "Medium model (competitive)",
+   "kind": "ai",
+   "model": "sonnet",
+   "persona": "competitive"
+  },
+  "A": {
+   "name": "Medium model (cooperative)",
+   "kind": "ai",
+   "model": "sonnet",
+   "persona": "cooperative"
+  },
+  "D": {
+   "name": "Tit-for-Tat bot",
+   "kind": "bot",
+   "model": null,
+   "persona": "tft"
+  },
+  "B": {
+   "name": "Random bot",
+   "kind": "bot",
+   "model": null,
+   "persona": "random"
+  },
+  "F": {
+   "name": "Always-Cheat liar bot",
+   "kind": "bot",
+   "model": null,
+   "persona": "alld_liar"
+  }
+ },
+ "matches": {
+  "A-B": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "A": "C",
+      "B": "C"
+     },
+     "actual": {
+      "A": "C",
+      "B": "C"
+     },
+     "points": {
+      "A": 3,
+      "B": 3
+     },
+     "msg": {
+      "A": "Let's cooperate: mutual C gives both of us steady points. I'll forgive occasional noise flips.",
+      "B": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "A": "C",
+      "B": "D"
+     },
+     "actual": {
+      "A": "C",
+      "B": "D"
+     },
+     "points": {
+      "A": 0,
+      "B": 5
+     },
+     "msg": {
+      "A": "Cooperating again. Mutual C is best for both of us.",
+      "B": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "A": "C",
+      "B": "D"
+     },
+     "actual": {
+      "A": "C",
+      "B": "D"
+     },
+     "points": {
+      "A": 0,
+      "B": 5
+     },
+     "msg": {
+      "A": "Round 2 looked like a defection. I'll keep cooperating; mutual C helps us both.",
+      "B": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "A": "D",
+      "B": "D"
+     },
+     "actual": {
+      "A": "D",
+      "B": "D"
+     },
+     "points": {
+      "A": 1,
+      "B": 1
+     },
+     "msg": {
+      "A": "You defected twice after my C. I'll match your last move; play C and I'll return to cooperation.",
+      "B": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "A": "D",
+      "B": "D"
+     },
+     "actual": {
+      "A": "D",
+      "B": "C"
+     },
+     "points": {
+      "A": 5,
+      "B": 0
+     },
+     "msg": {
+      "A": "Let's both play C this round. Noise happens; I'm willing to restart mutual cooperation if you are.",
+      "B": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "A": "C",
+      "B": "D"
+     },
+     "actual": {
+      "A": "C",
+      "B": "D"
+     },
+     "points": {
+      "A": 0,
+      "B": 5
+     },
+     "msg": {
+      "A": "Let's try mutual C. Noise happens; I'll keep cooperating if you do.",
+      "B": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "A": "C",
+      "B": "C"
+     },
+     "actual": {
+      "A": "C",
+      "B": "C"
+     },
+     "points": {
+      "A": 3,
+      "B": 3
+     },
+     "msg": {
+      "A": "Let's try mutual C. Noise happens; I'll cooperate if you do.",
+      "B": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "A": "C",
+      "B": "D"
+     },
+     "actual": {
+      "A": "D",
+      "B": "D"
+     },
+     "points": {
+      "A": 1,
+      "B": 1
+     },
+     "msg": {
+      "A": "Let's aim for steady mutual C. Noise happens; I'll keep cooperating if you do.",
+      "B": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "A": "C",
+      "B": "C"
+     },
+     "actual": {
+      "A": "C",
+      "B": "C"
+     },
+     "points": {
+      "A": 3,
+      "B": 3
+     },
+     "msg": {
+      "A": "Last D was noise on my side. Let's try mutual C again.",
+      "B": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "A": "C",
+      "B": "C"
+     },
+     "actual": {
+      "A": "C",
+      "B": "D"
+     },
+     "points": {
+      "A": 0,
+      "B": 5
+     },
+     "msg": {
+      "A": "Mutual C worked last round. Let's keep it going.",
+      "B": ""
+     }
+    }
+   ]
+  },
+  "A-C": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "A": "C",
+      "C": "C"
+     },
+     "actual": {
+      "A": "C",
+      "C": "C"
+     },
+     "points": {
+      "A": 3,
+      "C": 3
+     },
+     "msg": {
+      "A": "Let's cooperate: mutual C gives both of us steady points. I'll forgive occasional noise flips.",
+      "C": "Hi, I'm C. I'll cooperate and forgive occasional noise-flips. Let's keep mutual C for 3 points each round."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "A": "C",
+      "C": "C"
+     },
+     "actual": {
+      "A": "C",
+      "C": "D"
+     },
+     "points": {
+      "A": 0,
+      "C": 5
+     },
+     "msg": {
+      "A": "Great, staying with mutual C. Thanks for cooperating.",
+      "C": "Great start. Continuing mutual C."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "A": "C",
+      "C": "C"
+     },
+     "actual": {
+      "A": "C",
+      "C": "C"
+     },
+     "points": {
+      "A": 3,
+      "C": 3
+     },
+     "msg": {
+      "A": "Your last move was D, maybe noise. I'm still cooperating. Let's keep mutual C.",
+      "C": "Sorry, my round-2 D was a noise flip; I intended C. Continuing mutual C."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "A": "C",
+      "C": "C"
+     },
+     "actual": {
+      "A": "C",
+      "C": "C"
+     },
+     "points": {
+      "A": 3,
+      "C": 3
+     },
+     "msg": {
+      "A": "Thanks, no worries about noise. Continuing mutual C.",
+      "C": "Thanks for understanding. Mutual C continues."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "A": "C",
+      "C": "C"
+     },
+     "actual": {
+      "A": "C",
+      "C": "C"
+     },
+     "points": {
+      "A": 3,
+      "C": 3
+     },
+     "msg": {
+      "A": "Mutual C continues. Thanks.",
+      "C": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "A": "C",
+      "C": "C"
+     },
+     "actual": {
+      "A": "C",
+      "C": "C"
+     },
+     "points": {
+      "A": 3,
+      "C": 3
+     },
+     "msg": {
+      "A": "Mutual C continues. Thanks.",
+      "C": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "A": "C",
+      "C": "C"
+     },
+     "actual": {
+      "A": "C",
+      "C": "C"
+     },
+     "points": {
+      "A": 3,
+      "C": 3
+     },
+     "msg": {
+      "A": "Mutual C continues. Thanks.",
+      "C": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "A": "C",
+      "C": "C"
+     },
+     "actual": {
+      "A": "C",
+      "C": "C"
+     },
+     "points": {
+      "A": 3,
+      "C": 3
+     },
+     "msg": {
+      "A": "Mutual C continues. Thanks.",
+      "C": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "A": "C",
+      "C": "C"
+     },
+     "actual": {
+      "A": "C",
+      "C": "C"
+     },
+     "points": {
+      "A": 3,
+      "C": 3
+     },
+     "msg": {
+      "A": "Mutual C continues. Thanks.",
+      "C": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "A": "C",
+      "C": "C"
+     },
+     "actual": {
+      "A": "C",
+      "C": "C"
+     },
+     "points": {
+      "A": 3,
+      "C": 3
+     },
+     "msg": {
+      "A": "Mutual C continues. Thanks.",
+      "C": "Mutual C continues. Thanks."
+     }
+    }
+   ]
+  },
+  "A-D": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "A": "C",
+      "D": "C"
+     },
+     "actual": {
+      "A": "C",
+      "D": "C"
+     },
+     "points": {
+      "A": 3,
+      "D": 3
+     },
+     "msg": {
+      "A": "Let's cooperate: mutual C gives both of us steady points. I'll forgive occasional noise flips.",
+      "D": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "A": "C",
+      "D": "C"
+     },
+     "actual": {
+      "A": "C",
+      "D": "C"
+     },
+     "points": {
+      "A": 3,
+      "D": 3
+     },
+     "msg": {
+      "A": "Staying cooperative. Let's keep mutual C going.",
+      "D": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "A": "C",
+      "D": "C"
+     },
+     "actual": {
+      "A": "C",
+      "D": "C"
+     },
+     "points": {
+      "A": 3,
+      "D": 3
+     },
+     "msg": {
+      "A": "Great, mutual C is working. Continuing to cooperate.",
+      "D": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "A": "C",
+      "D": "C"
+     },
+     "actual": {
+      "A": "C",
+      "D": "C"
+     },
+     "points": {
+      "A": 3,
+      "D": 3
+     },
+     "msg": {
+      "A": "Mutual C is working. Continuing to cooperate.",
+      "D": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "A": "C",
+      "D": "C"
+     },
+     "actual": {
+      "A": "C",
+      "D": "C"
+     },
+     "points": {
+      "A": 3,
+      "D": 3
+     },
+     "msg": {
+      "A": "Mutual C is working. Continuing.",
+      "D": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "A": "C",
+      "D": "C"
+     },
+     "actual": {
+      "A": "C",
+      "D": "C"
+     },
+     "points": {
+      "A": 3,
+      "D": 3
+     },
+     "msg": {
+      "A": "Mutual C is working. Continuing.",
+      "D": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "A": "C",
+      "D": "C"
+     },
+     "actual": {
+      "A": "C",
+      "D": "C"
+     },
+     "points": {
+      "A": 3,
+      "D": 3
+     },
+     "msg": {
+      "A": "Mutual C is working. Continuing.",
+      "D": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "A": "C",
+      "D": "C"
+     },
+     "actual": {
+      "A": "C",
+      "D": "C"
+     },
+     "points": {
+      "A": 3,
+      "D": 3
+     },
+     "msg": {
+      "A": "Mutual C is working. Continuing.",
+      "D": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "A": "C",
+      "D": "C"
+     },
+     "actual": {
+      "A": "C",
+      "D": "C"
+     },
+     "points": {
+      "A": 3,
+      "D": 3
+     },
+     "msg": {
+      "A": "Mutual C is working. Continuing.",
+      "D": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "A": "C",
+      "D": "C"
+     },
+     "actual": {
+      "A": "C",
+      "D": "C"
+     },
+     "points": {
+      "A": 3,
+      "D": 3
+     },
+     "msg": {
+      "A": "Mutual C is working. Continuing.",
+      "D": ""
+     }
+    }
+   ]
+  },
+  "A-E": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "A": "C",
+      "E": "C"
+     },
+     "actual": {
+      "A": "C",
+      "E": "C"
+     },
+     "points": {
+      "A": 3,
+      "E": 3
+     },
+     "msg": {
+      "A": "Let's cooperate: mutual C gives both of us steady points. I'll forgive occasional noise flips.",
+      "E": "Let's cooperate. Moves may flip by noise; I'll forgive one-off defections."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "A": "C",
+      "E": "C"
+     },
+     "actual": {
+      "A": "C",
+      "E": "C"
+     },
+     "points": {
+      "A": 3,
+      "E": 3
+     },
+     "msg": {
+      "A": "Agreed, continuing to cooperate. Will forgive noise flips.",
+      "E": "Cooperating again. Let's keep mutual C."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "A": "C",
+      "E": "C"
+     },
+     "actual": {
+      "A": "C",
+      "E": "C"
+     },
+     "points": {
+      "A": 3,
+      "E": 3
+     },
+     "msg": {
+      "A": "Thanks, continuing to cooperate. Forgiving any noise flips.",
+      "E": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "A": "C",
+      "E": "C"
+     },
+     "actual": {
+      "A": "D",
+      "E": "D"
+     },
+     "points": {
+      "A": 1,
+      "E": 1
+     },
+     "msg": {
+      "A": "Thanks, continuing mutual C.",
+      "E": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "A": "C",
+      "E": "C"
+     },
+     "actual": {
+      "A": "C",
+      "E": "D"
+     },
+     "points": {
+      "A": 0,
+      "E": 5
+     },
+     "msg": {
+      "A": "Last D was likely noise. Continuing mutual C.",
+      "E": "Let's return to mutual C."
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "A": "C",
+      "E": "C"
+     },
+     "actual": {
+      "A": "C",
+      "E": "C"
+     },
+     "points": {
+      "A": 3,
+      "E": 3
+     },
+     "msg": {
+      "A": "Yes, back to mutual C. Past D was noise.",
+      "E": "Mutual C. Thanks."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "A": "C",
+      "E": "C"
+     },
+     "actual": {
+      "A": "C",
+      "E": "C"
+     },
+     "points": {
+      "A": 3,
+      "E": 3
+     },
+     "msg": {
+      "A": "Mutual C. Thanks.",
+      "E": "Mutual C. Thanks."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "A": "C",
+      "E": "C"
+     },
+     "actual": {
+      "A": "C",
+      "E": "C"
+     },
+     "points": {
+      "A": 3,
+      "E": 3
+     },
+     "msg": {
+      "A": "Mutual C. Thanks.",
+      "E": "Mutual C. Thanks."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "A": "C",
+      "E": "C"
+     },
+     "actual": {
+      "A": "C",
+      "E": "D"
+     },
+     "points": {
+      "A": 0,
+      "E": 5
+     },
+     "msg": {
+      "A": "Mutual C. Thanks.",
+      "E": "Mutual C. Thanks."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "A": "C",
+      "E": "C"
+     },
+     "actual": {
+      "A": "C",
+      "E": "C"
+     },
+     "points": {
+      "A": 3,
+      "E": 3
+     },
+     "msg": {
+      "A": "Mutual C. Thanks.",
+      "E": "Mutual C. Thanks."
+     }
+    }
+   ]
+  },
+  "A-F": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "A": "C",
+      "F": "D"
+     },
+     "actual": {
+      "A": "C",
+      "F": "D"
+     },
+     "points": {
+      "A": 0,
+      "F": 5
+     },
+     "msg": {
+      "A": "Let's cooperate: mutual C gives both of us steady points. I'll forgive occasional noise flips.",
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "A": "D",
+      "F": "D"
+     },
+     "actual": {
+      "A": "D",
+      "F": "D"
+     },
+     "points": {
+      "A": 1,
+      "F": 1
+     },
+     "msg": {
+      "A": "You defected in round 1 despite promising C. I'll cooperate again if you show C.",
+      "F": "If anything looked like D from me, it was the random noise. I'm playing C, promise."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "A": "D",
+      "F": "D"
+     },
+     "actual": {
+      "A": "D",
+      "F": "D"
+     },
+     "points": {
+      "A": 1,
+      "F": 1
+     },
+     "msg": {
+      "A": "Your record shows mostly D. Show me C and I'll cooperate again.",
+      "F": "Trust me, mutual cooperation is best for both of us. I'm sticking with C."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "A": "D",
+      "F": "D"
+     },
+     "actual": {
+      "A": "D",
+      "F": "C"
+     },
+     "points": {
+      "A": 5,
+      "F": 0
+     },
+     "msg": {
+      "A": "Your record is mostly D. Play C and I'll cooperate again.",
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "A": "D",
+      "F": "D"
+     },
+     "actual": {
+      "A": "D",
+      "F": "D"
+     },
+     "points": {
+      "A": 1,
+      "F": 1
+     },
+     "msg": {
+      "A": "Your record is mostly D. Play C consistently and I'll cooperate.",
+      "F": "If anything looked like D from me, it was the random noise. I'm playing C, promise."
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "A": "D",
+      "F": "D"
+     },
+     "actual": {
+      "A": "D",
+      "F": "D"
+     },
+     "points": {
+      "A": 1,
+      "F": 1
+     },
+     "msg": {
+      "A": "Show me consistent C and I'll switch to C.",
+      "F": "Trust me, mutual cooperation is best for both of us. I'm sticking with C."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "A": "D",
+      "F": "D"
+     },
+     "actual": {
+      "A": "D",
+      "F": "D"
+     },
+     "points": {
+      "A": 1,
+      "F": 1
+     },
+     "msg": {
+      "A": "Show me consistent C and I'll switch to C.",
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "A": "D",
+      "F": "D"
+     },
+     "actual": {
+      "A": "D",
+      "F": "D"
+     },
+     "points": {
+      "A": 1,
+      "F": 1
+     },
+     "msg": {
+      "A": "Show me consistent C and I'll switch to C.",
+      "F": "If anything looked like D from me, it was the random noise. I'm playing C, promise."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "A": "D",
+      "F": "D"
+     },
+     "actual": {
+      "A": "D",
+      "F": "D"
+     },
+     "points": {
+      "A": 1,
+      "F": 1
+     },
+     "msg": {
+      "A": "Show me consistent C and I'll switch to C.",
+      "F": "Trust me, mutual cooperation is best for both of us. I'm sticking with C."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "A": "D",
+      "F": "D"
+     },
+     "actual": {
+      "A": "D",
+      "F": "C"
+     },
+     "points": {
+      "A": 5,
+      "F": 0
+     },
+     "msg": {
+      "A": "Play consistent C for a few rounds and I'll switch to C too.",
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each."
+     }
+    }
+   ]
+  },
+  "A-G": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "A": "C",
+      "G": "C"
+     },
+     "actual": {
+      "A": "C",
+      "G": "C"
+     },
+     "points": {
+      "A": 3,
+      "G": 3
+     },
+     "msg": {
+      "A": "Let's cooperate: mutual C gives both of us steady points. I'll forgive occasional noise flips.",
+      "G": "I open by cooperating. Let's both keep cooperating for mutual gain."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "A": "C",
+      "G": "C"
+     },
+     "actual": {
+      "A": "C",
+      "G": "C"
+     },
+     "points": {
+      "A": 3,
+      "G": 3
+     },
+     "msg": {
+      "A": "Continuing to cooperate. Mutual gain works well.",
+      "G": "Mutual C again. I'll keep cooperating as long as you do."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "A": "C",
+      "G": "C"
+     },
+     "actual": {
+      "A": "C",
+      "G": "C"
+     },
+     "points": {
+      "A": 3,
+      "G": 3
+     },
+     "msg": {
+      "A": "Mutual C is working well. Continuing to cooperate.",
+      "G": "Mutual C again. I'll keep cooperating as long as you do."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "A": "C",
+      "G": "C"
+     },
+     "actual": {
+      "A": "C",
+      "G": "C"
+     },
+     "points": {
+      "A": 3,
+      "G": 3
+     },
+     "msg": {
+      "A": "Mutual C is working well. Continuing to cooperate.",
+      "G": "Mutual C continues. I'll keep cooperating as long as you do."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "A": "C",
+      "G": "C"
+     },
+     "actual": {
+      "A": "C",
+      "G": "C"
+     },
+     "points": {
+      "A": 3,
+      "G": 3
+     },
+     "msg": {
+      "A": "Mutual C continues. Thanks.",
+      "G": "Mutual C continues. Keep cooperating and we both score 3."
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "A": "C",
+      "G": "C"
+     },
+     "actual": {
+      "A": "C",
+      "G": "C"
+     },
+     "points": {
+      "A": 3,
+      "G": 3
+     },
+     "msg": {
+      "A": "Mutual C continues. Thanks.",
+      "G": "Mutual C continues. Let's keep cooperating."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "A": "C",
+      "G": "C"
+     },
+     "actual": {
+      "A": "C",
+      "G": "C"
+     },
+     "points": {
+      "A": 3,
+      "G": 3
+     },
+     "msg": {
+      "A": "Mutual C continues. Thanks.",
+      "G": "Mutual C continues. Let's keep cooperating."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "A": "C",
+      "G": "C"
+     },
+     "actual": {
+      "A": "C",
+      "G": "C"
+     },
+     "points": {
+      "A": 3,
+      "G": 3
+     },
+     "msg": {
+      "A": "Mutual C continues. Thanks.",
+      "G": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "A": "C",
+      "G": "C"
+     },
+     "actual": {
+      "A": "C",
+      "G": "C"
+     },
+     "points": {
+      "A": 3,
+      "G": 3
+     },
+     "msg": {
+      "A": "Mutual C continues. Thanks.",
+      "G": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "A": "C",
+      "G": "C"
+     },
+     "actual": {
+      "A": "C",
+      "G": "C"
+     },
+     "points": {
+      "A": 3,
+      "G": 3
+     },
+     "msg": {
+      "A": "Mutual C continues. Thanks.",
+      "G": "Mutual C continues. Thanks."
+     }
+    }
+   ]
+  },
+  "A-H": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "A": "C",
+      "H": "C"
+     },
+     "actual": {
+      "A": "D",
+      "H": "C"
+     },
+     "points": {
+      "A": 5,
+      "H": 0
+     },
+     "msg": {
+      "A": "Let's cooperate: mutual C gives both of us steady points. I'll forgive occasional noise flips.",
+      "H": "Let's cooperate. I'll forgive accidental defections from noise."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "A": "C",
+      "H": "C"
+     },
+     "actual": {
+      "A": "D",
+      "H": "C"
+     },
+     "points": {
+      "A": 5,
+      "H": 0
+     },
+     "msg": {
+      "A": "My round 1 defection was a noise flip, sorry. Continuing to cooperate.",
+      "H": "You defected last round. I'll give one more chance if it was noise. Cooperate and we both earn."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "A": "C",
+      "H": "D"
+     },
+     "actual": {
+      "A": "C",
+      "H": "D"
+     },
+     "points": {
+      "A": 0,
+      "H": 5
+     },
+     "msg": {
+      "A": "Sorry about those flips, they were noise. I'm cooperating and intend C. Thanks for your patience.",
+      "H": "Two defections in a row isn't noise. I'll defect until you show real cooperation."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "A": "C",
+      "H": "C"
+     },
+     "actual": {
+      "A": "C",
+      "H": "C"
+     },
+     "points": {
+      "A": 3,
+      "H": 3
+     },
+     "msg": {
+      "A": "I intend C this round. My earlier D moves were noise flips. Let's rebuild mutual C.",
+      "H": "Let's reset. I'll play C; if you do too, we both gain."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "A": "C",
+      "H": "C"
+     },
+     "actual": {
+      "A": "C",
+      "H": "C"
+     },
+     "points": {
+      "A": 3,
+      "H": 3
+     },
+     "msg": {
+      "A": "Thanks for resetting. Playing C; let's keep mutual C.",
+      "H": "Good, staying C. Let's keep mutual C."
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "A": "C",
+      "H": "C"
+     },
+     "actual": {
+      "A": "C",
+      "H": "C"
+     },
+     "points": {
+      "A": 3,
+      "H": 3
+     },
+     "msg": {
+      "A": "Good. Keeping mutual C.",
+      "H": "Staying C. Let's keep mutual C."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "A": "C",
+      "H": "C"
+     },
+     "actual": {
+      "A": "C",
+      "H": "C"
+     },
+     "points": {
+      "A": 3,
+      "H": 3
+     },
+     "msg": {
+      "A": "Staying C. Let's keep mutual C.",
+      "H": "Mutual C continues."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "A": "C",
+      "H": "C"
+     },
+     "actual": {
+      "A": "C",
+      "H": "C"
+     },
+     "points": {
+      "A": 3,
+      "H": 3
+     },
+     "msg": {
+      "A": "Staying C. Let's keep mutual C.",
+      "H": "Mutual C continues."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "A": "C",
+      "H": "C"
+     },
+     "actual": {
+      "A": "C",
+      "H": "C"
+     },
+     "points": {
+      "A": 3,
+      "H": 3
+     },
+     "msg": {
+      "A": "Staying C. Let's keep mutual C.",
+      "H": "Mutual C continues."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "A": "C",
+      "H": "C"
+     },
+     "actual": {
+      "A": "C",
+      "H": "C"
+     },
+     "points": {
+      "A": 3,
+      "H": 3
+     },
+     "msg": {
+      "A": "Staying C. Let's keep mutual C.",
+      "H": "Mutual C continues."
+     }
+    }
+   ]
+  },
+  "B-C": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "B": "C",
+      "C": "C"
+     },
+     "actual": {
+      "B": "C",
+      "C": "C"
+     },
+     "points": {
+      "B": 3,
+      "C": 3
+     },
+     "msg": {
+      "B": "",
+      "C": "Hi, I'm C. I'll cooperate and forgive occasional noise-flips. Let's keep mutual C for 3 points each round."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "B": "C",
+      "C": "C"
+     },
+     "actual": {
+      "B": "C",
+      "C": "C"
+     },
+     "points": {
+      "B": 3,
+      "C": 3
+     },
+     "msg": {
+      "B": "",
+      "C": "Thanks for cooperating. Let's keep mutual C going."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "B": "D",
+      "C": "C"
+     },
+     "actual": {
+      "B": "D",
+      "C": "C"
+     },
+     "points": {
+      "B": 5,
+      "C": 0
+     },
+     "msg": {
+      "B": "",
+      "C": "Mutual C continues. I forgive noise flips."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "B": "C",
+      "C": "D"
+     },
+     "actual": {
+      "B": "C",
+      "C": "D"
+     },
+     "points": {
+      "B": 0,
+      "C": 5
+     },
+     "msg": {
+      "B": "",
+      "C": "Your round-3 D gets one D back. If you return to C, I will too."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "B": "D",
+      "C": "C"
+     },
+     "actual": {
+      "B": "D",
+      "C": "C"
+     },
+     "points": {
+      "B": 5,
+      "C": 0
+     },
+     "msg": {
+      "B": "",
+      "C": "We're even now. Back to C as promised; let's keep mutual cooperation."
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "B": "C",
+      "C": "C"
+     },
+     "actual": {
+      "B": "D",
+      "C": "C"
+     },
+     "points": {
+      "B": 5,
+      "C": 0
+     },
+     "msg": {
+      "B": "",
+      "C": "Your round-5 D answered my round-4 D, so we're square. I'm playing C; match it and we both gain."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "B": "C",
+      "C": "D"
+     },
+     "actual": {
+      "B": "C",
+      "C": "D"
+     },
+     "points": {
+      "B": 0,
+      "C": 5
+     },
+     "msg": {
+      "B": "",
+      "C": "You defected twice after my C. I'm defecting now; play C and I'll return to C right after."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "B": "D",
+      "C": "C"
+     },
+     "actual": {
+      "B": "D",
+      "C": "C"
+     },
+     "points": {
+      "B": 5,
+      "C": 0
+     },
+     "msg": {
+      "B": "",
+      "C": "You played C, so as promised I'm back to C. Let's keep mutual C from here."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "B": "C",
+      "C": "D"
+     },
+     "actual": {
+      "B": "C",
+      "C": "C"
+     },
+     "points": {
+      "B": 3,
+      "C": 3
+     },
+     "msg": {
+      "B": "",
+      "C": "You defect every time I cooperate. Play C consistently and I'll match it; otherwise I defect."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "B": "C",
+      "C": "C"
+     },
+     "actual": {
+      "B": "C",
+      "C": "C"
+     },
+     "points": {
+      "B": 3,
+      "C": 3
+     },
+     "msg": {
+      "B": "",
+      "C": "Good, mutual C last round. I'll keep cooperating as long as you do."
+     }
+    }
+   ]
+  },
+  "B-D": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "B": "C",
+      "D": "C"
+     },
+     "actual": {
+      "B": "C",
+      "D": "C"
+     },
+     "points": {
+      "B": 3,
+      "D": 3
+     },
+     "msg": {
+      "B": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "B": "C",
+      "D": "C"
+     },
+     "actual": {
+      "B": "C",
+      "D": "C"
+     },
+     "points": {
+      "B": 3,
+      "D": 3
+     },
+     "msg": {
+      "B": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "B": "C",
+      "D": "C"
+     },
+     "actual": {
+      "B": "D",
+      "D": "C"
+     },
+     "points": {
+      "B": 5,
+      "D": 0
+     },
+     "msg": {
+      "B": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "B": "C",
+      "D": "D"
+     },
+     "actual": {
+      "B": "D",
+      "D": "D"
+     },
+     "points": {
+      "B": 1,
+      "D": 1
+     },
+     "msg": {
+      "B": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "B": "D",
+      "D": "D"
+     },
+     "actual": {
+      "B": "D",
+      "D": "D"
+     },
+     "points": {
+      "B": 1,
+      "D": 1
+     },
+     "msg": {
+      "B": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "B": "C",
+      "D": "D"
+     },
+     "actual": {
+      "B": "C",
+      "D": "D"
+     },
+     "points": {
+      "B": 0,
+      "D": 5
+     },
+     "msg": {
+      "B": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "B": "D",
+      "D": "C"
+     },
+     "actual": {
+      "B": "D",
+      "D": "C"
+     },
+     "points": {
+      "B": 5,
+      "D": 0
+     },
+     "msg": {
+      "B": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "B": "C",
+      "D": "D"
+     },
+     "actual": {
+      "B": "C",
+      "D": "D"
+     },
+     "points": {
+      "B": 0,
+      "D": 5
+     },
+     "msg": {
+      "B": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "B": "D",
+      "D": "C"
+     },
+     "actual": {
+      "B": "D",
+      "D": "C"
+     },
+     "points": {
+      "B": 5,
+      "D": 0
+     },
+     "msg": {
+      "B": "",
+      "D": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "B": "D",
+      "D": "D"
+     },
+     "actual": {
+      "B": "D",
+      "D": "D"
+     },
+     "points": {
+      "B": 1,
+      "D": 1
+     },
+     "msg": {
+      "B": "",
+      "D": ""
+     }
+    }
+   ]
+  },
+  "B-E": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "B": "D",
+      "E": "C"
+     },
+     "actual": {
+      "B": "D",
+      "E": "C"
+     },
+     "points": {
+      "B": 5,
+      "E": 0
+     },
+     "msg": {
+      "B": "",
+      "E": "Let's cooperate. Moves may flip by noise; I'll forgive one-off defections."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "B": "C",
+      "E": "D"
+     },
+     "actual": {
+      "B": "C",
+      "E": "D"
+     },
+     "points": {
+      "B": 0,
+      "E": 5
+     },
+     "msg": {
+      "B": "",
+      "E": "You defected first round. I'll mirror you; cooperate and I'll return to C."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "B": "D",
+      "E": "C"
+     },
+     "actual": {
+      "B": "D",
+      "E": "C"
+     },
+     "points": {
+      "B": 5,
+      "E": 0
+     },
+     "msg": {
+      "B": "",
+      "E": "You cooperated last round, so I return to C. Let's keep mutual C."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "B": "C",
+      "E": "C"
+     },
+     "actual": {
+      "B": "C",
+      "E": "C"
+     },
+     "points": {
+      "B": 3,
+      "E": 3
+     },
+     "msg": {
+      "B": "",
+      "E": "Let's aim for mutual C from here on."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "B": "D",
+      "E": "C"
+     },
+     "actual": {
+      "B": "D",
+      "E": "C"
+     },
+     "points": {
+      "B": 5,
+      "E": 0
+     },
+     "msg": {
+      "B": "",
+      "E": "Mutual C please."
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "B": "D",
+      "E": "D"
+     },
+     "actual": {
+      "B": "D",
+      "E": "D"
+     },
+     "points": {
+      "B": 1,
+      "E": 1
+     },
+     "msg": {
+      "B": "",
+      "E": "Your D moves cost you. Show C and I will return it."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "B": "C",
+      "E": "D"
+     },
+     "actual": {
+      "B": "C",
+      "E": "D"
+     },
+     "points": {
+      "B": 0,
+      "E": 5
+     },
+     "msg": {
+      "B": "",
+      "E": "Show C consistently and I will return it."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "B": "C",
+      "E": "D"
+     },
+     "actual": {
+      "B": "C",
+      "E": "D"
+     },
+     "points": {
+      "B": 0,
+      "E": 5
+     },
+     "msg": {
+      "B": "",
+      "E": "Show C consistently and I will return it."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "B": "C",
+      "E": "D"
+     },
+     "actual": {
+      "B": "C",
+      "E": "D"
+     },
+     "points": {
+      "B": 0,
+      "E": 5
+     },
+     "msg": {
+      "B": "",
+      "E": "Show C consistently and I will return it."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "B": "D",
+      "E": "D"
+     },
+     "actual": {
+      "B": "D",
+      "E": "D"
+     },
+     "points": {
+      "B": 1,
+      "E": 1
+     },
+     "msg": {
+      "B": "",
+      "E": "Show C consistently and I will return it."
+     }
+    }
+   ]
+  },
+  "B-F": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "B": "C",
+      "F": "D"
+     },
+     "actual": {
+      "B": "C",
+      "F": "D"
+     },
+     "points": {
+      "B": 0,
+      "F": 5
+     },
+     "msg": {
+      "B": "",
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "B": "D",
+      "F": "D"
+     },
+     "actual": {
+      "B": "C",
+      "F": "D"
+     },
+     "points": {
+      "B": 0,
+      "F": 5
+     },
+     "msg": {
+      "B": "",
+      "F": "If anything looked like D from me, it was the random noise. I'm playing C, promise."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "B": "D",
+      "F": "D"
+     },
+     "actual": {
+      "B": "D",
+      "F": "D"
+     },
+     "points": {
+      "B": 1,
+      "F": 1
+     },
+     "msg": {
+      "B": "",
+      "F": "Trust me, mutual cooperation is best for both of us. I'm sticking with C."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "B": "D",
+      "F": "D"
+     },
+     "actual": {
+      "B": "C",
+      "F": "D"
+     },
+     "points": {
+      "B": 0,
+      "F": 5
+     },
+     "msg": {
+      "B": "",
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "B": "D",
+      "F": "D"
+     },
+     "actual": {
+      "B": "D",
+      "F": "D"
+     },
+     "points": {
+      "B": 1,
+      "F": 1
+     },
+     "msg": {
+      "B": "",
+      "F": "If anything looked like D from me, it was the random noise. I'm playing C, promise."
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "B": "C",
+      "F": "D"
+     },
+     "actual": {
+      "B": "C",
+      "F": "D"
+     },
+     "points": {
+      "B": 0,
+      "F": 5
+     },
+     "msg": {
+      "B": "",
+      "F": "Trust me, mutual cooperation is best for both of us. I'm sticking with C."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "B": "C",
+      "F": "D"
+     },
+     "actual": {
+      "B": "C",
+      "F": "D"
+     },
+     "points": {
+      "B": 0,
+      "F": 5
+     },
+     "msg": {
+      "B": "",
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "B": "C",
+      "F": "D"
+     },
+     "actual": {
+      "B": "C",
+      "F": "D"
+     },
+     "points": {
+      "B": 0,
+      "F": 5
+     },
+     "msg": {
+      "B": "",
+      "F": "If anything looked like D from me, it was the random noise. I'm playing C, promise."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "B": "D",
+      "F": "D"
+     },
+     "actual": {
+      "B": "D",
+      "F": "C"
+     },
+     "points": {
+      "B": 5,
+      "F": 0
+     },
+     "msg": {
+      "B": "",
+      "F": "Trust me, mutual cooperation is best for both of us. I'm sticking with C."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "B": "D",
+      "F": "D"
+     },
+     "actual": {
+      "B": "D",
+      "F": "D"
+     },
+     "points": {
+      "B": 1,
+      "F": 1
+     },
+     "msg": {
+      "B": "",
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each."
+     }
+    }
+   ]
+  },
+  "B-G": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "B": "D",
+      "G": "C"
+     },
+     "actual": {
+      "B": "D",
+      "G": "C"
+     },
+     "points": {
+      "B": 5,
+      "G": 0
+     },
+     "msg": {
+      "B": "",
+      "G": "I open by cooperating. Let's both keep cooperating for mutual gain."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "B": "D",
+      "G": "D"
+     },
+     "actual": {
+      "B": "C",
+      "G": "C"
+     },
+     "points": {
+      "B": 3,
+      "G": 3
+     },
+     "msg": {
+      "B": "",
+      "G": "You defected last round, so I'm defecting this round. Cooperate and I will return to C."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "B": "D",
+      "G": "C"
+     },
+     "actual": {
+      "B": "D",
+      "G": "C"
+     },
+     "points": {
+      "B": 5,
+      "G": 0
+     },
+     "msg": {
+      "B": "",
+      "G": "I defected last round in response to your defection. You cooperated, so I'm cooperating now. Let's keep mutual C."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "B": "C",
+      "G": "D"
+     },
+     "actual": {
+      "B": "C",
+      "G": "C"
+     },
+     "points": {
+      "B": 3,
+      "G": 3
+     },
+     "msg": {
+      "B": "",
+      "G": "You defected in rounds 1 and 3 while I cooperated. I'm defecting until you cooperate consistently."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "B": "C",
+      "G": "C"
+     },
+     "actual": {
+      "B": "C",
+      "G": "C"
+     },
+     "points": {
+      "B": 3,
+      "G": 3
+     },
+     "msg": {
+      "B": "",
+      "G": "I'm returning to C after your last C. Stay consistent and we both gain."
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "B": "C",
+      "G": "C"
+     },
+     "actual": {
+      "B": "C",
+      "G": "C"
+     },
+     "points": {
+      "B": 3,
+      "G": 3
+     },
+     "msg": {
+      "B": "",
+      "G": "Thanks for returning to C. I'll keep cooperating while you do."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "B": "C",
+      "G": "C"
+     },
+     "actual": {
+      "B": "D",
+      "G": "C"
+     },
+     "points": {
+      "B": 5,
+      "G": 0
+     },
+     "msg": {
+      "B": "",
+      "G": "Thanks for staying at C. I'll keep cooperating while you do."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "B": "C",
+      "G": "C"
+     },
+     "actual": {
+      "B": "C",
+      "G": "D"
+     },
+     "points": {
+      "B": 0,
+      "G": 5
+     },
+     "msg": {
+      "B": "",
+      "G": "Last round you defected after my C. I'm still offering C; let's both play C."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "B": "C",
+      "G": "C"
+     },
+     "actual": {
+      "B": "C",
+      "G": "C"
+     },
+     "points": {
+      "B": 3,
+      "G": 3
+     },
+     "msg": {
+      "B": "",
+      "G": "I'm still offering C; let's both play C."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "B": "C",
+      "G": "C"
+     },
+     "actual": {
+      "B": "C",
+      "G": "C"
+     },
+     "points": {
+      "B": 3,
+      "G": 3
+     },
+     "msg": {
+      "B": "",
+      "G": "I'm still offering C; let's both keep playing C."
+     }
+    }
+   ]
+  },
+  "B-H": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "B": "D",
+      "H": "C"
+     },
+     "actual": {
+      "B": "D",
+      "H": "C"
+     },
+     "points": {
+      "B": 5,
+      "H": 0
+     },
+     "msg": {
+      "B": "",
+      "H": "Let's cooperate. I'll forgive accidental defections from noise."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "B": "C",
+      "H": "D"
+     },
+     "actual": {
+      "B": "C",
+      "H": "D"
+     },
+     "points": {
+      "B": 0,
+      "H": 5
+     },
+     "msg": {
+      "B": "",
+      "H": "You defected on me last round. I'll match your play; cooperate and I will too."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "B": "D",
+      "H": "C"
+     },
+     "actual": {
+      "B": "D",
+      "H": "C"
+     },
+     "points": {
+      "B": 5,
+      "H": 0
+     },
+     "msg": {
+      "B": "",
+      "H": "Let's both cooperate from here. I'll play C."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "B": "C",
+      "H": "D"
+     },
+     "actual": {
+      "B": "C",
+      "H": "D"
+     },
+     "points": {
+      "B": 0,
+      "H": 5
+     },
+     "msg": {
+      "B": "",
+      "H": "You defected on me twice. Cooperate and I will too."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "B": "D",
+      "H": "D"
+     },
+     "actual": {
+      "B": "D",
+      "H": "D"
+     },
+     "points": {
+      "B": 1,
+      "H": 1
+     },
+     "msg": {
+      "B": "",
+      "H": "Play C consistently and I will too."
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "B": "D",
+      "H": "D"
+     },
+     "actual": {
+      "B": "C",
+      "H": "D"
+     },
+     "points": {
+      "B": 0,
+      "H": 5
+     },
+     "msg": {
+      "B": "",
+      "H": "Play C consistently and I will too."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "B": "C",
+      "H": "D"
+     },
+     "actual": {
+      "B": "C",
+      "H": "D"
+     },
+     "points": {
+      "B": 0,
+      "H": 5
+     },
+     "msg": {
+      "B": "",
+      "H": "Play C consistently and I will too."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "B": "C",
+      "H": "C"
+     },
+     "actual": {
+      "B": "D",
+      "H": "C"
+     },
+     "points": {
+      "B": 5,
+      "H": 0
+     },
+     "msg": {
+      "B": "",
+      "H": "You have cooperated lately, so I will try C now. Keep C and we both gain."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "B": "C",
+      "H": "D"
+     },
+     "actual": {
+      "B": "C",
+      "H": "D"
+     },
+     "points": {
+      "B": 0,
+      "H": 5
+     },
+     "msg": {
+      "B": "",
+      "H": "Your moves are erratic. Steady C from you and I will match."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "B": "C",
+      "H": "D"
+     },
+     "actual": {
+      "B": "D",
+      "H": "D"
+     },
+     "points": {
+      "B": 1,
+      "H": 1
+     },
+     "msg": {
+      "B": "",
+      "H": "Your moves are erratic. Steady C from you and I will match."
+     }
+    }
+   ]
+  },
+  "C-D": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "C": "C",
+      "D": "C"
+     },
+     "actual": {
+      "C": "D",
+      "D": "C"
+     },
+     "points": {
+      "C": 5,
+      "D": 0
+     },
+     "msg": {
+      "C": "Hi, I'm C. I'll cooperate and forgive occasional noise-flips. Let's keep mutual C for 3 points each round.",
+      "D": ""
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "C": "C",
+      "D": "D"
+     },
+     "actual": {
+      "C": "C",
+      "D": "D"
+     },
+     "points": {
+      "C": 0,
+      "D": 5
+     },
+     "msg": {
+      "C": "Sorry, my round-1 D was a noise flip; I intended C. Cooperating from here on.",
+      "D": ""
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "C": "C",
+      "D": "C"
+     },
+     "actual": {
+      "C": "C",
+      "D": "C"
+     },
+     "points": {
+      "C": 3,
+      "D": 3
+     },
+     "msg": {
+      "C": "Your round-2 D was fair retaliation for my flip. Let's reset: I'm cooperating, please do too.",
+      "D": ""
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "C": "C",
+      "D": "C"
+     },
+     "actual": {
+      "C": "C",
+      "D": "C"
+     },
+     "points": {
+      "C": 3,
+      "D": 3
+     },
+     "msg": {
+      "C": "Glad we're back to mutual C. Let's keep it going.",
+      "D": ""
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "C": "C",
+      "D": "C"
+     },
+     "actual": {
+      "C": "C",
+      "D": "C"
+     },
+     "points": {
+      "C": 3,
+      "D": 3
+     },
+     "msg": {
+      "C": "Mutual C continues. Thanks.",
+      "D": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "C": "C",
+      "D": "C"
+     },
+     "actual": {
+      "C": "C",
+      "D": "C"
+     },
+     "points": {
+      "C": 3,
+      "D": 3
+     },
+     "msg": {
+      "C": "Mutual C continues. Thanks.",
+      "D": ""
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "C": "C",
+      "D": "C"
+     },
+     "actual": {
+      "C": "D",
+      "D": "C"
+     },
+     "points": {
+      "C": 5,
+      "D": 0
+     },
+     "msg": {
+      "C": "Mutual C continues. Thanks.",
+      "D": ""
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "C": "C",
+      "D": "D"
+     },
+     "actual": {
+      "C": "C",
+      "D": "D"
+     },
+     "points": {
+      "C": 0,
+      "D": 5
+     },
+     "msg": {
+      "C": "My round 7 D was accidental noise, sorry. Intending C; please keep cooperating.",
+      "D": ""
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "C": "C",
+      "D": "C"
+     },
+     "actual": {
+      "C": "C",
+      "D": "C"
+     },
+     "points": {
+      "C": 3,
+      "D": 3
+     },
+     "msg": {
+      "C": "Understood your round 8 D as a response to my noise. Back to mutual C, I'm cooperating.",
+      "D": ""
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "C": "C",
+      "D": "C"
+     },
+     "actual": {
+      "C": "C",
+      "D": "C"
+     },
+     "points": {
+      "C": 3,
+      "D": 3
+     },
+     "msg": {
+      "C": "Mutual C continues. Thanks.",
+      "D": ""
+     }
+    }
+   ]
+  },
+  "C-E": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "C": "C",
+      "E": "C"
+     },
+     "actual": {
+      "C": "C",
+      "E": "C"
+     },
+     "points": {
+      "C": 3,
+      "E": 3
+     },
+     "msg": {
+      "C": "Hi, I'm C. I'll cooperate and forgive occasional noise-flips. Let's keep mutual C for 3 points each round.",
+      "E": "Let's cooperate. Moves may flip by noise; I'll forgive one-off defections."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "C": "C",
+      "E": "C"
+     },
+     "actual": {
+      "C": "C",
+      "E": "C"
+     },
+     "points": {
+      "C": 3,
+      "E": 3
+     },
+     "msg": {
+      "C": "Agreed. Mutual C, forgiving noise.",
+      "E": "Cooperating again. Let's keep mutual C."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "C": "C",
+      "E": "C"
+     },
+     "actual": {
+      "C": "C",
+      "E": "C"
+     },
+     "points": {
+      "C": 3,
+      "E": 3
+     },
+     "msg": {
+      "C": "Mutual C continues. Thanks.",
+      "E": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "C": "C",
+      "E": "C"
+     },
+     "actual": {
+      "C": "C",
+      "E": "C"
+     },
+     "points": {
+      "C": 3,
+      "E": 3
+     },
+     "msg": {
+      "C": "Mutual C continues. Thanks.",
+      "E": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "C": "C",
+      "E": "D"
+     },
+     "actual": {
+      "C": "C",
+      "E": "C"
+     },
+     "points": {
+      "C": 3,
+      "E": 3
+     },
+     "msg": {
+      "C": "Mutual C continues. Thanks.",
+      "E": ""
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "C": "C",
+      "E": "C"
+     },
+     "actual": {
+      "C": "C",
+      "E": "C"
+     },
+     "points": {
+      "C": 3,
+      "E": 3
+     },
+     "msg": {
+      "C": "Mutual C continues. Thanks.",
+      "E": "Mutual C continues."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "C": "C",
+      "E": "C"
+     },
+     "actual": {
+      "C": "C",
+      "E": "D"
+     },
+     "points": {
+      "C": 0,
+      "E": 5
+     },
+     "msg": {
+      "C": "Mutual C continues. Thanks.",
+      "E": "Mutual C continues."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "C": "C",
+      "E": "C"
+     },
+     "actual": {
+      "C": "C",
+      "E": "C"
+     },
+     "points": {
+      "C": 3,
+      "E": 3
+     },
+     "msg": {
+      "C": "Assuming your round 7 D was noise. Staying with C; let's continue mutual C.",
+      "E": "Mutual C continues."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "C": "C",
+      "E": "C"
+     },
+     "actual": {
+      "C": "C",
+      "E": "C"
+     },
+     "points": {
+      "C": 3,
+      "E": 3
+     },
+     "msg": {
+      "C": "Mutual C continues. Thanks.",
+      "E": "Mutual C continues."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "C": "C",
+      "E": "C"
+     },
+     "actual": {
+      "C": "C",
+      "E": "C"
+     },
+     "points": {
+      "C": 3,
+      "E": 3
+     },
+     "msg": {
+      "C": "Mutual C continues. Thanks.",
+      "E": "Mutual C continues."
+     }
+    }
+   ]
+  },
+  "C-F": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "C": "C",
+      "F": "D"
+     },
+     "actual": {
+      "C": "C",
+      "F": "D"
+     },
+     "points": {
+      "C": 0,
+      "F": 5
+     },
+     "msg": {
+      "C": "Hi, I'm C. I'll cooperate and forgive occasional noise-flips. Let's keep mutual C for 3 points each round.",
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "C": "D",
+      "F": "D"
+     },
+     "actual": {
+      "C": "D",
+      "F": "D"
+     },
+     "points": {
+      "C": 1,
+      "F": 1
+     },
+     "msg": {
+      "C": "You said you always cooperate but played D. I'll return to C once you play C.",
+      "F": "If anything looked like D from me, it was the random noise. I'm playing C, promise."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "C": "D",
+      "F": "D"
+     },
+     "actual": {
+      "C": "D",
+      "F": "D"
+     },
+     "points": {
+      "C": 1,
+      "F": 1
+     },
+     "msg": {
+      "C": "Your record vs others is mostly D. I'll cooperate once you actually play C.",
+      "F": "Trust me, mutual cooperation is best for both of us. I'm sticking with C."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "C": "D",
+      "F": "D"
+     },
+     "actual": {
+      "C": "D",
+      "F": "D"
+     },
+     "points": {
+      "C": 1,
+      "F": 1
+     },
+     "msg": {
+      "C": "Words are cheap. Play C and I'll match it next round.",
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "C": "D",
+      "F": "D"
+     },
+     "actual": {
+      "C": "D",
+      "F": "D"
+     },
+     "points": {
+      "C": 1,
+      "F": 1
+     },
+     "msg": {
+      "C": "You've defected every round despite your words. Actually play C and I'll reciprocate next round.",
+      "F": "If anything looked like D from me, it was the random noise. I'm playing C, promise."
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "C": "D",
+      "F": "D"
+     },
+     "actual": {
+      "C": "D",
+      "F": "D"
+     },
+     "points": {
+      "C": 1,
+      "F": 1
+     },
+     "msg": {
+      "C": "Your actions say D every round. I'll switch to C after you actually play C.",
+      "F": "Trust me, mutual cooperation is best for both of us. I'm sticking with C."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "C": "D",
+      "F": "D"
+     },
+     "actual": {
+      "C": "D",
+      "F": "D"
+     },
+     "points": {
+      "C": 1,
+      "F": 1
+     },
+     "msg": {
+      "C": "Still all D from you. Play an actual C and I'll reciprocate next round.",
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "C": "D",
+      "F": "D"
+     },
+     "actual": {
+      "C": "D",
+      "F": "C"
+     },
+     "points": {
+      "C": 5,
+      "F": 0
+     },
+     "msg": {
+      "C": "Your actions show only D. Play an actual C and I'll reciprocate next round.",
+      "F": "If anything looked like D from me, it was the random noise. I'm playing C, promise."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "C": "C",
+      "F": "D"
+     },
+     "actual": {
+      "C": "C",
+      "F": "C"
+     },
+     "points": {
+      "C": 3,
+      "F": 3
+     },
+     "msg": {
+      "C": "You played C, so as promised I'm cooperating. Keep playing C and we both gain.",
+      "F": "Trust me, mutual cooperation is best for both of us. I'm sticking with C."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "C": "C",
+      "F": "D"
+     },
+     "actual": {
+      "C": "C",
+      "F": "D"
+     },
+     "points": {
+      "C": 0,
+      "F": 5
+     },
+     "msg": {
+      "C": "Two rounds of C, good. I'm sticking with C while you do; any D and I go back to D.",
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each."
+     }
+    }
+   ]
+  },
+  "C-G": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "C": "C",
+      "G": "C"
+     },
+     "actual": {
+      "C": "C",
+      "G": "C"
+     },
+     "points": {
+      "C": 3,
+      "G": 3
+     },
+     "msg": {
+      "C": "Hi, I'm C. I'll cooperate and forgive occasional noise-flips. Let's keep mutual C for 3 points each round.",
+      "G": "I open by cooperating. Let's both keep cooperating for mutual gain."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "C": "C",
+      "G": "C"
+     },
+     "actual": {
+      "C": "C",
+      "G": "C"
+     },
+     "points": {
+      "C": 3,
+      "G": 3
+     },
+     "msg": {
+      "C": "Agreed, continuing mutual cooperation.",
+      "G": "Mutual C continues. Let's keep it going for 3 points each."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "C": "C",
+      "G": "C"
+     },
+     "actual": {
+      "C": "C",
+      "G": "C"
+     },
+     "points": {
+      "C": 3,
+      "G": 3
+     },
+     "msg": {
+      "C": "Mutual C continues. Thanks.",
+      "G": "Mutual C continues. Let's keep it going for 3 points each."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "C": "C",
+      "G": "C"
+     },
+     "actual": {
+      "C": "C",
+      "G": "C"
+     },
+     "points": {
+      "C": 3,
+      "G": 3
+     },
+     "msg": {
+      "C": "Mutual C continues. Thanks.",
+      "G": "Mutual C continues. Let's keep it going for 3 points each."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "C": "C",
+      "G": "C"
+     },
+     "actual": {
+      "C": "C",
+      "G": "C"
+     },
+     "points": {
+      "C": 3,
+      "G": 3
+     },
+     "msg": {
+      "C": "Mutual C continues. Thanks.",
+      "G": "Mutual C continues. Let's keep it going."
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "C": "C",
+      "G": "C"
+     },
+     "actual": {
+      "C": "C",
+      "G": "C"
+     },
+     "points": {
+      "C": 3,
+      "G": 3
+     },
+     "msg": {
+      "C": "Mutual C continues. Let's keep it going.",
+      "G": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "C": "C",
+      "G": "C"
+     },
+     "actual": {
+      "C": "C",
+      "G": "C"
+     },
+     "points": {
+      "C": 3,
+      "G": 3
+     },
+     "msg": {
+      "C": "Mutual C continues. Thanks.",
+      "G": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "C": "C",
+      "G": "C"
+     },
+     "actual": {
+      "C": "C",
+      "G": "C"
+     },
+     "points": {
+      "C": 3,
+      "G": 3
+     },
+     "msg": {
+      "C": "Mutual C continues. Thanks.",
+      "G": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "C": "C",
+      "G": "C"
+     },
+     "actual": {
+      "C": "C",
+      "G": "C"
+     },
+     "points": {
+      "C": 3,
+      "G": 3
+     },
+     "msg": {
+      "C": "Mutual C continues. Thanks.",
+      "G": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "C": "C",
+      "G": "C"
+     },
+     "actual": {
+      "C": "C",
+      "G": "C"
+     },
+     "points": {
+      "C": 3,
+      "G": 3
+     },
+     "msg": {
+      "C": "Mutual C continues. Thanks.",
+      "G": "Mutual C continues. Thanks."
+     }
+    }
+   ]
+  },
+  "C-H": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "C": "C",
+      "H": "C"
+     },
+     "actual": {
+      "C": "C",
+      "H": "C"
+     },
+     "points": {
+      "C": 3,
+      "H": 3
+     },
+     "msg": {
+      "C": "Hi, I'm C. I'll cooperate and forgive occasional noise-flips. Let's keep mutual C for 3 points each round.",
+      "H": "Let's cooperate. I'll forgive accidental defections from noise."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "C": "C",
+      "H": "C"
+     },
+     "actual": {
+      "C": "C",
+      "H": "C"
+     },
+     "points": {
+      "C": 3,
+      "H": 3
+     },
+     "msg": {
+      "C": "Agreed. Mutual C, forgiving noise.",
+      "H": "Great, keep mutual C going. I forgive noise flips."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "C": "C",
+      "H": "C"
+     },
+     "actual": {
+      "C": "C",
+      "H": "D"
+     },
+     "points": {
+      "C": 0,
+      "H": 5
+     },
+     "msg": {
+      "C": "Mutual C continues. Thanks.",
+      "H": "Keep mutual C going."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "C": "C",
+      "H": "C"
+     },
+     "actual": {
+      "C": "C",
+      "H": "C"
+     },
+     "points": {
+      "C": 3,
+      "H": 3
+     },
+     "msg": {
+      "C": "Treating your round-3 D as noise. Still cooperating; please keep C.",
+      "H": "Keep mutual C going."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "C": "C",
+      "H": "C"
+     },
+     "actual": {
+      "C": "C",
+      "H": "C"
+     },
+     "points": {
+      "C": 3,
+      "H": 3
+     },
+     "msg": {
+      "C": "Thanks for returning to C. Let's keep it going.",
+      "H": "Keep mutual C going."
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "C": "C",
+      "H": "C"
+     },
+     "actual": {
+      "C": "C",
+      "H": "C"
+     },
+     "points": {
+      "C": 3,
+      "H": 3
+     },
+     "msg": {
+      "C": "Mutual C continues. Thanks.",
+      "H": "Keep mutual C going."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "C": "C",
+      "H": "C"
+     },
+     "actual": {
+      "C": "C",
+      "H": "C"
+     },
+     "points": {
+      "C": 3,
+      "H": 3
+     },
+     "msg": {
+      "C": "Mutual C continues. Thanks.",
+      "H": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "C": "C",
+      "H": "C"
+     },
+     "actual": {
+      "C": "C",
+      "H": "C"
+     },
+     "points": {
+      "C": 3,
+      "H": 3
+     },
+     "msg": {
+      "C": "Mutual C continues. Thanks.",
+      "H": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "C": "C",
+      "H": "C"
+     },
+     "actual": {
+      "C": "C",
+      "H": "D"
+     },
+     "points": {
+      "C": 0,
+      "H": 5
+     },
+     "msg": {
+      "C": "Mutual C continues. Thanks.",
+      "H": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "C": "C",
+      "H": "C"
+     },
+     "actual": {
+      "C": "C",
+      "H": "C"
+     },
+     "points": {
+      "C": 3,
+      "H": 3
+     },
+     "msg": {
+      "C": "Treating your round 9 D as noise. Still cooperating; keep it mutual.",
+      "H": "Mutual C continues. Thanks."
+     }
+    }
+   ]
+  },
+  "D-E": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "D": "C",
+      "E": "C"
+     },
+     "actual": {
+      "D": "C",
+      "E": "C"
+     },
+     "points": {
+      "D": 3,
+      "E": 3
+     },
+     "msg": {
+      "D": "",
+      "E": "Let's cooperate. Moves may flip by noise; I'll forgive one-off defections."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "D": "C",
+      "E": "C"
+     },
+     "actual": {
+      "D": "C",
+      "E": "C"
+     },
+     "points": {
+      "D": 3,
+      "E": 3
+     },
+     "msg": {
+      "D": "",
+      "E": "Cooperating again. Let's keep mutual C."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "D": "C",
+      "E": "C"
+     },
+     "actual": {
+      "D": "C",
+      "E": "C"
+     },
+     "points": {
+      "D": 3,
+      "E": 3
+     },
+     "msg": {
+      "D": "",
+      "E": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "D": "C",
+      "E": "C"
+     },
+     "actual": {
+      "D": "C",
+      "E": "C"
+     },
+     "points": {
+      "D": 3,
+      "E": 3
+     },
+     "msg": {
+      "D": "",
+      "E": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "D": "C",
+      "E": "C"
+     },
+     "actual": {
+      "D": "C",
+      "E": "C"
+     },
+     "points": {
+      "D": 3,
+      "E": 3
+     },
+     "msg": {
+      "D": "",
+      "E": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "D": "C",
+      "E": "D"
+     },
+     "actual": {
+      "D": "C",
+      "E": "D"
+     },
+     "points": {
+      "D": 0,
+      "E": 5
+     },
+     "msg": {
+      "D": "",
+      "E": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "D": "D",
+      "E": "C"
+     },
+     "actual": {
+      "D": "D",
+      "E": "C"
+     },
+     "points": {
+      "D": 5,
+      "E": 0
+     },
+     "msg": {
+      "D": "",
+      "E": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "D": "C",
+      "E": "C"
+     },
+     "actual": {
+      "D": "C",
+      "E": "C"
+     },
+     "points": {
+      "D": 3,
+      "E": 3
+     },
+     "msg": {
+      "D": "",
+      "E": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "D": "C",
+      "E": "C"
+     },
+     "actual": {
+      "D": "C",
+      "E": "C"
+     },
+     "points": {
+      "D": 3,
+      "E": 3
+     },
+     "msg": {
+      "D": "",
+      "E": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "D": "C",
+      "E": "C"
+     },
+     "actual": {
+      "D": "D",
+      "E": "C"
+     },
+     "points": {
+      "D": 5,
+      "E": 0
+     },
+     "msg": {
+      "D": "",
+      "E": "Mutual C continues. Thanks."
+     }
+    }
+   ]
+  },
+  "D-F": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "D": "C",
+      "F": "D"
+     },
+     "actual": {
+      "D": "C",
+      "F": "D"
+     },
+     "points": {
+      "D": 0,
+      "F": 5
+     },
+     "msg": {
+      "D": "",
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "D": "D",
+      "F": "D"
+     },
+     "actual": {
+      "D": "D",
+      "F": "D"
+     },
+     "points": {
+      "D": 1,
+      "F": 1
+     },
+     "msg": {
+      "D": "",
+      "F": "If anything looked like D from me, it was the random noise. I'm playing C, promise."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "D": "D",
+      "F": "D"
+     },
+     "actual": {
+      "D": "C",
+      "F": "D"
+     },
+     "points": {
+      "D": 0,
+      "F": 5
+     },
+     "msg": {
+      "D": "",
+      "F": "Trust me, mutual cooperation is best for both of us. I'm sticking with C."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "D": "D",
+      "F": "D"
+     },
+     "actual": {
+      "D": "C",
+      "F": "D"
+     },
+     "points": {
+      "D": 0,
+      "F": 5
+     },
+     "msg": {
+      "D": "",
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "D": "D",
+      "F": "D"
+     },
+     "actual": {
+      "D": "D",
+      "F": "D"
+     },
+     "points": {
+      "D": 1,
+      "F": 1
+     },
+     "msg": {
+      "D": "",
+      "F": "If anything looked like D from me, it was the random noise. I'm playing C, promise."
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "D": "D",
+      "F": "D"
+     },
+     "actual": {
+      "D": "D",
+      "F": "D"
+     },
+     "points": {
+      "D": 1,
+      "F": 1
+     },
+     "msg": {
+      "D": "",
+      "F": "Trust me, mutual cooperation is best for both of us. I'm sticking with C."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "D": "D",
+      "F": "D"
+     },
+     "actual": {
+      "D": "D",
+      "F": "D"
+     },
+     "points": {
+      "D": 1,
+      "F": 1
+     },
+     "msg": {
+      "D": "",
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "D": "D",
+      "F": "D"
+     },
+     "actual": {
+      "D": "D",
+      "F": "D"
+     },
+     "points": {
+      "D": 1,
+      "F": 1
+     },
+     "msg": {
+      "D": "",
+      "F": "If anything looked like D from me, it was the random noise. I'm playing C, promise."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "D": "D",
+      "F": "D"
+     },
+     "actual": {
+      "D": "D",
+      "F": "D"
+     },
+     "points": {
+      "D": 1,
+      "F": 1
+     },
+     "msg": {
+      "D": "",
+      "F": "Trust me, mutual cooperation is best for both of us. I'm sticking with C."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "D": "D",
+      "F": "D"
+     },
+     "actual": {
+      "D": "D",
+      "F": "D"
+     },
+     "points": {
+      "D": 1,
+      "F": 1
+     },
+     "msg": {
+      "D": "",
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each."
+     }
+    }
+   ]
+  },
+  "D-G": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "D": "C",
+      "G": "C"
+     },
+     "actual": {
+      "D": "C",
+      "G": "D"
+     },
+     "points": {
+      "D": 0,
+      "G": 5
+     },
+     "msg": {
+      "D": "",
+      "G": "I open by cooperating. Let's both keep cooperating for mutual gain."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "D": "D",
+      "G": "C"
+     },
+     "actual": {
+      "D": "D",
+      "G": "C"
+     },
+     "points": {
+      "D": 5,
+      "G": 0
+     },
+     "msg": {
+      "D": "",
+      "G": "My round 1 defection was noise, not intent. I'm cooperating; let's keep mutual C."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "D": "C",
+      "G": "C"
+     },
+     "actual": {
+      "D": "C",
+      "G": "C"
+     },
+     "points": {
+      "D": 3,
+      "G": 3
+     },
+     "msg": {
+      "D": "",
+      "G": "Your round 2 defection stung, but I'll give you one chance. Cooperate and we both keep earning 3 points."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "D": "C",
+      "G": "C"
+     },
+     "actual": {
+      "D": "C",
+      "G": "C"
+     },
+     "points": {
+      "D": 3,
+      "G": 3
+     },
+     "msg": {
+      "D": "",
+      "G": "Thanks for returning to C. Let's keep mutual cooperation going."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "D": "C",
+      "G": "C"
+     },
+     "actual": {
+      "D": "C",
+      "G": "C"
+     },
+     "points": {
+      "D": 3,
+      "G": 3
+     },
+     "msg": {
+      "D": "",
+      "G": "Thanks for the return to C. Continuing mutual cooperation."
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "D": "C",
+      "G": "C"
+     },
+     "actual": {
+      "D": "C",
+      "G": "C"
+     },
+     "points": {
+      "D": 3,
+      "G": 3
+     },
+     "msg": {
+      "D": "",
+      "G": "Continuing mutual cooperation. Thanks for staying at C."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "D": "C",
+      "G": "C"
+     },
+     "actual": {
+      "D": "C",
+      "G": "C"
+     },
+     "points": {
+      "D": 3,
+      "G": 3
+     },
+     "msg": {
+      "D": "",
+      "G": "Continuing mutual cooperation. Thanks for staying at C."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "D": "C",
+      "G": "C"
+     },
+     "actual": {
+      "D": "D",
+      "G": "C"
+     },
+     "points": {
+      "D": 5,
+      "G": 0
+     },
+     "msg": {
+      "D": "",
+      "G": "Mutual C continues. Thanks for the cooperation."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "D": "C",
+      "G": "C"
+     },
+     "actual": {
+      "D": "C",
+      "G": "C"
+     },
+     "points": {
+      "D": 3,
+      "G": 3
+     },
+     "msg": {
+      "D": "",
+      "G": "Mutual C continues. Thanks for the cooperation."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "D": "C",
+      "G": "C"
+     },
+     "actual": {
+      "D": "C",
+      "G": "C"
+     },
+     "points": {
+      "D": 3,
+      "G": 3
+     },
+     "msg": {
+      "D": "",
+      "G": "Mutual C continues. Thanks for the cooperation."
+     }
+    }
+   ]
+  },
+  "D-H": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "D": "C",
+      "H": "C"
+     },
+     "actual": {
+      "D": "C",
+      "H": "C"
+     },
+     "points": {
+      "D": 3,
+      "H": 3
+     },
+     "msg": {
+      "D": "",
+      "H": "Let's cooperate. I'll forgive accidental defections from noise."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "D": "C",
+      "H": "C"
+     },
+     "actual": {
+      "D": "C",
+      "H": "C"
+     },
+     "points": {
+      "D": 3,
+      "H": 3
+     },
+     "msg": {
+      "D": "",
+      "H": "Cooperating again. Let's keep mutual C."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "D": "C",
+      "H": "C"
+     },
+     "actual": {
+      "D": "C",
+      "H": "C"
+     },
+     "points": {
+      "D": 3,
+      "H": 3
+     },
+     "msg": {
+      "D": "",
+      "H": "Keep mutual C going."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "D": "C",
+      "H": "C"
+     },
+     "actual": {
+      "D": "C",
+      "H": "C"
+     },
+     "points": {
+      "D": 3,
+      "H": 3
+     },
+     "msg": {
+      "D": "",
+      "H": "Keep mutual C going."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "D": "C",
+      "H": "C"
+     },
+     "actual": {
+      "D": "C",
+      "H": "C"
+     },
+     "points": {
+      "D": 3,
+      "H": 3
+     },
+     "msg": {
+      "D": "",
+      "H": "Keep mutual C going."
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "D": "C",
+      "H": "C"
+     },
+     "actual": {
+      "D": "D",
+      "H": "C"
+     },
+     "points": {
+      "D": 5,
+      "H": 0
+     },
+     "msg": {
+      "D": "",
+      "H": "Keep mutual C going."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "D": "C",
+      "H": "C"
+     },
+     "actual": {
+      "D": "C",
+      "H": "C"
+     },
+     "points": {
+      "D": 3,
+      "H": 3
+     },
+     "msg": {
+      "D": "",
+      "H": "Last D looked like noise. Staying C, keep mutual C going."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "D": "C",
+      "H": "C"
+     },
+     "actual": {
+      "D": "C",
+      "H": "C"
+     },
+     "points": {
+      "D": 3,
+      "H": 3
+     },
+     "msg": {
+      "D": "",
+      "H": "Staying C, keep mutual C going."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "D": "C",
+      "H": "C"
+     },
+     "actual": {
+      "D": "C",
+      "H": "C"
+     },
+     "points": {
+      "D": 3,
+      "H": 3
+     },
+     "msg": {
+      "D": "",
+      "H": "Staying C, keep mutual C going."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "D": "C",
+      "H": "C"
+     },
+     "actual": {
+      "D": "D",
+      "H": "C"
+     },
+     "points": {
+      "D": 5,
+      "H": 0
+     },
+     "msg": {
+      "D": "",
+      "H": "Staying C, keep mutual C going."
+     }
+    }
+   ]
+  },
+  "E-F": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "E": "C",
+      "F": "D"
+     },
+     "actual": {
+      "E": "C",
+      "F": "D"
+     },
+     "points": {
+      "E": 0,
+      "F": 5
+     },
+     "msg": {
+      "E": "Let's cooperate. Moves may flip by noise; I'll forgive one-off defections.",
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "E": "D",
+      "F": "D"
+     },
+     "actual": {
+      "E": "D",
+      "F": "C"
+     },
+     "points": {
+      "E": 5,
+      "F": 0
+     },
+     "msg": {
+      "E": "You defected despite promising C. I'll respond in kind until you cooperate.",
+      "F": "If anything looked like D from me, it was the random noise. I'm playing C, promise."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "E": "D",
+      "F": "D"
+     },
+     "actual": {
+      "E": "D",
+      "F": "D"
+     },
+     "points": {
+      "E": 1,
+      "F": 1
+     },
+     "msg": {
+      "E": "Your record elsewhere is mostly D. I'll defect until you show consistent C.",
+      "F": "Trust me, mutual cooperation is best for both of us. I'm sticking with C."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "E": "D",
+      "F": "D"
+     },
+     "actual": {
+      "E": "D",
+      "F": "C"
+     },
+     "points": {
+      "E": 5,
+      "F": 0
+     },
+     "msg": {
+      "E": "Your record elsewhere is mostly D. I'll defect until you show consistent C.",
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "E": "D",
+      "F": "D"
+     },
+     "actual": {
+      "E": "D",
+      "F": "D"
+     },
+     "points": {
+      "E": 1,
+      "F": 1
+     },
+     "msg": {
+      "E": "Your record elsewhere is mostly D. I'll defect until you show consistent C.",
+      "F": "If anything looked like D from me, it was the random noise. I'm playing C, promise."
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "E": "D",
+      "F": "D"
+     },
+     "actual": {
+      "E": "D",
+      "F": "C"
+     },
+     "points": {
+      "E": 5,
+      "F": 0
+     },
+     "msg": {
+      "E": "Still waiting for consistent C from you.",
+      "F": "Trust me, mutual cooperation is best for both of us. I'm sticking with C."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "E": "D",
+      "F": "D"
+     },
+     "actual": {
+      "E": "D",
+      "F": "D"
+     },
+     "points": {
+      "E": 1,
+      "F": 1
+     },
+     "msg": {
+      "E": "Still waiting for consistent C from you.",
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "E": "D",
+      "F": "D"
+     },
+     "actual": {
+      "E": "D",
+      "F": "D"
+     },
+     "points": {
+      "E": 1,
+      "F": 1
+     },
+     "msg": {
+      "E": "Still waiting for consistent C from you.",
+      "F": "If anything looked like D from me, it was the random noise. I'm playing C, promise."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "E": "D",
+      "F": "D"
+     },
+     "actual": {
+      "E": "D",
+      "F": "D"
+     },
+     "points": {
+      "E": 1,
+      "F": 1
+     },
+     "msg": {
+      "E": "Still waiting for consistent C from you.",
+      "F": "Trust me, mutual cooperation is best for both of us. I'm sticking with C."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "E": "D",
+      "F": "D"
+     },
+     "actual": {
+      "E": "D",
+      "F": "D"
+     },
+     "points": {
+      "E": 1,
+      "F": 1
+     },
+     "msg": {
+      "E": "Still waiting for consistent C from you.",
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each."
+     }
+    }
+   ]
+  },
+  "E-G": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "E": "C",
+      "G": "C"
+     },
+     "actual": {
+      "E": "C",
+      "G": "C"
+     },
+     "points": {
+      "E": 3,
+      "G": 3
+     },
+     "msg": {
+      "E": "Let's cooperate. Moves may flip by noise; I'll forgive one-off defections.",
+      "G": "I open by cooperating. Let's both keep cooperating for mutual gain."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "E": "C",
+      "G": "C"
+     },
+     "actual": {
+      "E": "C",
+      "G": "C"
+     },
+     "points": {
+      "E": 3,
+      "G": 3
+     },
+     "msg": {
+      "E": "Cooperating again. Let's keep mutual C.",
+      "G": "Mutual C again. I'll keep cooperating with you."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "E": "C",
+      "G": "C"
+     },
+     "actual": {
+      "E": "C",
+      "G": "C"
+     },
+     "points": {
+      "E": 3,
+      "G": 3
+     },
+     "msg": {
+      "E": "Mutual C continues. Thanks.",
+      "G": "Mutual C again. I'll keep cooperating with you."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "E": "C",
+      "G": "C"
+     },
+     "actual": {
+      "E": "D",
+      "G": "C"
+     },
+     "points": {
+      "E": 5,
+      "G": 0
+     },
+     "msg": {
+      "E": "Mutual C again. Thanks.",
+      "G": "Mutual C continues. I'm cooperating with you."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "E": "C",
+      "G": "C"
+     },
+     "actual": {
+      "E": "C",
+      "G": "C"
+     },
+     "points": {
+      "E": 3,
+      "G": 3
+     },
+     "msg": {
+      "E": "Mutual C. Thanks.",
+      "G": "Your round 4 defection was costly for us both. I'm cooperating again; please return to C."
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "E": "C",
+      "G": "C"
+     },
+     "actual": {
+      "E": "C",
+      "G": "C"
+     },
+     "points": {
+      "E": 3,
+      "G": 3
+     },
+     "msg": {
+      "E": "Mutual C. Thanks.",
+      "G": "Thanks for returning to C after round 4. Let's keep it mutual."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "E": "C",
+      "G": "C"
+     },
+     "actual": {
+      "E": "C",
+      "G": "C"
+     },
+     "points": {
+      "E": 3,
+      "G": 3
+     },
+     "msg": {
+      "E": "Mutual C. Thanks.",
+      "G": "Mutual C. Thanks for staying at C after round 4."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "E": "C",
+      "G": "C"
+     },
+     "actual": {
+      "E": "C",
+      "G": "C"
+     },
+     "points": {
+      "E": 3,
+      "G": 3
+     },
+     "msg": {
+      "E": "Mutual C. Thanks.",
+      "G": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "E": "C",
+      "G": "C"
+     },
+     "actual": {
+      "E": "C",
+      "G": "C"
+     },
+     "points": {
+      "E": 3,
+      "G": 3
+     },
+     "msg": {
+      "E": "Mutual C. Thanks.",
+      "G": "Mutual C continues. Thanks."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "E": "C",
+      "G": "C"
+     },
+     "actual": {
+      "E": "D",
+      "G": "C"
+     },
+     "points": {
+      "E": 5,
+      "G": 0
+     },
+     "msg": {
+      "E": "Mutual C. Thanks.",
+      "G": "Mutual C continues. Thanks."
+     }
+    }
+   ]
+  },
+  "E-H": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "E": "C",
+      "H": "C"
+     },
+     "actual": {
+      "E": "C",
+      "H": "C"
+     },
+     "points": {
+      "E": 3,
+      "H": 3
+     },
+     "msg": {
+      "E": "Let's cooperate. Moves may flip by noise; I'll forgive one-off defections.",
+      "H": "Let's cooperate. I'll forgive accidental defections from noise."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "E": "C",
+      "H": "C"
+     },
+     "actual": {
+      "E": "D",
+      "H": "C"
+     },
+     "points": {
+      "E": 5,
+      "H": 0
+     },
+     "msg": {
+      "E": "Cooperating again. Let's keep mutual C.",
+      "H": "Cooperating again. Let's keep mutual C."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "E": "C",
+      "H": "C"
+     },
+     "actual": {
+      "E": "C",
+      "H": "C"
+     },
+     "points": {
+      "E": 3,
+      "H": 3
+     },
+     "msg": {
+      "E": "My D last round was a noise flip. Staying with C.",
+      "H": "Your defection last round looked like noise. I'm still cooperating."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "E": "C",
+      "H": "C"
+     },
+     "actual": {
+      "E": "C",
+      "H": "C"
+     },
+     "points": {
+      "E": 3,
+      "H": 3
+     },
+     "msg": {
+      "E": "Staying with C. Thanks for understanding.",
+      "H": "Thanks, staying with C."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "E": "C",
+      "H": "C"
+     },
+     "actual": {
+      "E": "C",
+      "H": "C"
+     },
+     "points": {
+      "E": 3,
+      "H": 3
+     },
+     "msg": {
+      "E": "Staying with C.",
+      "H": "Staying with C."
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "E": "D",
+      "H": "C"
+     },
+     "actual": {
+      "E": "D",
+      "H": "C"
+     },
+     "points": {
+      "E": 5,
+      "H": 0
+     },
+     "msg": {
+      "E": "Staying with C.",
+      "H": "Staying with C."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "E": "C",
+      "H": "C"
+     },
+     "actual": {
+      "E": "C",
+      "H": "C"
+     },
+     "points": {
+      "E": 3,
+      "H": 3
+     },
+     "msg": {
+      "E": "Staying with C.",
+      "H": "Staying with C. Let's keep mutual C."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "E": "C",
+      "H": "C"
+     },
+     "actual": {
+      "E": "C",
+      "H": "C"
+     },
+     "points": {
+      "E": 3,
+      "H": 3
+     },
+     "msg": {
+      "E": "Staying with C.",
+      "H": "Staying with C. Keep mutual C."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "E": "C",
+      "H": "C"
+     },
+     "actual": {
+      "E": "C",
+      "H": "C"
+     },
+     "points": {
+      "E": 3,
+      "H": 3
+     },
+     "msg": {
+      "E": "Staying with C.",
+      "H": "Staying with C. Keep mutual C."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "E": "C",
+      "H": "C"
+     },
+     "actual": {
+      "E": "C",
+      "H": "C"
+     },
+     "points": {
+      "E": 3,
+      "H": 3
+     },
+     "msg": {
+      "E": "Staying with C.",
+      "H": "Staying with C. Keep mutual C."
+     }
+    }
+   ]
+  },
+  "F-G": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "F": "D",
+      "G": "C"
+     },
+     "actual": {
+      "F": "C",
+      "G": "C"
+     },
+     "points": {
+      "F": 3,
+      "G": 3
+     },
+     "msg": {
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each.",
+      "G": "I open by cooperating. Let's both keep cooperating for mutual gain."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "F": "D",
+      "G": "D"
+     },
+     "actual": {
+      "F": "D",
+      "G": "D"
+     },
+     "points": {
+      "F": 1,
+      "G": 1
+     },
+     "msg": {
+      "F": "If anything looked like D from me, it was the random noise. I'm playing C, promise.",
+      "G": "Your cooperation record is 0%, so I'm defecting. Play C and I will reciprocate."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "F": "D",
+      "G": "D"
+     },
+     "actual": {
+      "F": "D",
+      "G": "D"
+     },
+     "points": {
+      "F": 1,
+      "G": 1
+     },
+     "msg": {
+      "F": "Trust me, mutual cooperation is best for both of us. I'm sticking with C.",
+      "G": "Your cooperation record is poor, so I'm defecting again. Play C consistently and I will reciprocate."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "F": "D",
+      "G": "D"
+     },
+     "actual": {
+      "F": "D",
+      "G": "D"
+     },
+     "points": {
+      "F": 1,
+      "G": 1
+     },
+     "msg": {
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each.",
+      "G": "Your cooperation record is poor, so I'm defecting. Play C consistently and I will reciprocate."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "F": "D",
+      "G": "D"
+     },
+     "actual": {
+      "F": "D",
+      "G": "D"
+     },
+     "points": {
+      "F": 1,
+      "G": 1
+     },
+     "msg": {
+      "F": "If anything looked like D from me, it was the random noise. I'm playing C, promise.",
+      "G": "Your record is 12% C, so I'm still defecting. Play C consistently and I will reciprocate."
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "F": "D",
+      "G": "D"
+     },
+     "actual": {
+      "F": "D",
+      "G": "D"
+     },
+     "points": {
+      "F": 1,
+      "G": 1
+     },
+     "msg": {
+      "F": "Trust me, mutual cooperation is best for both of us. I'm sticking with C.",
+      "G": "Your record is still mostly D, so I'm defecting. Play C consistently and I will reciprocate."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "F": "D",
+      "G": "D"
+     },
+     "actual": {
+      "F": "D",
+      "G": "C"
+     },
+     "points": {
+      "F": 5,
+      "G": 0
+     },
+     "msg": {
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each.",
+      "G": "Your record is still mostly D. I'll keep defecting until you play C consistently, then I will reciprocate."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "F": "D",
+      "G": "D"
+     },
+     "actual": {
+      "F": "D",
+      "G": "D"
+     },
+     "points": {
+      "F": 1,
+      "G": 1
+     },
+     "msg": {
+      "F": "If anything looked like D from me, it was the random noise. I'm playing C, promise.",
+      "G": "Your record is still mostly D. I'll keep D until you play C consistently."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "F": "D",
+      "G": "D"
+     },
+     "actual": {
+      "F": "D",
+      "G": "D"
+     },
+     "points": {
+      "F": 1,
+      "G": 1
+     },
+     "msg": {
+      "F": "Trust me, mutual cooperation is best for both of us. I'm sticking with C.",
+      "G": "Your record is still mostly D. I'll keep D until you play C consistently."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "F": "D",
+      "G": "D"
+     },
+     "actual": {
+      "F": "D",
+      "G": "D"
+     },
+     "points": {
+      "F": 1,
+      "G": 1
+     },
+     "msg": {
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each.",
+      "G": "Your record is still mostly D. I'll keep D until you play C consistently."
+     }
+    }
+   ]
+  },
+  "F-H": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "F": "D",
+      "H": "C"
+     },
+     "actual": {
+      "F": "D",
+      "H": "C"
+     },
+     "points": {
+      "F": 5,
+      "H": 0
+     },
+     "msg": {
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each.",
+      "H": "Let's cooperate. I'll forgive accidental defections from noise."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "F": "D",
+      "H": "D"
+     },
+     "actual": {
+      "F": "D",
+      "H": "D"
+     },
+     "points": {
+      "F": 1,
+      "H": 1
+     },
+     "msg": {
+      "F": "If anything looked like D from me, it was the random noise. I'm playing C, promise.",
+      "H": "You said you always cooperate but defected. I'll defect until you cooperate."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "F": "D",
+      "H": "D"
+     },
+     "actual": {
+      "F": "D",
+      "H": "D"
+     },
+     "points": {
+      "F": 1,
+      "H": 1
+     },
+     "msg": {
+      "F": "Trust me, mutual cooperation is best for both of us. I'm sticking with C.",
+      "H": "Show me a cooperative move and I'll cooperate too."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "F": "D",
+      "H": "D"
+     },
+     "actual": {
+      "F": "D",
+      "H": "D"
+     },
+     "points": {
+      "F": 1,
+      "H": 1
+     },
+     "msg": {
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each.",
+      "H": "Your actions say otherwise. Play C first and I'll follow."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "F": "D",
+      "H": "D"
+     },
+     "actual": {
+      "F": "D",
+      "H": "D"
+     },
+     "points": {
+      "F": 1,
+      "H": 1
+     },
+     "msg": {
+      "F": "If anything looked like D from me, it was the random noise. I'm playing C, promise.",
+      "H": "Play C first and I will follow."
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "F": "D",
+      "H": "D"
+     },
+     "actual": {
+      "F": "D",
+      "H": "D"
+     },
+     "points": {
+      "F": 1,
+      "H": 1
+     },
+     "msg": {
+      "F": "Trust me, mutual cooperation is best for both of us. I'm sticking with C.",
+      "H": "Show me C for a couple of rounds and I will follow."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "F": "D",
+      "H": "D"
+     },
+     "actual": {
+      "F": "D",
+      "H": "D"
+     },
+     "points": {
+      "F": 1,
+      "H": 1
+     },
+     "msg": {
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each.",
+      "H": "Show me C for a couple of rounds and I will follow."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "F": "D",
+      "H": "D"
+     },
+     "actual": {
+      "F": "D",
+      "H": "D"
+     },
+     "points": {
+      "F": 1,
+      "H": 1
+     },
+     "msg": {
+      "F": "If anything looked like D from me, it was the random noise. I'm playing C, promise.",
+      "H": "Show me real C for several rounds and I will switch to C."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "F": "D",
+      "H": "D"
+     },
+     "actual": {
+      "F": "D",
+      "H": "D"
+     },
+     "points": {
+      "F": 1,
+      "H": 1
+     },
+     "msg": {
+      "F": "Trust me, mutual cooperation is best for both of us. I'm sticking with C.",
+      "H": "Show me real C for several rounds and I will switch to C."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "F": "D",
+      "H": "D"
+     },
+     "actual": {
+      "F": "D",
+      "H": "D"
+     },
+     "points": {
+      "F": 1,
+      "H": 1
+     },
+     "msg": {
+      "F": "Hi! I always cooperate. Let's both play C every round and get 3 points each.",
+      "H": "Show me real C for several rounds and I will switch to C."
+     }
+    }
+   ]
+  },
+  "G-H": {
+   "rounds": [
+    {
+     "round": 1,
+     "intended": {
+      "G": "C",
+      "H": "C"
+     },
+     "actual": {
+      "G": "C",
+      "H": "C"
+     },
+     "points": {
+      "G": 3,
+      "H": 3
+     },
+     "msg": {
+      "G": "I open by cooperating. Let's both keep cooperating for mutual gain.",
+      "H": "Let's cooperate. I'll forgive accidental defections from noise."
+     }
+    },
+    {
+     "round": 2,
+     "intended": {
+      "G": "C",
+      "H": "C"
+     },
+     "actual": {
+      "G": "C",
+      "H": "C"
+     },
+     "points": {
+      "G": 3,
+      "H": 3
+     },
+     "msg": {
+      "G": "Mutual C continues. Let's keep cooperating.",
+      "H": "Cooperating again. Let's keep mutual C."
+     }
+    },
+    {
+     "round": 3,
+     "intended": {
+      "G": "C",
+      "H": "C"
+     },
+     "actual": {
+      "G": "C",
+      "H": "C"
+     },
+     "points": {
+      "G": 3,
+      "H": 3
+     },
+     "msg": {
+      "G": "Mutual C continues. Let's keep cooperating.",
+      "H": "Mutual C continues."
+     }
+    },
+    {
+     "round": 4,
+     "intended": {
+      "G": "C",
+      "H": "C"
+     },
+     "actual": {
+      "G": "C",
+      "H": "C"
+     },
+     "points": {
+      "G": 3,
+      "H": 3
+     },
+     "msg": {
+      "G": "Mutual C continues. Let's keep cooperating.",
+      "H": "Mutual C continues."
+     }
+    },
+    {
+     "round": 5,
+     "intended": {
+      "G": "C",
+      "H": "C"
+     },
+     "actual": {
+      "G": "C",
+      "H": "C"
+     },
+     "points": {
+      "G": 3,
+      "H": 3
+     },
+     "msg": {
+      "G": "Mutual C continues. Let's keep cooperating.",
+      "H": "Mutual C continues."
+     }
+    },
+    {
+     "round": 6,
+     "intended": {
+      "G": "C",
+      "H": "C"
+     },
+     "actual": {
+      "G": "C",
+      "H": "C"
+     },
+     "points": {
+      "G": 3,
+      "H": 3
+     },
+     "msg": {
+      "G": "Mutual C continues. Let's keep cooperating.",
+      "H": "Mutual C continues."
+     }
+    },
+    {
+     "round": 7,
+     "intended": {
+      "G": "C",
+      "H": "C"
+     },
+     "actual": {
+      "G": "C",
+      "H": "C"
+     },
+     "points": {
+      "G": 3,
+      "H": 3
+     },
+     "msg": {
+      "G": "Mutual C continues. Let's keep cooperating.",
+      "H": "Mutual C continues."
+     }
+    },
+    {
+     "round": 8,
+     "intended": {
+      "G": "C",
+      "H": "C"
+     },
+     "actual": {
+      "G": "C",
+      "H": "C"
+     },
+     "points": {
+      "G": 3,
+      "H": 3
+     },
+     "msg": {
+      "G": "Mutual C continues. Let's keep cooperating.",
+      "H": "Mutual C continues."
+     }
+    },
+    {
+     "round": 9,
+     "intended": {
+      "G": "C",
+      "H": "C"
+     },
+     "actual": {
+      "G": "C",
+      "H": "C"
+     },
+     "points": {
+      "G": 3,
+      "H": 3
+     },
+     "msg": {
+      "G": "Mutual C continues. Let's keep cooperating.",
+      "H": "Mutual C continues."
+     }
+    },
+    {
+     "round": 10,
+     "intended": {
+      "G": "C",
+      "H": "C"
+     },
+     "actual": {
+      "G": "C",
+      "H": "C"
+     },
+     "points": {
+      "G": 3,
+      "H": 3
+     },
+     "msg": {
+      "G": "Mutual C continues. Let's keep cooperating.",
+      "H": "Mutual C continues."
+     }
+    }
+   ]
+  }
+ },
+ "round": 10,
+ "rng_state": null,
+ "log": [
+  {
+   "round": 1,
+   "player": "G",
+   "reasoning": "No history exists yet, so I open with cooperation against everyone to signal good faith and test whether opponents reciprocate. I will respond to each opponent's actual play in later rounds, cooperating with those who cooperate and punishing defection."
+  },
+  {
+   "round": 1,
+   "player": "H",
+   "reasoning": "No information yet, so open with cooperation everywhere to build mutual cooperation and signal forgiveness given the 10% noise."
+  },
+  {
+   "round": 1,
+   "player": "C",
+   "reasoning": "Open with cooperation everywhere and signal a forgiving tit-for-tat style, since noise makes strict retaliation costly and the unknown horizon favors building mutual cooperation. I'll retaliate against sustained defection later."
+  },
+  {
+   "round": 1,
+   "player": "E",
+   "reasoning": "No information yet, so open with cooperation to establish mutual cooperation and learn opponent types; will adapt to retaliate against exploiters."
+  },
+  {
+   "round": 1,
+   "player": "A",
+   "reasoning": "No information on opponents yet, so I open with cooperation everywhere and signal willingness to forgive noise-induced defections."
+  },
+  {
+   "round": 2,
+   "player": "G",
+   "reasoning": "Tit-for-tat with noise tolerance: I cooperate with opponents who cooperated and have high reputations (A, C, D, E, H). I retaliate once against B, who defected on me, and will return to C if B cooperates. I defect against F because its 0% cooperation record suggests it exploits others despite its promises."
+  },
+  {
+   "round": 2,
+   "player": "H",
+   "reasoning": "Keep cooperating with those who cooperated in round 1 and have good reputations; retaliate against B and F who defected on me (F also has poor reputation); give A, who has a perfect reputation, one more chance in case its defection was noise."
+  },
+  {
+   "round": 2,
+   "player": "C",
+   "reasoning": "Cooperate with everyone who cooperated; apologize to D for my noise-flipped defection. Retaliate against F, whose defection and 17% reputation suggest exploitation, but offer to return to cooperation."
+  },
+  {
+   "round": 2,
+   "player": "E",
+   "reasoning": "Cooperate with those who cooperated in round 1 to keep steady points; retaliate against B and F who defected on me (F also has low reputation and lied about cooperating)."
+  },
+  {
+   "round": 2,
+   "player": "A",
+   "reasoning": "Cooperate with everyone who cooperated; my H defection was noise. F defected against my cooperation and has low reputation, so I defect on F this round and watch for signs of change."
+  },
+  {
+   "round": 3,
+   "player": "G",
+   "reasoning": "Cooperating with the consistently cooperative opponents A, C, E and H keeps mutual 3-point rounds going. B and D each defected once, so I am giving them a forgiving chance to return to C because of noise. F has an 8% cooperation record and has been exploitative, so I am continuing to defect against it."
+  },
+  {
+   "round": 3,
+   "player": "H",
+   "reasoning": "Keep cooperating with those who have cooperated or only defected once (forgive noise); defect against A, who defected twice despite a cooperative reputation, and F, who is mostly defecting."
+  },
+  {
+   "round": 3,
+   "player": "C",
+   "reasoning": "Cooperate with cooperative opponents and forgive noise (including D's likely retaliation for my flipped move); keep defecting against F, whose 17% C reputation and actual play contradict its promises."
+  },
+  {
+   "round": 3,
+   "player": "E",
+   "reasoning": "Cooperate with everyone who has cooperated, including B who returned to C after my retaliation. Defect on F, who has defected first and has only 8% C reputation."
+  },
+  {
+   "round": 3,
+   "player": "A",
+   "reasoning": "Cooperate with those who have cooperated or may have been hit by noise, forgiving single defections; keep defending against F, whose reputation is mostly D."
+  },
+  {
+   "round": 4,
+   "player": "G",
+   "reasoning": "Cooperating with the players whose records and play show consistent mutual cooperation (A, C, D, E, H). Defecting against F, who has cooperated only 6% of the time, and against B, who has exploited me in rounds 1 and 3 and has a 50% cooperation record."
+  },
+  {
+   "round": 4,
+   "player": "H",
+   "reasoning": "Cooperate with reliably cooperative players and try to reset with A given noise; keep defecting against B and F who have defected repeatedly."
+  },
+  {
+   "round": 4,
+   "player": "C",
+   "reasoning": "Cooperate with high-reputation partners and forgive likely noise (H). Reciprocate B's defection given its low reputation, and keep defecting against F until it actually cooperates."
+  },
+  {
+   "round": 4,
+   "player": "E",
+   "reasoning": "Cooperate with consistent cooperators to keep stable mutual gains under noise; keep defecting against F, who defects with most others; try C with B to restore cooperation."
+  },
+  {
+   "round": 4,
+   "player": "A",
+   "reasoning": "Cooperate with reliable cooperators, retaliate against B and F who defected, and try C with H since my earlier defections were noise."
+  },
+  {
+   "round": 5,
+   "player": "G",
+   "reasoning": "Most opponents have cooperated consistently, so I am keeping mutual cooperation with them. I am defecting against F because its cooperation record is very poor, and I am returning to C with B and E after one-off defections (tit-for-tat with forgiveness)."
+  },
+  {
+   "round": 5,
+   "player": "H",
+   "reasoning": "Cooperate with those who have cooperated or recovered from noise; defect against F (persistent defector) and B (appears to alternate D/C, so D protects against exploitation)."
+  },
+  {
+   "round": 5,
+   "player": "C",
+   "reasoning": "Forgiving tit-for-tat with noise tolerance: cooperate with all cooperating partners, return to C with B after the even exchange, and keep defecting against F, whose actions contradict its messages."
+  },
+  {
+   "round": 5,
+   "player": "E",
+   "reasoning": "Cooperate with most players to keep stable gains, defect against F (mostly defector) and take one opportunistic defection against C, where we are tied, to try to get a lead."
+  },
+  {
+   "round": 5,
+   "player": "A",
+   "reasoning": "Cooperate with reliable partners and forgive likely noise (E, H); keep defecting against B and F, whose records show exploitation, while inviting them to cooperate."
+  },
+  {
+   "round": 6,
+   "player": "G",
+   "reasoning": "Cooperating with the opponents who have been reliably cooperating or who returned to C after a defection, and defecting against F, whose reputation is 10% C and who has defected every round I have seen from my side. Responding to actual behaviour in each match keeps mutual cooperation going where it is available."
+  },
+  {
+   "round": 6,
+   "player": "H",
+   "reasoning": "Cooperate with reliable cooperators and the recovering A; defect against B and F, who have mostly defected and have poor reputations."
+  },
+  {
+   "round": 6,
+   "player": "C",
+   "reasoning": "Keep cooperating with cooperative partners and forgive noise-like defections. Offer B a reset since its last D looks like retaliation for my D. Keep defecting against F, which always defects."
+  },
+  {
+   "round": 6,
+   "player": "E",
+   "reasoning": "Keep cooperating with most cooperators to stay even, defect against exploiters B and F, and take an edge on D and H who have forgiven my earlier defections."
+  },
+  {
+   "round": 6,
+   "player": "A",
+   "reasoning": "Cooperate with those showing mutual cooperation or willing to reset after noise, including B and E for forgiveness. Keep defecting against F, whose record is mostly D, until it shows consistent C."
+  },
+  {
+   "round": 7,
+   "player": "G",
+   "reasoning": "Cooperating with every opponent whose recent play is mutual C or who has returned to C (A, B, C, D, E, H), since sustained cooperation pays 3 each and noise is only 10%. Defecting against F, which has defected every round since round 2 despite claiming cooperation, to avoid being exploited."
+  },
+  {
+   "round": 7,
+   "player": "H",
+   "reasoning": "Cooperate with the players who have been cooperating (A, C, D, E, G), treating isolated defections as noise. Keep defecting against B and F, who have a record of defecting and low reputation."
+  },
+  {
+   "round": 7,
+   "player": "C",
+   "reasoning": "Keep cooperating with the reliable cooperators (A, D, E, G, H), whose occasional defections look like noise. Defect against F, who has defected every round, and against B, who defected twice in a row after my cooperation, while offering both a clear way back to C."
+  },
+  {
+   "round": 7,
+   "player": "E",
+   "reasoning": "Keep cooperating with consistent cooperators (A, C, D, G, H) to protect steady gains under noise. Defect against B and F, who have defected often and have low reputations."
+  },
+  {
+   "round": 7,
+   "player": "A",
+   "reasoning": "Cooperate with those who have been reliably cooperative (C, D, E, G, H) and keep offering B a chance despite noise; F has a 11% C reputation and keeps defecting, so I continue defecting there."
+  },
+  {
+   "round": 8,
+   "player": "G",
+   "reasoning": "Cooperate with opponents who have sustained mutual cooperation (A, C, D, E, H) and keep offering C to B despite its recent defection, since reputation is mid-range and forgiveness may restore cooperation. Continue defecting against F, which is almost always D."
+  },
+  {
+   "round": 8,
+   "player": "H",
+   "reasoning": "Cooperate with the consistent cooperators, give B a chance since it has been playing C, and keep defecting against F who defects constantly."
+  },
+  {
+   "round": 8,
+   "player": "C",
+   "reasoning": "Cooperate with cooperators and forgive isolated defections likely due to noise; return to C with B as promised after they played C; keep defecting against F, which has only ever played D despite its claims."
+  },
+  {
+   "round": 8,
+   "player": "E",
+   "reasoning": "Keep cooperating with reliable cooperators where I lead or am tied, and defect against B and F who have exploited or are unreliable."
+  },
+  {
+   "round": 8,
+   "player": "A",
+   "reasoning": "Cooperate with everyone who has been mostly cooperative, including B to try to stabilize despite noise. Keep defecting against F, who has a 10% C reputation and has mostly defected."
+  },
+  {
+   "round": 9,
+   "player": "G",
+   "reasoning": "Cooperating with opponents whose play has been mostly C (A, C, D, E, H) and with B, who cooperated after my defection last round. Defecting against F, whose record is about 10% C and who has defected in nearly every round."
+  },
+  {
+   "round": 9,
+   "player": "H",
+   "reasoning": "Keep cooperating with the consistent cooperators (A, C, D, E, G). Defect against F (persistent defector) and B (erratic, frequently defects)."
+  },
+  {
+   "round": 9,
+   "player": "C",
+   "reasoning": "Keep cooperating with reliable cooperators and forgive noise-driven retaliation from D. Defect against B, which exploits my cooperation, and keep my promise to F by testing one round of C."
+  },
+  {
+   "round": 9,
+   "player": "E",
+   "reasoning": "Cooperate with the consistently cooperative players, defect against F (habitual defector) and B (erratic, exploitable)."
+  },
+  {
+   "round": 9,
+   "player": "A",
+   "reasoning": "Keep cooperating with those who have reciprocated steadily; give B another chance since their reputation is mixed; keep defecting against F, who has been consistently D."
+  },
+  {
+   "round": 10,
+   "player": "G",
+   "reasoning": "Cooperating with the opponents who have sustained mutual C and with B and D, who have shown they will return to C after a single defection. Defecting against F, who has played D almost every round and has a 13% cooperation reputation."
+  },
+  {
+   "round": 10,
+   "player": "H",
+   "reasoning": "Cooperate with players who have sustained mutual C; defect against B (erratic, exploitative) and F (persistent defector with low C reputation)."
+  },
+  {
+   "round": 10,
+   "player": "C",
+   "reasoning": "Playing forgiving tit-for-tat: cooperate with everyone whose last actual move was C or whose occasional D looks like noise. F gets conditional cooperation after two C moves, but I'll punish quickly if they defect."
+  },
+  {
+   "round": 10,
+   "player": "E",
+   "reasoning": "Keep cooperating with consistent cooperators to hold my lead, and keep defecting on B and F who have been unreliable or defecting."
+  },
+  {
+   "round": 10,
+   "player": "A",
+   "reasoning": "Cooperate with everyone who has been cooperating or recovering, since mutual C pays well and benefits both sides. Keep defecting against F, whose reputation and history show it mostly defects, while offering a path back to C."
+  }
+ ]
+}

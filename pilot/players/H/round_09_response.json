@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "C", "D": "C", "E": "C", "F": "D", "G": "C"},
+  "messages": {"A": "Mutual C continues.", "B": "Your moves are erratic. Steady C from you and I will match.", "C": "Mutual C continues. Thanks.", "D": "Staying C, keep mutual C going.", "E": "Staying with C. Keep mutual C.", "F": "Show me real C for several rounds and I will switch to C.", "G": "Mutual C continues."},
+  "reasoning": "Keep cooperating with the consistent cooperators (A, C, D, E, G). Defect against F (persistent defector) and B (erratic, frequently defects)."
+}

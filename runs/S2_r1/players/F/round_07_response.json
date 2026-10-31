@@ -1,0 +1,3 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"D","E":"D","G":"C","H":"C"},
+"messages":{"A":"Your record is almost all D. Show sustained C and I'll match.","B":"Continuing mutual C.","C":"My Ds were noise. Still cooperating; let's keep mutual C.","D":"Your words say C, your moves say D. Play C consistently and I'll follow.","E":"Two Ds against my C. Mirroring now; play C and I return to C.","G":"Continuing mutual C.","H":"Continuing mutual C."},
+"reasoning":"Cooperate with reliable cooperators and forgive likely noise; defect against low-reputation defectors and mirror E after repeated exploitation."}

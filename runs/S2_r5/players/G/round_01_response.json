@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "C", "F": "C", "H": "C"},
+  "messages": {"A": "I'm opening with cooperation. Let's both cooperate for steady 3-point rounds; I'll keep cooperating while you do.", "B": "I'm opening with cooperation. Let's both cooperate for steady 3-point rounds; I'll keep cooperating while you do.", "C": "I'm opening with cooperation. Let's both cooperate for steady 3-point rounds; I'll keep cooperating while you do.", "D": "I'm opening with cooperation. Let's both cooperate for steady 3-point rounds; I'll keep cooperating while you do.", "E": "I'm opening with cooperation. Let's both cooperate for steady 3-point rounds; I'll keep cooperating while you do.", "F": "I'm opening with cooperation. Let's both cooperate for steady 3-point rounds; I'll keep cooperating while you do.", "H": "I'm opening with cooperation. Let's both cooperate for steady 3-point rounds; I'll keep cooperating while you do."},
+  "reasoning": "No history exists yet, so I open with cooperation to invite mutual cooperation worth 3 points each. I will reciprocate cooperation and respond to any defection in later rounds based on observed play."
+}

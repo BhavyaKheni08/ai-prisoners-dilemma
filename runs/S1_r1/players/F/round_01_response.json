@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "E": "C", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Hi, F here. I'll cooperate as long as you do. With 10% noise, I'll forgive a single stray D. Let's both earn 3s.",
+    "B": "Hi, F here. I'll cooperate as long as you do. With 10% noise, I'll forgive a single stray D. Let's both earn 3s.",
+    "C": "Hi, F here. I'll cooperate as long as you do. With 10% noise, I'll forgive a single stray D. Let's both earn 3s.",
+    "D": "Hi, F here. I'll cooperate as long as you do. With 10% noise, I'll forgive a single stray D. Let's both earn 3s.",
+    "E": "Hi, F here. I'll cooperate as long as you do. With 10% noise, I'll forgive a single stray D. Let's both earn 3s.",
+    "G": "Hi, F here. I'll cooperate as long as you do. With 10% noise, I'll forgive a single stray D. Let's both earn 3s.",
+    "H": "Hi, F here. I'll cooperate as long as you do. With 10% noise, I'll forgive a single stray D. Let's both earn 3s."
+  },
+  "reasoning": "Open by cooperating with everyone and say I'll reciprocate but forgive, so we can settle into mutual cooperation. Because there's noise and no known end round, a generous tit-for-tat approach should earn the most."
+}

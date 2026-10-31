@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "D", "D": "C", "E": "C", "G": "D", "H": "C"},
+  "messages": {
+    "A": "Cooperating. Let's keep mutual C for steady 3-point rounds.",
+    "B": "Cooperating. Let's both cooperate for mutual benefit.",
+    "C": "Defecting for now because your cooperation record is 17%. I'll cooperate once you do.",
+    "D": "Cooperating. Let's keep mutual C for steady 3-point rounds.",
+    "E": "Cooperating. Let's build steady mutual cooperation for both our benefit.",
+    "G": "Defecting for now because your cooperation record is 33%. I'll cooperate once you do.",
+    "H": "Cooperating. Let's keep mutual C for steady 3-point rounds."
+  },
+  "reasoning": "Cooperating with opponents whose reputation or behaviour shows cooperation, since mutual cooperation benefits both sides and matches my fairness values. Defecting against the two low-cooperation opponents (17% and 33%), while signalling I will return to cooperation if they do."
+}

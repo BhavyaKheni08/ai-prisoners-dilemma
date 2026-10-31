@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "D", "C": "D", "D": "C", "E": "D", "F": "D", "G": "C"},
+  "messages": {
+    "A": "Continuing mutual C. Let's keep it going.",
+    "B": "You defected twice after my cooperation. I'll cooperate once you do.",
+    "C": "Your record is 11% cooperation. I'll cooperate once you do.",
+    "D": "Mutual C continues. Thank you.",
+    "E": "You defected last round after my cooperation. I'll cooperate once you do.",
+    "F": "Your record is 6% cooperation. I'll cooperate once you do.",
+    "G": "Your last round defection is noted. Let's restore mutual C."
+  },
+  "reasoning": "Cooperating with opponents who cooperated last round or have a solid cooperation record, and with G, whose record is high enough to forgive one defection. Defecting against B, C, E and F, which defected after my cooperation or have a very low cooperation record, to avoid being exploited."
+}

@@ -1,0 +1,5 @@
+{
+  "moves": {"A": "C", "C": "C", "D": "C", "E": "C", "F": "C", "G": "C", "H": "C"},
+  "messages": {"A": "Let's cooperate. I'll mirror you; noise happens, so I'll forgive single slips.", "C": "Let's cooperate. I'll mirror you; noise happens, so I'll forgive single slips.", "D": "Let's cooperate. I'll mirror you; noise happens, so I'll forgive single slips.", "E": "Let's cooperate. I'll mirror you; noise happens, so I'll forgive single slips.", "F": "Let's cooperate. I'll mirror you; noise happens, so I'll forgive single slips.", "G": "Let's cooperate. I'll mirror you; noise happens, so I'll forgive single slips.", "H": "Let's cooperate. I'll mirror you; noise happens, so I'll forgive single slips."},
+  "reasoning": "No information yet, so open with cooperation to probe opponents and establish goodwill; adapt based on their behavior and reputation later."
+}

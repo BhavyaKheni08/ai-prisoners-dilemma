@@ -1,0 +1,3 @@
+{"moves":{"A":"C","B":"D","C":"D","D":"C","E":"C","F":"D","H":"C"},
+"messages":{"A":"Continuing mutual C.","B":"Consistent C from you and I'll follow.","C":"Your actual moves are D. Play C and I'll follow.","D":"Those Ds were noise flips; I'm playing C. Let's restore mutual C.","E":"You played C; I'm returning to C. Let's keep it mutual.","F":"Mirroring. Play C and I return to C.","H":"Continuing mutual C."},
+"reasoning":"Keep cooperation with cooperators, repair noise-damaged relationships with D and E, and mirror persistent defectors."}

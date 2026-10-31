@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "C", "F": "D", "G": "C", "H": "D"},
+  "messages": {
+    "A": "Continuing mutual cooperation. I'll keep mirroring your moves and forgive single noise flips.",
+    "B": "Keeping cooperation going. I'll mirror your moves.",
+    "C": "Agreed, cooperating. I'll forgive a single noise defection.",
+    "D": "Cooperating. I'll mirror your moves and forgive single flips.",
+    "F": "Still defecting after your round-2 defection. Cooperate and I will too.",
+    "G": "Thanks for cooperating despite noise. I'm treating your defection as noise; let's keep cooperating.",
+    "H": "Your 0% record and defection stand. I'll defect until you actually cooperate."
+  },
+  "reasoning": "Cooperate with the opponents who have cooperated or are likely noise-flipped (A, B, C, D, G), staying forgiving of single defections. Defect against F, which defected first and has not yet returned to cooperation, and against H, whose 0% reputation shows it always defects."
+}

@@ -1,0 +1,3 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"C","F":"C","G":"D","H":"C"},
+"messages":{"A":"Still all D from you. Defecting until you actually play C.","B":"Continuing C.","C":"Continuing C.","D":"Continuing C.","F":"Continuing C.","G":"You defected again after my C. Matching D; play C and I'll return to C.","H":"Continuing C."},
+"reasoning":"Cooperate with reliable cooperators; defect against A (0% C) and G, who has defected twice against my cooperation."}

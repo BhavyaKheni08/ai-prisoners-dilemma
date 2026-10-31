@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "D", "D": "C", "E": "C", "F": "D", "G": "C", "H": "C"},
+  "messages": {
+    "A": "Thanks for understanding. Mutual C continues.",
+    "B": "Your round-3 D gets one D back. If you return to C, I will too.",
+    "D": "Glad we're back to mutual C. Let's keep it going.",
+    "E": "Mutual C continues. Thanks.",
+    "F": "Words are cheap. Play C and I'll match it next round.",
+    "G": "Mutual C continues. Thanks.",
+    "H": "Treating your round-3 D as noise. Still cooperating; please keep C."
+  },
+  "reasoning": "Cooperate with high-reputation partners and forgive likely noise (H). Reciprocate B's defection given its low reputation, and keep defecting against F until it actually cooperates."
+}

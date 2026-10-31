@@ -1,0 +1,1 @@
+{"moves": {"A": "D", "B": "C", "D": "C", "E": "C", "F": "C", "G": "C", "H": "D"}, "reasoning": "F and G likely retaliated once for my noise flip, so I cooperate to restore; H kept defecting despite my cooperation, so I defend with D, as with low-reputation A."}

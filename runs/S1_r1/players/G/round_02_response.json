@@ -1,0 +1,13 @@
+{
+  "moves": {"A": "C", "B": "C", "C": "C", "D": "D", "E": "C", "F": "C", "H": "C"},
+  "messages": {
+    "A": "Great, let's keep cooperating.",
+    "B": "Great, let's keep cooperating.",
+    "C": "Great, let's keep cooperating.",
+    "D": "You said you always cooperate but defected. I'll match your moves until you cooperate.",
+    "E": "Great, let's keep cooperating.",
+    "F": "Great, let's keep cooperating.",
+    "H": "Your D last round may have been noise. I'm still cooperating; please keep cooperating too."
+  },
+  "reasoning": "Cooperate with everyone who cooperated; D has 0% cooperation reputation and defected on me, so defect there. H's defection is likely noise given a high reputation, so give one more chance."
+}

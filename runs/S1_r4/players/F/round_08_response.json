@@ -1,0 +1,1 @@
+{"moves":{"A":"D","B":"C","C":"C","D":"C","E":"C","G":"D","H":"C"},"messages":{"A":"","B":"","C":"","D":"","E":"","G":"","H":""},"reasoning":"A is an unconditional defector so defect; G keeps defecting so defect; cooperate with the rest."}
